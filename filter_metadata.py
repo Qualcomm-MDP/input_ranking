@@ -1,27 +1,4 @@
 #!/usr/bin/env python3
-"""
-filter_metadata_scored.py
-
-Reads:  out.json  (combined.py-style output: each record has {coordinate, bbox..., osm_raw, mapillary[]})
-Writes: accepted.json, rejected.json
-
-What it does (metadata-only):
-- For each Mapillary image, scores ALL OSM building footprints fetched in that record.
-- For each building footprint:
-    d_min            = min distance (m) from camera to footprint boundary
-    nearest_point    = boundary point achieving d_min (stored in XY + lat/lon)
-    theta_at_dmin    = heading difference (deg) to nearest_point
-    theta_min        = min heading difference (deg) to ANY boundary point (sampled along edges)
-    d_at_theta_min   = distance (m) to the boundary point achieving theta_min
-- Candidate gate: only consider buildings with d_min <= R_GATE_M
-- Score is a weighted blend of:
-    - "in front & not too far"  (theta_min + distance)
-    - "near any part of building" (d_min)
-
-Debugging output:
-- Always stores top 5 building candidates per image in base["top_candidates"]
-- Stores best building even if rejected in base["best_candidate"]
-"""
 
 import json
 import math
@@ -32,7 +9,7 @@ from pathlib import Path
 # ============================================================
 IN_JSON = Path("out.json")
 OUT_ACCEPTED = Path("accepted.json")
-OUT_REJECTED = Path("rejecte.jdson")
+OUT_REJECTED = Path("rejected.json")
 
 # Candidate gate: only score buildings whose nearest boundary point is within this radius
 R_GATE_M = 120.0
