@@ -18,7 +18,7 @@ BUFFER_DEG = 0.01  # ~1000m-ish
 
 OUT_FILE = "m_out.json"   # set to None to print instead of save
 
-MAPILLARY_ACCESS_TOKEN = "MLY|25254402144238502|5750c269373dba9c8eb9c33d556d0c97"
+MAPILLARY_ACCESS_TOKEN = None 
 
 # ============================================================
 
