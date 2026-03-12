@@ -1,0 +1,1298 @@
+{
+  "way/454168627": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1030",
+      "addr:street": "Church Street"
+    },
+    "images": [
+      {
+        "image_id": "2880268678893408",
+        "score": 0.3615084695784378,
+        "d_min_m": 21.149211908933854,
+        "span_deg": 16.19083888145292,
+        "alignment": 24.14489470884405,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/471191893": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1020",
+      "addr:street": "Church Street"
+    },
+    "images": [
+      {
+        "image_id": "211751390515212",
+        "score": 0.43254858883013275,
+        "d_min_m": 9.24276558073613,
+        "span_deg": 24.63112781427327,
+        "alignment": 53.89006168057301,
+        "sequence_id": "7b0aa523-a12e-4b30-b31b-6e8428620884"
+      },
+      {
+        "image_id": "282151476967035",
+        "score": 0.39641794441350414,
+        "d_min_m": 11.618602695646436,
+        "span_deg": 24.68820145607924,
+        "alignment": 48.426037251142645,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/480677929": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1023",
+      "addr:street": "Church Street"
+    },
+    "images": [
+      {
+        "image_id": "297539891988173",
+        "score": 0.41614845729208694,
+        "d_min_m": 11.3359802676491,
+        "span_deg": 22.556744430429987,
+        "alignment": 44.74592570375874,
+        "sequence_id": "7b0aa523-a12e-4b30-b31b-6e8428620884"
+      }
+    ]
+  },
+  "way/305031998": {
+    "name": "U-M M5 Catherine Structure",
+    "tags": {},
+    "images": [
+      {
+        "image_id": "4045401962149101",
+        "score": 0.3881355847731884,
+        "d_min_m": 9.10956409841241,
+        "span_deg": 14.20694761042435,
+        "alignment": 92.0377516652855,
+        "sequence_id": "ybxx9FwTRbmiC1IC6LaqAg"
+      },
+      {
+        "image_id": "534432707713389",
+        "score": 0.34723979946856015,
+        "d_min_m": 9.652257000792623,
+        "span_deg": 20.175763735913506,
+        "alignment": 91.17996413321151,
+        "sequence_id": "ybxx9FwTRbmiC1IC6LaqAg"
+      },
+      {
+        "image_id": "525164578648750",
+        "score": 0.26153389411832634,
+        "d_min_m": 21.901793912493783,
+        "span_deg": 9.367643897952803,
+        "alignment": 24.145999433816343,
+        "sequence_id": "ybxx9FwTRbmiC1IC6LaqAg"
+      }
+    ]
+  },
+  "way/571778341": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "2543326035970329",
+        "score": 0.4547032322410302,
+        "d_min_m": 10.395188437561293,
+        "span_deg": 21.33366484083581,
+        "alignment": 32.780408023685936,
+        "sequence_id": "-1b4zlg2GyXYY3-OQgA87A"
+      },
+      {
+        "image_id": "113979897414207",
+        "score": 0.32091094339863496,
+        "d_min_m": 16.318034957622935,
+        "span_deg": 25.984947822746506,
+        "alignment": 41.881446291332566,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "459648681794075",
+        "score": 0.30973358166002307,
+        "d_min_m": 15.1299415578606,
+        "span_deg": 29.405510140291995,
+        "alignment": 48.490134368358326,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      },
+      {
+        "image_id": "176143511084664",
+        "score": 0.2635262803536533,
+        "d_min_m": 15.699377285503527,
+        "span_deg": 34.294088189768274,
+        "alignment": 52.41248293835747,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "470789374159572",
+        "score": 0.2282011272382269,
+        "d_min_m": 22.737257899548016,
+        "span_deg": 30.26921436871305,
+        "alignment": 41.14907897762998,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "136732885133938",
+        "score": 0.2232590014207438,
+        "d_min_m": 7.118109310516263,
+        "span_deg": 46.48472222511322,
+        "alignment": 95.32135875986313,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      },
+      {
+        "image_id": "1135371960259375",
+        "score": 0.17212610716497578,
+        "d_min_m": 15.24916011824136,
+        "span_deg": 47.68344616700176,
+        "alignment": 75.95573551126483,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "480230209718883",
+        "score": 0.1535886008898557,
+        "d_min_m": 13.267310281474261,
+        "span_deg": 54.00712089140973,
+        "alignment": 70.45101798681992,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "918549635576313",
+        "score": 0.13410788842428284,
+        "d_min_m": 24.859771637308732,
+        "span_deg": 44.2424501609222,
+        "alignment": 61.53852957013635,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "192668509363389",
+        "score": 0.12966202996168583,
+        "d_min_m": 13.488948753946692,
+        "span_deg": 59.90312958952427,
+        "alignment": 74.04790544163149,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "828076644749088",
+        "score": 0.1283851394831231,
+        "d_min_m": 14.81670025720791,
+        "span_deg": 59.759542914387794,
+        "alignment": 95.51546036983285,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "133806002070903",
+        "score": 0.10203540759912125,
+        "d_min_m": 21.110662757931323,
+        "span_deg": 61.32631930974503,
+        "alignment": 69.31151133089497,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "512268559946600",
+        "score": 0.10115560914591032,
+        "d_min_m": 22.74490528185357,
+        "span_deg": 57.2359005890558,
+        "alignment": 82.26881824404808,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/502195856": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1140",
+      "addr:street": "Michigan Avenue"
+    },
+    "images": [
+      {
+        "image_id": "852028278744246",
+        "score": 0.4631441144631309,
+        "d_min_m": 6.97441863542963,
+        "span_deg": 26.044780331457673,
+        "alignment": 85.99887712805969,
+        "sequence_id": "-1b4zlg2GyXYY3-OQgA87A"
+      },
+      {
+        "image_id": "799083961037949",
+        "score": 0.46208473740714184,
+        "d_min_m": 8.390793196276002,
+        "span_deg": 18.835192109911986,
+        "alignment": 59.87278111217813,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "388709025533201",
+        "score": 0.19435759270919364,
+        "d_min_m": 31.801577911218384,
+        "span_deg": 18.046483379172855,
+        "alignment": 24.512376888532458,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      }
+    ]
+  },
+  "way/459948095": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "233038044843162",
+        "score": 0.19067888219933304,
+        "d_min_m": 23.762816946112086,
+        "span_deg": 36.46266839731851,
+        "alignment": 49.08551073078638,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/468829385": {
+    "name": "Debs Cooperative House",
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "909",
+      "addr:postcode": "48104",
+      "addr:state": "MI",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "316826623203629",
+        "score": 0.21658060801497214,
+        "d_min_m": 28.05480134170641,
+        "span_deg": 26.107243939550187,
+        "alignment": 34.4756321385467,
+        "sequence_id": "h5CcpjUBQ8uVse_Sh0HYOw"
+      },
+      {
+        "image_id": "394119941578445",
+        "score": 0.19904341638409057,
+        "d_min_m": 21.172403410826067,
+        "span_deg": 38.24327758614049,
+        "alignment": 52.957702548539146,
+        "sequence_id": "GvfMPYKsSwSX3kfFhZ7VZg"
+      }
+    ]
+  },
+  "way/223569638": {
+    "name": "U-M M61 Glen Structure",
+    "tags": {
+      "addr:housenumber": "333",
+      "addr:street": "Glen Street"
+    },
+    "images": [
+      {
+        "image_id": "3020187954972784",
+        "score": 0.21803525041230581,
+        "d_min_m": 26.457653365272883,
+        "span_deg": 11.647349854436413,
+        "alignment": 76.05958867108978,
+        "sequence_id": "zFDMMx6FQEC4UXYnZppAGg"
+      },
+      {
+        "image_id": "263238602194458",
+        "score": 0.21637894087398962,
+        "d_min_m": 27.603780476733256,
+        "span_deg": 8.247872810369245,
+        "alignment": 75.54361399989921,
+        "sequence_id": "ybxx9FwTRbmiC1IC6LaqAg"
+      }
+    ]
+  },
+  "way/454168603": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1027",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "953451982078838",
+        "score": 0.26041262927755904,
+        "d_min_m": 29.763244583641683,
+        "span_deg": 6.063986101794626,
+        "alignment": 17.17837195305316,
+        "sequence_id": "8IiKjimqQwGUoMl7dJ3FcA"
+      }
+    ]
+  },
+  "way/562091705": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "598341888224636",
+        "score": 0.22129236365205684,
+        "d_min_m": 33.60402047339922,
+        "span_deg": 13.177425191403131,
+        "alignment": 18.722860699674698,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/503372034": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1115",
+      "addr:street": "Woodlawn Avenue"
+    },
+    "images": [
+      {
+        "image_id": "756719358204426",
+        "score": 0.17310125454229022,
+        "d_min_m": 18.330094886152274,
+        "span_deg": 41.24830698824378,
+        "alignment": 90.75189207655251,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      },
+      {
+        "image_id": "323883179098773",
+        "score": 0.1416545806881592,
+        "d_min_m": 18.886175543413678,
+        "span_deg": 49.889524758590525,
+        "alignment": 104.62389133098304,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      },
+      {
+        "image_id": "124608649641050",
+        "score": 0.0999306374833103,
+        "d_min_m": 20.82583090565838,
+        "span_deg": 61.847645991191314,
+        "alignment": 85.77244483427211,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      }
+    ]
+  },
+  "way/333579862": {
+    "name": null,
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "1021",
+      "addr:postcode": "48104",
+      "addr:state": "MI",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "871876587003582",
+        "score": 0.18795329719623732,
+        "d_min_m": 19.374624256129376,
+        "span_deg": 41.73538418343651,
+        "alignment": 69.5744195247969,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/503372031": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1222",
+      "addr:street": "Woodlawn Avenue"
+    },
+    "images": [
+      {
+        "image_id": "896521934525064",
+        "score": 0.29982165346188655,
+        "d_min_m": 14.011986709080455,
+        "span_deg": 32.677370806833096,
+        "alignment": 57.392763294215285,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      },
+      {
+        "image_id": "607438690216618",
+        "score": 0.28259314164021654,
+        "d_min_m": 19.956463036477068,
+        "span_deg": 25.796758845099475,
+        "alignment": 39.14627896370746,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      },
+      {
+        "image_id": "195073869110840",
+        "score": 0.2651467345508491,
+        "d_min_m": 22.747301737287447,
+        "span_deg": 23.97795386358399,
+        "alignment": 34.44358607869407,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      }
+    ]
+  },
+  "way/502788285": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1137",
+      "addr:street": "Michigan Avenue"
+    },
+    "images": [
+      {
+        "image_id": "585717029075520",
+        "score": 0.2733665323817946,
+        "d_min_m": 19.527596392704627,
+        "span_deg": 27.642290875599883,
+        "alignment": 44.43654551647222,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/468829387": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1001",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "1095196950978856",
+        "score": 0.23889332306394964,
+        "d_min_m": 19.365959055713063,
+        "span_deg": 32.33009607129327,
+        "alignment": 53.6689211917211,
+        "sequence_id": "h5CcpjUBQ8uVse_Sh0HYOw"
+      },
+      {
+        "image_id": "1227339231056688",
+        "score": 0.19243084735176305,
+        "d_min_m": 29.228101931534592,
+        "span_deg": 23.46500140561875,
+        "alignment": 64.85959219868784,
+        "sequence_id": "GvfMPYKsSwSX3kfFhZ7VZg"
+      },
+      {
+        "image_id": "311984023669503",
+        "score": 0.18406626263260709,
+        "d_min_m": 30.567413073404786,
+        "span_deg": 21.72081068090779,
+        "alignment": 59.58038696028535,
+        "sequence_id": "8IiKjimqQwGUoMl7dJ3FcA"
+      }
+    ]
+  },
+  "way/1354219613": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "504002117625283",
+        "score": 0.37468374808327165,
+        "d_min_m": 17.010078148880638,
+        "span_deg": 19.91204383112813,
+        "alignment": 34.351067956120914,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/454168622": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1020",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "753849601991532",
+        "score": 0.23514391407563667,
+        "d_min_m": 22.315919797256907,
+        "span_deg": 32.505979347883226,
+        "alignment": 49.01260458238511,
+        "sequence_id": "8IiKjimqQwGUoMl7dJ3FcA"
+      },
+      {
+        "image_id": "176197261053139",
+        "score": 0.23290188560565744,
+        "d_min_m": 28.29504851808732,
+        "span_deg": 24.116191441225965,
+        "alignment": 35.3209773700471,
+        "sequence_id": "8IiKjimqQwGUoMl7dJ3FcA"
+      },
+      {
+        "image_id": "848969132644416",
+        "score": 0.22059701247284222,
+        "d_min_m": 28.28957278404638,
+        "span_deg": 26.2836432421455,
+        "alignment": 37.42746053671743,
+        "sequence_id": "FyMMKYVHTSmLMqYLr5vxJA"
+      }
+    ]
+  },
+  "way/503372032": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "4121254087939883",
+        "score": 0.2264099505543572,
+        "d_min_m": 22.082654403198436,
+        "span_deg": 35.45715774032669,
+        "alignment": 42.14107443377077,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      }
+    ]
+  },
+  "way/503372026": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1230",
+      "addr:street": "Woodlawn Avenue"
+    },
+    "images": [
+      {
+        "image_id": "487144109239576",
+        "score": 0.2938818085060212,
+        "d_min_m": 19.3224103679739,
+        "span_deg": 27.04439615159953,
+        "alignment": 39.45172112916572,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      },
+      {
+        "image_id": "795708878025735",
+        "score": 0.27654385637067874,
+        "d_min_m": 14.558418227041596,
+        "span_deg": 36.01565780956247,
+        "alignment": 57.09290384661131,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      },
+      {
+        "image_id": "966090990810898",
+        "score": 0.19158910726247483,
+        "d_min_m": 12.102095520960544,
+        "span_deg": 51.367760345177544,
+        "alignment": 85.58891893762973,
+        "sequence_id": "FN-nf334Rni62WEOeaiuIQ"
+      }
+    ]
+  },
+  "way/502195853": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1109",
+      "addr:street": "Wells Street"
+    },
+    "images": [
+      {
+        "image_id": "214537297102177",
+        "score": 0.6676620232312007,
+        "d_min_m": 2.6626464852071656,
+        "span_deg": 13.05288983328444,
+        "alignment": 88.80310884713151,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "258219582674674",
+        "score": 0.5951780203534728,
+        "d_min_m": 1.927609645472702,
+        "span_deg": 27.840053693008713,
+        "alignment": 90.0135199141672,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      },
+      {
+        "image_id": "575085453463442",
+        "score": 0.5258942734697584,
+        "d_min_m": 8.24978631017625,
+        "span_deg": 7.477355700262251,
+        "alignment": 36.498536849288655,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      },
+      {
+        "image_id": "296559742025886",
+        "score": 0.5241593908206679,
+        "d_min_m": 8.055241242620246,
+        "span_deg": 8.20297479582132,
+        "alignment": 36.12380367072194,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/560433245": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "373974807303937",
+        "score": 0.31700565803029446,
+        "d_min_m": 15.505384110103533,
+        "span_deg": 12.425047041960056,
+        "alignment": 92.17375824664373,
+        "sequence_id": "Y4WY3SaEHVYYiaH2ZKYtRA"
+      },
+      {
+        "image_id": "886344371921047",
+        "score": 0.2962012335930865,
+        "d_min_m": 18.540721679389854,
+        "span_deg": 8.537369539529834,
+        "alignment": 89.19675333958963,
+        "sequence_id": "s2RIn4e9SZ2dkNnAU01ovg"
+      }
+    ]
+  },
+  "way/502788302": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1111",
+      "addr:street": "Michigan Avenue"
+    },
+    "images": [
+      {
+        "image_id": "254394896466972",
+        "score": 0.24162030650787494,
+        "d_min_m": 22.719427596567797,
+        "span_deg": 28.19067976656828,
+        "alignment": 40.002016107314034,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      },
+      {
+        "image_id": "464093771516816",
+        "score": 0.23174605402042184,
+        "d_min_m": 18.543878066716182,
+        "span_deg": 35.68131417821985,
+        "alignment": 53.9087332689827,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/507109467": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1131",
+      "addr:street": "Church Street"
+    },
+    "images": [
+      {
+        "image_id": "2245509235579487",
+        "score": 0.3610702780801139,
+        "d_min_m": 23.50495821436003,
+        "span_deg": 5.111952406698208,
+        "alignment": 32.49636172721432,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/468944456": {
+    "name": "Fritz Lofts",
+    "tags": {
+      "addr:housenumber": "1014",
+      "addr:street": "Church Street"
+    },
+    "images": [
+      {
+        "image_id": "212692050667919",
+        "score": 0.4219483327924871,
+        "d_min_m": 8.377599525129451,
+        "span_deg": 27.193405823425337,
+        "alignment": 106.95351197528481,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "2988931194766617",
+        "score": 0.27879004459170836,
+        "d_min_m": 19.20751440085177,
+        "span_deg": 12.324485205934195,
+        "alignment": 55.2768489538131,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/454168602": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1024",
+      "addr:street": "Church Street"
+    },
+    "images": [
+      {
+        "image_id": "152147050251451",
+        "score": 0.3819009005896481,
+        "d_min_m": 14.108134224524465,
+        "span_deg": 24.836781461780447,
+        "alignment": 36.92236494684852,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/502195846": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1200",
+      "addr:street": "Wells Street"
+    },
+    "images": [
+      {
+        "image_id": "123341596443522",
+        "score": 0.34548217715664076,
+        "d_min_m": 16.843890802520356,
+        "span_deg": 18.40283732536392,
+        "alignment": 35.789549662188165,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      },
+      {
+        "image_id": "563383254647493",
+        "score": 0.30058565636399226,
+        "d_min_m": 22.200346738636576,
+        "span_deg": 14.355643540354265,
+        "alignment": 25.19875775358082,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/471191900": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1012",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "1039665406575561",
+        "score": 0.2294113325676564,
+        "d_min_m": 19.565732001019924,
+        "span_deg": 34.580009799769414,
+        "alignment": 54.71085846106212,
+        "sequence_id": "xgoq8qf7i9xikvocresrmv"
+      },
+      {
+        "image_id": "192657519357444",
+        "score": 0.21953582512812425,
+        "d_min_m": 19.545055418271275,
+        "span_deg": 36.00008402934128,
+        "alignment": 55.99640343061543,
+        "sequence_id": "GvfMPYKsSwSX3kfFhZ7VZg"
+      }
+    ]
+  },
+  "way/468829391": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1015",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "307136220858164",
+        "score": 0.2036927297850759,
+        "d_min_m": 30.269883457856775,
+        "span_deg": 27.939694431975454,
+        "alignment": 34.05416998182642,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/571778339": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "980736606015452",
+        "score": 0.21891878275075832,
+        "d_min_m": 21.101997991089377,
+        "span_deg": 36.29367665943823,
+        "alignment": 47.326688518163735,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/302987685": {
+    "name": null,
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "1100",
+      "addr:street": "Catherine Street"
+    },
+    "images": [
+      {
+        "image_id": "743197676320552",
+        "score": 0.2850158668292231,
+        "d_min_m": 20.924341723225133,
+        "span_deg": 21.560785204428385,
+        "alignment": 33.23740020532563,
+        "sequence_id": "ybxx9FwTRbmiC1IC6LaqAg"
+      }
+    ]
+  },
+  "way/571778340": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "1695581750643315",
+        "score": 0.31707761898901554,
+        "d_min_m": 20.200347015991998,
+        "span_deg": 24.748933175615207,
+        "alignment": 45.25721612251516,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/507109466": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1114",
+      "addr:street": "Prospect Street"
+    },
+    "images": [
+      {
+        "image_id": "795227841104435",
+        "score": 0.341393723822596,
+        "d_min_m": 16.363498858712525,
+        "span_deg": 21.91149070710418,
+        "alignment": 35.71492548094801,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/502788283": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1139",
+      "addr:street": "Michigan Avenue"
+    },
+    "images": [
+      {
+        "image_id": "157287969677588",
+        "score": 0.4639048114850097,
+        "d_min_m": 7.9431061443598185,
+        "span_deg": 20.64061769648606,
+        "alignment": 49.62432094933774,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "922596845225454",
+        "score": 0.4292670393043556,
+        "d_min_m": 8.795701914948836,
+        "span_deg": 24.30902775717493,
+        "alignment": 60.154983629447884,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "1183177148777712",
+        "score": 0.39451559523591284,
+        "d_min_m": 18.933161041491285,
+        "span_deg": 14.651071996567282,
+        "alignment": 25.895259278581932,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      },
+      {
+        "image_id": "2046379952169500",
+        "score": 0.3112911006775724,
+        "d_min_m": 22.560103379096937,
+        "span_deg": 11.741642754832696,
+        "alignment": 18.10469798156896,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "940681560104528",
+        "score": 0.23735277467075633,
+        "d_min_m": 13.625195846059405,
+        "span_deg": 41.3615889198349,
+        "alignment": 77.24621387124404,
+        "sequence_id": "-1b4zlg2GyXYY3-OQgA87A"
+      },
+      {
+        "image_id": "1955233727950168",
+        "score": 0.22544126877097206,
+        "d_min_m": 31.107013579144343,
+        "span_deg": 13.65878688192879,
+        "alignment": 17.98829012474016,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/502195837": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1121",
+      "addr:street": "Packard Street"
+    },
+    "images": [
+      {
+        "image_id": "1705661546301757",
+        "score": 0.5829180548000915,
+        "d_min_m": 5.535483568253281,
+        "span_deg": 0.20617707507278737,
+        "alignment": 21.196772195980884,
+        "sequence_id": "-1b4zlg2GyXYY3-OQgA87A"
+      },
+      {
+        "image_id": "320284126181832",
+        "score": 0.5634305805825846,
+        "d_min_m": 6.524889634884567,
+        "span_deg": 2.1521839229858415,
+        "alignment": 22.709985327266963,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/333580271": {
+    "name": "Sgt Pepper's General Store",
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "1028",
+      "addr:postcode": "48104",
+      "addr:state": "MI",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "294709545598739",
+        "score": 0.325631092732672,
+        "d_min_m": 10.061252756772257,
+        "span_deg": 34.98245154875883,
+        "alignment": 88.40657185019165,
+        "sequence_id": "8IiKjimqQwGUoMl7dJ3FcA"
+      },
+      {
+        "image_id": "1778105542379547",
+        "score": 0.3199333635677465,
+        "d_min_m": 9.873529168687954,
+        "span_deg": 36.2236779362359,
+        "alignment": 88.39541843796246,
+        "sequence_id": "xgoq8qf7i9xikvocresrmv"
+      },
+      {
+        "image_id": "460715955183981",
+        "score": 0.28965797075032484,
+        "d_min_m": 10.974424269781927,
+        "span_deg": 29.091967289563684,
+        "alignment": 63.950316999307574,
+        "sequence_id": "xgoq8qf7i9xikvocresrmv"
+      },
+      {
+        "image_id": "1451021275237120",
+        "score": 0.21479998600373268,
+        "d_min_m": 9.940185939048495,
+        "span_deg": 50.15352906108069,
+        "alignment": 90.82059445646996,
+        "sequence_id": "GvfMPYKsSwSX3kfFhZ7VZg"
+      }
+    ]
+  },
+  "way/502195851": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1208",
+      "addr:street": "Wells Street"
+    },
+    "images": [
+      {
+        "image_id": "503259327706810",
+        "score": 0.26839215154592205,
+        "d_min_m": 17.463879963903256,
+        "span_deg": 32.978003021294654,
+        "alignment": 56.94504813368047,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      }
+    ]
+  },
+  "way/474868754": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1136",
+      "addr:street": "Prospect Street"
+    },
+    "images": [
+      {
+        "image_id": "307344600764156",
+        "score": 0.3484544096304272,
+        "d_min_m": 19.065581874868165,
+        "span_deg": 24.722502401606903,
+        "alignment": 46.778290986483,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "218420329729328",
+        "score": 0.2831695110582589,
+        "d_min_m": 31.437757859850237,
+        "span_deg": 10.046535745516394,
+        "alignment": 22.053746166774545,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      },
+      {
+        "image_id": "311965337225756",
+        "score": 0.23522279498400145,
+        "d_min_m": 28.451231299968356,
+        "span_deg": 21.061420929864653,
+        "alignment": 34.534784223727,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/611714113": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "1248444418905498",
+        "score": 0.2938965119449524,
+        "d_min_m": 19.01823004445405,
+        "span_deg": 27.801809973026934,
+        "alignment": 42.6575819411359,
+        "sequence_id": "4lh9p88mexaeywgn17p593"
+      }
+    ]
+  },
+  "way/502788289": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1133",
+      "addr:street": "Michigan Avenue"
+    },
+    "images": [
+      {
+        "image_id": "218563279722282",
+        "score": 0.290967088008096,
+        "d_min_m": 15.573958487800892,
+        "span_deg": 31.663156242944922,
+        "alignment": 53.84049277134682,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/507109462": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1102",
+      "addr:street": "Prospect Street"
+    },
+    "images": [
+      {
+        "image_id": "125253219609419",
+        "score": 0.4561179807660415,
+        "d_min_m": 13.032463240470975,
+        "span_deg": 25.19928688264895,
+        "alignment": 36.39665470409574,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/302169789": {
+    "name": "Buhl Research Center for Human Genetics",
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "1241",
+      "addr:postcode": "48109",
+      "addr:street": "Catherine Street"
+    },
+    "images": [
+      {
+        "image_id": "165505188819081",
+        "score": 0.18615947026328095,
+        "d_min_m": 32.872438869711246,
+        "span_deg": 0.11724667260938304,
+        "alignment": 25.775550137030166,
+        "sequence_id": "ybxx9FwTRbmiC1IC6LaqAg"
+      }
+    ]
+  },
+  "way/459920968": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "1195489107564012",
+        "score": 0.35523081785278304,
+        "d_min_m": 20.698003417277125,
+        "span_deg": 14.372703986190004,
+        "alignment": 32.734191450477624,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "296243608628084",
+        "score": 0.3170175683378853,
+        "d_min_m": 17.101926063468234,
+        "span_deg": 27.090365029857367,
+        "alignment": 51.22389695230737,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      }
+    ]
+  },
+  "way/454168623": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "816594095900265",
+        "score": 0.19978331478394049,
+        "d_min_m": 27.245357422950615,
+        "span_deg": 28.05006870648245,
+        "alignment": 42.28845838995076,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/507109463": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1104",
+      "addr:street": "Prospect Street"
+    },
+    "images": [
+      {
+        "image_id": "3743294119114017",
+        "score": 0.2763472485580911,
+        "d_min_m": 15.23247946006611,
+        "span_deg": 38.75866602169157,
+        "alignment": 56.93980172959141,
+        "sequence_id": "RNods5lxQsG-eOpX3sEv9A"
+      }
+    ]
+  },
+  "way/573359255": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "277167504128019",
+        "score": 0.24493237435959156,
+        "d_min_m": 25.763184400318067,
+        "span_deg": 26.054458296744826,
+        "alignment": 34.403670630009856,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/573359230": {
+    "name": null,
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "1208",
+      "addr:postcode": "48104",
+      "addr:state": "MI",
+      "addr:street": "Wells Street"
+    },
+    "images": [
+      {
+        "image_id": "300201221615147",
+        "score": 0.4157443543105918,
+        "d_min_m": 23.129448127450722,
+        "span_deg": 0.5918970754306372,
+        "alignment": 9.985323291097359,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      },
+      {
+        "image_id": "1135286616948704",
+        "score": 0.21827895384368312,
+        "d_min_m": 24.593389150595726,
+        "span_deg": 31.524371264787703,
+        "alignment": 42.370134573110704,
+        "sequence_id": "-1b4zlg2GyXYY3-OQgA87A"
+      }
+    ]
+  },
+  "way/502788301": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "1461768257488975",
+        "score": 0.19594468208676022,
+        "d_min_m": 25.67866104737787,
+        "span_deg": 27.687069761069836,
+        "alignment": 43.16101043911692,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/502195841": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1116",
+      "addr:street": "Wells Street"
+    },
+    "images": [
+      {
+        "image_id": "149851670442133",
+        "score": 0.37596210421157206,
+        "d_min_m": 11.073247065088214,
+        "span_deg": 29.572728326673257,
+        "alignment": 55.59216271357053,
+        "sequence_id": "0OscF562SKyq4B71PH2qfg"
+      }
+    ]
+  },
+  "way/1354219614": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "251645133415028",
+        "score": 0.2602653748771626,
+        "d_min_m": 22.624439877617185,
+        "span_deg": 27.16865226217351,
+        "alignment": 35.34006487311444,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/468944460": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1127",
+      "addr:street": "Prospect Street"
+    },
+    "images": [
+      {
+        "image_id": "477986413410603",
+        "score": 0.570065940894091,
+        "d_min_m": 6.734710091290268,
+        "span_deg": 19.543268076956792,
+        "alignment": 71.5093333325097,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/471191901": {
+    "name": null,
+    "tags": {
+      "addr:housenumber": "1016",
+      "addr:street": "East University Avenue"
+    },
+    "images": [
+      {
+        "image_id": "865091254197927",
+        "score": 0.21227626883542783,
+        "d_min_m": 30.46715322041633,
+        "span_deg": 24.760464198870068,
+        "alignment": 31.005668122199552,
+        "sequence_id": "GvfMPYKsSwSX3kfFhZ7VZg"
+      }
+    ]
+  },
+  "way/562091717": {
+    "name": null,
+    "tags": {},
+    "images": [
+      {
+        "image_id": "2582606335382227",
+        "score": 0.2557314022975896,
+        "d_min_m": 17.794655707056474,
+        "span_deg": 35.68885849322356,
+        "alignment": 46.9766013909952,
+        "sequence_id": "Soh9-Da9Q_WFRyrm1CFbUw"
+      },
+      {
+        "image_id": "251304173421422",
+        "score": 0.2168280023533564,
+        "d_min_m": 29.066307700732423,
+        "span_deg": 27.226477653819586,
+        "alignment": 32.219706084436154,
+        "sequence_id": "8rpKRROx7mB2FW6xfbDhyA"
+      }
+    ]
+  },
+  "way/573359231": {
+    "name": null,
+    "tags": {
+      "addr:city": "Ann Arbor",
+      "addr:housenumber": "1212",
+      "addr:postcode": "48104",
+      "addr:state": "MI",
+      "addr:street": "Wells Street"
+    },
+    "images": [
+      {
+        "image_id": "301514638218049",
+        "score": 0.24557084644992383,
+        "d_min_m": 25.291184512227353,
+        "span_deg": 27.19501503636252,
+        "alignment": 37.90567014398732,
+        "sequence_id": "Y8sO4YCHK5E9eyumYGYsFg"
+      }
+    ]
+  }
+}

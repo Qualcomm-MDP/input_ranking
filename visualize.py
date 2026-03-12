@@ -140,8 +140,8 @@ def build_section(building_key: str, rec: Dict[str, Any], url_idx: Dict[str, str
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ranked", required=True, help="Path to building_rankings.json")
-    ap.add_argument("--accepted", required=True, help="Path to accepted.json (for thumb URLs)")
+    ap.add_argument("--ranked", default="building_rankings.json", help="Path to building_rankings.json")
+    ap.add_argument("--accepted", default="accepted.json", help="Path to accepted.json (for thumb URLs)")
     ap.add_argument("--out", default="building_gallery.html", help="Output HTML")
     ap.add_argument("--max_imgs", type=int, default=200, help="Max images per building")
     args = ap.parse_args()

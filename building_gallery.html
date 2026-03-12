@@ -1,0 +1,1249 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Building → Ranked Images</title>
+  <style>
+    body { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Arial,sans-serif; margin: 16px; }
+    .topbar { position: sticky; top: 0; background: white; padding: 10px 0; border-bottom: 1px solid #eee; z-index: 10; }
+    input { width: 520px; max-width: 95vw; padding: 8px 10px; font-size: 14px; }
+    .building { margin: 18px 0 28px 0; padding-bottom: 18px; border-bottom: 1px solid #f0f0f0; }
+    .title { font-size: 18px; font-weight: 650; margin: 0 0 6px 0; }
+    .meta { color: #666; font-size: 13px; margin-bottom: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+    .card { border: 1px solid #eee; border-radius: 10px; overflow: hidden; background: #fff; }
+    .card img { width: 100%; height: 170px; object-fit: cover; display: block; background: #fafafa; }
+    .cap { padding: 8px 10px; font-size: 12px; color: #333; line-height: 1.35; }
+    .cap code { font-size: 11px; color: #555; }
+    .rank { font-weight: 700; }
+    .missing { padding: 14px 10px; color: #a33; font-size: 12px; }
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <input id="q" placeholder="Filter buildings (name/id)..." oninput="filterBuildings()"/>
+  </div>
+
+  <section class='building' data-key='way/1354219613'><div class='title'>Building way/1354219613</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-dzEX1bcCd0yjvMlZ9nFhfT4EgowX-q1HYttB3XdvGdjEY7xm8soANMGn4zyGYD1NOppWrNF_rzmSBQTxYM1EELcEdKmo1MMcojsAKNFx4x4uu0abORNz_yX6c8BHHQIa9iHzDfOK4ZFbVW9lb7w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm94pE4MJIc5Yeq4fQs9ml3mx7JHDxWDjvlNMV_JXF3ZPiIUSxM9_IyAL5JC8_k1LE&amp;ccb=10-5&amp;oh=00_AfxUARoIwmVa1gqJQ5pWhfqC3shphU9LmWiAFldYcaTBZQ&amp;oe=69D940CB&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-dzEX1bcCd0yjvMlZ9nFhfT4EgowX-q1HYttB3XdvGdjEY7xm8soANMGn4zyGYD1NOppWrNF_rzmSBQTxYM1EELcEdKmo1MMcojsAKNFx4x4uu0abORNz_yX6c8BHHQIa9iHzDfOK4ZFbVW9lb7w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm94pE4MJIc5Yeq4fQs9ml3mx7JHDxWDjvlNMV_JXF3ZPiIUSxM9_IyAL5JC8_k1LE&amp;ccb=10-5&amp;oh=00_AfxUARoIwmVa1gqJQ5pWhfqC3shphU9LmWiAFldYcaTBZQ&amp;oe=69D940CB&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>504002117625283</code></div>
+                    <div>score=0.37468374808327165 | d=17.010078148880638m | span=19.91204383112813° | align=34.351067956120914</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/1354219614'><div class='title'>Building way/1354219614</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_DrHCMymgaIQ9WdSw7aVduVGlOasqIc_w7RSMDSZ6_1mqKg1VdZfcMHOc_m3SClK3c5I1-UlBc7d9jivF0PwNDvKoqopzStiyfyojxVgcVLanCFl-1TbpxRTZ3eUHmYIPYImmIG6Cle5sJbQkfCA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm45oTHG48nZvSVYdbTRnwfaBWilmQu2F6uogF72ouln2IMTMeB1eY81kKxLKHVvnk&amp;ccb=10-5&amp;oh=00_Afxlfnp-H0Q9nZ0BwQaFejgxg4QVpjPpfZlXOgC2Gf7TAQ&amp;oe=69D93C6E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_DrHCMymgaIQ9WdSw7aVduVGlOasqIc_w7RSMDSZ6_1mqKg1VdZfcMHOc_m3SClK3c5I1-UlBc7d9jivF0PwNDvKoqopzStiyfyojxVgcVLanCFl-1TbpxRTZ3eUHmYIPYImmIG6Cle5sJbQkfCA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm45oTHG48nZvSVYdbTRnwfaBWilmQu2F6uogF72ouln2IMTMeB1eY81kKxLKHVvnk&amp;ccb=10-5&amp;oh=00_Afxlfnp-H0Q9nZ0BwQaFejgxg4QVpjPpfZlXOgC2Gf7TAQ&amp;oe=69D93C6E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>251645133415028</code></div>
+                    <div>score=0.2602653748771626 | d=22.624439877617185m | span=27.16865226217351° | align=35.34006487311444</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/223569638 U-M M61 Glen Structure 333 Glen Street'><div class='title'>U-M M61 Glen Structure</div><div class='meta'>333 Glen Street • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_TCkvHQCfX1w3wuutWUbWPuJ99q02pxQvsdADHymGC8u2lrPWpZTjjd5URbZ4h87scNyNXQo7_9szFxHzWIsixVloB2M3efmaTkCmxaGL7J-_NHQ4Nrtz3a9q0sH88n1rlj6-8vZ2mRwe9rFnPSQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlxIHpHcGPonLk2n9q04sxbCaHfN01nn_B78c18EXw2r1muT29cwXYS61nW2Eujy1c&amp;ccb=10-5&amp;oh=00_AfyvY3TsIKDsSyCNo7-OAMGmVMIKBQXjArEPX-mP_A0VAA&amp;oe=69D95FE7&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_TCkvHQCfX1w3wuutWUbWPuJ99q02pxQvsdADHymGC8u2lrPWpZTjjd5URbZ4h87scNyNXQo7_9szFxHzWIsixVloB2M3efmaTkCmxaGL7J-_NHQ4Nrtz3a9q0sH88n1rlj6-8vZ2mRwe9rFnPSQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlxIHpHcGPonLk2n9q04sxbCaHfN01nn_B78c18EXw2r1muT29cwXYS61nW2Eujy1c&amp;ccb=10-5&amp;oh=00_AfyvY3TsIKDsSyCNo7-OAMGmVMIKBQXjArEPX-mP_A0VAA&amp;oe=69D95FE7&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>3020187954972784</code></div>
+                    <div>score=0.21803525041230581 | d=26.457653365272883m | span=11.647349854436413° | align=76.05958867108978</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An__jrWOlQVha1Mq_SeEJSm5rJ8FTizqNJmPY61Kh71uooQR85kH0bNaBW07xUKbpdjzcZv3yYwuw4_hLi9DVmk1kSo4Goa0I8f50wW9RakCk8WmWj65JRrvBvFlsrIkBonMX-90g6xlSVM_hPRZdQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn10rLkxm1U5AFB3vVWurVCTtAEOfpQtIYNyDTWQYtthI9FMX-NI16gFl9JSmb_SVk&amp;ccb=10-5&amp;oh=00_AfwfKevNYOBxl7LpVW-5dbEy-5fgoiR4-HmrtMTzUyFx3w&amp;oe=69D96A3C&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An__jrWOlQVha1Mq_SeEJSm5rJ8FTizqNJmPY61Kh71uooQR85kH0bNaBW07xUKbpdjzcZv3yYwuw4_hLi9DVmk1kSo4Goa0I8f50wW9RakCk8WmWj65JRrvBvFlsrIkBonMX-90g6xlSVM_hPRZdQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn10rLkxm1U5AFB3vVWurVCTtAEOfpQtIYNyDTWQYtthI9FMX-NI16gFl9JSmb_SVk&amp;ccb=10-5&amp;oh=00_AfwfKevNYOBxl7LpVW-5dbEy-5fgoiR4-HmrtMTzUyFx3w&amp;oe=69D96A3C&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>263238602194458</code></div>
+                    <div>score=0.21637894087398962 | d=27.603780476733256m | span=8.247872810369245° | align=75.54361399989921</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/302169789 Buhl Research Center for Human Genetics 1241 Catherine Street'><div class='title'>Buhl Research Center for Human Genetics</div><div class='meta'>1241 Catherine Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9s7ei-su0ibGRKsDSnvn5dw1R2JbIU2enSY8xzZEECvTgcFSmjLBcIewSVXkLFNmPJBktWnzRTWi79AXI57Gdd7GEbTiH05ztVNDbswkPPl_7Mxv6zE4q1zBxS0r48w49hG1K1inUnCiV0yONEyw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkIJ4lzapiXFl0jSa-I_2j-Jwsg6YpFRhgl7ebBI0e4peXGiEKBdBLAGkUbXEgNRdM&amp;ccb=10-5&amp;oh=00_Afw2DQXuhi_n1C9re0IAqUlYInOzg4K6uxbduNqJ_fGrqw&amp;oe=69D93EBF&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9s7ei-su0ibGRKsDSnvn5dw1R2JbIU2enSY8xzZEECvTgcFSmjLBcIewSVXkLFNmPJBktWnzRTWi79AXI57Gdd7GEbTiH05ztVNDbswkPPl_7Mxv6zE4q1zBxS0r48w49hG1K1inUnCiV0yONEyw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkIJ4lzapiXFl0jSa-I_2j-Jwsg6YpFRhgl7ebBI0e4peXGiEKBdBLAGkUbXEgNRdM&amp;ccb=10-5&amp;oh=00_Afw2DQXuhi_n1C9re0IAqUlYInOzg4K6uxbduNqJ_fGrqw&amp;oe=69D93EBF&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>165505188819081</code></div>
+                    <div>score=0.18615947026328095 | d=32.872438869711246m | span=0.11724667260938304° | align=25.775550137030166</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/302987685  1100 Catherine Street'><div class='title'>Building way/302987685</div><div class='meta'>1100 Catherine Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_IkYHpIImYZyZwAh9TLeV4zGFJvGUoe_bCG2gL9KxsXxUxUH9T1tr5E3K2QS-uA4rRiFpqTdPHZpXyzO0kdW41ebUhZLOEXEwrDh6gDOA4ejNqkkmiliDEtSoclb7iYHYuT5uJQt2QPYK_sYJSFw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnaLSxyhCyoWLhuDDelNJEZNMh5mQkHpuUYJn4HnLLbpnVBKBODbiOGYpIYRTaBjhc&amp;ccb=10-5&amp;oh=00_AfxGtymR6LLveQgJatgPdeoj0hAz-LW98-gaT2AVsGmzvA&amp;oe=69D942D1&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_IkYHpIImYZyZwAh9TLeV4zGFJvGUoe_bCG2gL9KxsXxUxUH9T1tr5E3K2QS-uA4rRiFpqTdPHZpXyzO0kdW41ebUhZLOEXEwrDh6gDOA4ejNqkkmiliDEtSoclb7iYHYuT5uJQt2QPYK_sYJSFw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnaLSxyhCyoWLhuDDelNJEZNMh5mQkHpuUYJn4HnLLbpnVBKBODbiOGYpIYRTaBjhc&amp;ccb=10-5&amp;oh=00_AfxGtymR6LLveQgJatgPdeoj0hAz-LW98-gaT2AVsGmzvA&amp;oe=69D942D1&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>743197676320552</code></div>
+                    <div>score=0.2850158668292231 | d=20.924341723225133m | span=21.560785204428385° | align=33.23740020532563</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/305031998 U-M M5 Catherine Structure'><div class='title'>U-M M5 Catherine Structure</div><div class='meta'>3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8W7K1Yp6mCkvpcVvhi2wrOg_dUHEVXauBaxTlzBV9Z5LnH30UMQwUI4_hRqIjEdHQu-aoUTs18-HgfVMYhP08_ir2Dw7o0Iib8Bsa5Ved1XKA6sHsWAUHA2YDxRORJyG5XJg6VVrfDYbwI4N1bbJg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnXNDi4HtAynkrNWAKURbv2O0d_fQqfPzv7DXSxU1Vw7gs4XWcktwyEegC-0yV2bAE&amp;ccb=10-5&amp;oh=00_Afzzo0C09YyIhrbtbxsVplaIlTvy4mCdiBVY8YD4463qgg&amp;oe=69D9647A&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8W7K1Yp6mCkvpcVvhi2wrOg_dUHEVXauBaxTlzBV9Z5LnH30UMQwUI4_hRqIjEdHQu-aoUTs18-HgfVMYhP08_ir2Dw7o0Iib8Bsa5Ved1XKA6sHsWAUHA2YDxRORJyG5XJg6VVrfDYbwI4N1bbJg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnXNDi4HtAynkrNWAKURbv2O0d_fQqfPzv7DXSxU1Vw7gs4XWcktwyEegC-0yV2bAE&amp;ccb=10-5&amp;oh=00_Afzzo0C09YyIhrbtbxsVplaIlTvy4mCdiBVY8YD4463qgg&amp;oe=69D9647A&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>4045401962149101</code></div>
+                    <div>score=0.3881355847731884 | d=9.10956409841241m | span=14.20694761042435° | align=92.0377516652855</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An983l797FNbxmZs460jCStBrAcMivhsrRNfzIcHsB4a4KkwyFQUpIsAsCzn_Yqd50fq_vN_2bWS5QUjeqYuNT1molFLusbtJuFFuA6gQilSYVYnnw_jChzdyKjU16J6ixny-p9K6-nNKKr24ZIF4g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnhsOoWuVR8TJj1WLoUi26-F0dL_tzjBp1e-sLGRfxnxFf__61--rY3otniyBsBJGc&amp;ccb=10-5&amp;oh=00_AfxApFt8NYDWnBDMh06on-dhKtQtvFHmWO9T4RoUrbSJUA&amp;oe=69D96665&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An983l797FNbxmZs460jCStBrAcMivhsrRNfzIcHsB4a4KkwyFQUpIsAsCzn_Yqd50fq_vN_2bWS5QUjeqYuNT1molFLusbtJuFFuA6gQilSYVYnnw_jChzdyKjU16J6ixny-p9K6-nNKKr24ZIF4g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnhsOoWuVR8TJj1WLoUi26-F0dL_tzjBp1e-sLGRfxnxFf__61--rY3otniyBsBJGc&amp;ccb=10-5&amp;oh=00_AfxApFt8NYDWnBDMh06on-dhKtQtvFHmWO9T4RoUrbSJUA&amp;oe=69D96665&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>534432707713389</code></div>
+                    <div>score=0.34723979946856015 | d=9.652257000792623m | span=20.175763735913506° | align=91.17996413321151</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8_5FVKPDrLV2kJTPUp8XntALUUr8ZBV4HhZcTheefImDxR8305O3Fvx9pQQzy_Z-tpPXBtztr6WST4JXc6smoQkZ-jUHgA2rKQ06IJxWvkquGa9Q0UmpuWx1KESIV35gILJVxGJxiy5dI0eodldw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adnl7zt7mYko-lZQqkH7-KHaMG7Sv1MnTb3KbvAtOcCig9VIWKPxaPyao3wwVad_K6Q&amp;ccb=10-5&amp;oh=00_AfxU2wvWOrEmQC5zKtDlULC5gY8wFKk_7bYd5WvgxEWGjQ&amp;oe=69D95AF8&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8_5FVKPDrLV2kJTPUp8XntALUUr8ZBV4HhZcTheefImDxR8305O3Fvx9pQQzy_Z-tpPXBtztr6WST4JXc6smoQkZ-jUHgA2rKQ06IJxWvkquGa9Q0UmpuWx1KESIV35gILJVxGJxiy5dI0eodldw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adnl7zt7mYko-lZQqkH7-KHaMG7Sv1MnTb3KbvAtOcCig9VIWKPxaPyao3wwVad_K6Q&amp;ccb=10-5&amp;oh=00_AfxU2wvWOrEmQC5zKtDlULC5gY8wFKk_7bYd5WvgxEWGjQ&amp;oe=69D95AF8&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>525164578648750</code></div>
+                    <div>score=0.26153389411832634 | d=21.901793912493783m | span=9.367643897952803° | align=24.145999433816343</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/333579862  1021 East University Avenue'><div class='title'>Building way/333579862</div><div class='meta'>1021 East University Avenue • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9ilRlCZ8uQABDeQvwh0z6lmNpCE5slYw3cftVY3V4UOebVFv2n2HQU-sGCXs2s2kLPf1J0_wGcOtvC710yscIypmZLJPcGmXhBIuWLHZkqSJPqChEB7nGtH9X4rrZ32qjJEHdGJ-8c9v9tuU-uGw0?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkZfA94NZKqI9p10yKRCRznr9_Dyypmh0NNtbJjr2WTIcl4kaqWQTaNbGjXErVgflI&amp;ccb=10-5&amp;oh=00_AfwVG9yjYgPrMCB7YBFTf3UzM2kd615B4v0_3x4M-fXjaw&amp;oe=69D960CB&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9ilRlCZ8uQABDeQvwh0z6lmNpCE5slYw3cftVY3V4UOebVFv2n2HQU-sGCXs2s2kLPf1J0_wGcOtvC710yscIypmZLJPcGmXhBIuWLHZkqSJPqChEB7nGtH9X4rrZ32qjJEHdGJ-8c9v9tuU-uGw0?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkZfA94NZKqI9p10yKRCRznr9_Dyypmh0NNtbJjr2WTIcl4kaqWQTaNbGjXErVgflI&amp;ccb=10-5&amp;oh=00_AfwVG9yjYgPrMCB7YBFTf3UzM2kd615B4v0_3x4M-fXjaw&amp;oe=69D960CB&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>871876587003582</code></div>
+                    <div>score=0.18795329719623732 | d=19.374624256129376m | span=41.73538418343651° | align=69.5744195247969</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/333580271 Sgt Pepper&#x27;s General Store 1028 East University Avenue'><div class='title'>Sgt Pepper&#x27;s General Store</div><div class='meta'>1028 East University Avenue • 4 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-ruKbdur3eC18NMdgQMwuL_cPz10GwEPd9HWiqW6G1aDCkph4V9G56t-cixRF7aeAnFm5p45NX7EaskWrOiyYJrXzIrnYZQAyk5SRgSahXCuASLXK6Q5Xt3lum9O-4SCuewGeJP-PExthrvQYQAQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnZET7Pn8sWb8Z8TxifWGnwFeVh5VX0RpsEQWP_QyEGrcS5lycGnWXtVYXxoRVgkkM&amp;ccb=10-5&amp;oh=00_AfwVyd0bdXW5NwJaxvhg7jV7zDP3QvEaGlvXlGDb06uyxw&amp;oe=69D937EF&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-ruKbdur3eC18NMdgQMwuL_cPz10GwEPd9HWiqW6G1aDCkph4V9G56t-cixRF7aeAnFm5p45NX7EaskWrOiyYJrXzIrnYZQAyk5SRgSahXCuASLXK6Q5Xt3lum9O-4SCuewGeJP-PExthrvQYQAQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnZET7Pn8sWb8Z8TxifWGnwFeVh5VX0RpsEQWP_QyEGrcS5lycGnWXtVYXxoRVgkkM&amp;ccb=10-5&amp;oh=00_AfwVyd0bdXW5NwJaxvhg7jV7zDP3QvEaGlvXlGDb06uyxw&amp;oe=69D937EF&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>294709545598739</code></div>
+                    <div>score=0.325631092732672 | d=10.061252756772257m | span=34.98245154875883° | align=88.40657185019165</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_FUVX8jGvpNDLiMPgJQ1ICvrWVZXG7NeQvRoCyqpAmPt5OAZP3PO5Mwi-Nbgz7No-VOalKI7eOdmt9g6mwnAWvLObEbtBLdNV1-KUj186zGyh67h4j3dd5ZIy-9YrHOzUNnebOp-b_YoeV5dScaw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmJHSOh1A8pHQTPcr--K080FYVmgWCeR9ys6LIF1rzEDMJ-AuiwNO7WWoXds90HkUQ&amp;ccb=10-6&amp;oh=00_AfxS2FgFZHMG2HlEBkxNKiXQEbIPajfXcb892j8SW7JlEQ&amp;oe=69D93B32&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_FUVX8jGvpNDLiMPgJQ1ICvrWVZXG7NeQvRoCyqpAmPt5OAZP3PO5Mwi-Nbgz7No-VOalKI7eOdmt9g6mwnAWvLObEbtBLdNV1-KUj186zGyh67h4j3dd5ZIy-9YrHOzUNnebOp-b_YoeV5dScaw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmJHSOh1A8pHQTPcr--K080FYVmgWCeR9ys6LIF1rzEDMJ-AuiwNO7WWoXds90HkUQ&amp;ccb=10-6&amp;oh=00_AfxS2FgFZHMG2HlEBkxNKiXQEbIPajfXcb892j8SW7JlEQ&amp;oe=69D93B32&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>1778105542379547</code></div>
+                    <div>score=0.3199333635677465 | d=9.873529168687954m | span=36.2236779362359° | align=88.39541843796246</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_uU0LKCMNP5o9Y9nARyfyZ8T7ZBADMVK_-FHuYXbsmQQX1tRqGpSLqnB8rPb12l0pNEwBqVtqE9uY-QyVvjvn2fT0BPGElQcoN-zHy_viBVotBhhKmDU_IpxEzHQIqeTsmU5TaYmZ38AAhrnwNxA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnJ4cU9VBbq5GSXb1vFifkSdliAB5rX2imE6x42c7387mj-W-F2jbbb6LCndvM_Gi0&amp;ccb=10-6&amp;oh=00_AfxxMwvlrzS2TUQvC8HuN-0_w1vx42lfAt8hNwVJojxciA&amp;oe=69D94877&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_uU0LKCMNP5o9Y9nARyfyZ8T7ZBADMVK_-FHuYXbsmQQX1tRqGpSLqnB8rPb12l0pNEwBqVtqE9uY-QyVvjvn2fT0BPGElQcoN-zHy_viBVotBhhKmDU_IpxEzHQIqeTsmU5TaYmZ38AAhrnwNxA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnJ4cU9VBbq5GSXb1vFifkSdliAB5rX2imE6x42c7387mj-W-F2jbbb6LCndvM_Gi0&amp;ccb=10-6&amp;oh=00_AfxxMwvlrzS2TUQvC8HuN-0_w1vx42lfAt8hNwVJojxciA&amp;oe=69D94877&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>460715955183981</code></div>
+                    <div>score=0.28965797075032484 | d=10.974424269781927m | span=29.091967289563684° | align=63.950316999307574</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9LVoscOqAAJe94s8GK7uRcwhWycMLk0FRLY0cjoZFWZ-OnIQPsVFIcDishMT3BBEv1WMpvqxnk8OmoRPnE6XhqclS-Q_36db9PtaBlvbyLngOsVNQp-Zcwxhfd1vgLdhvgcxZevu2ZMQv4qs21qQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnzPuf8c4i_KEudezlfqcFGV5OlBHe_I-yDlM_ygK85LdnvbWcI3YYSV1Onfyph4V4&amp;ccb=10-5&amp;oh=00_AfzLLQuDoxhRIJwNUmJqWyw-kEGtSh94oE_hJ9WRIbOFrA&amp;oe=69D9381E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9LVoscOqAAJe94s8GK7uRcwhWycMLk0FRLY0cjoZFWZ-OnIQPsVFIcDishMT3BBEv1WMpvqxnk8OmoRPnE6XhqclS-Q_36db9PtaBlvbyLngOsVNQp-Zcwxhfd1vgLdhvgcxZevu2ZMQv4qs21qQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnzPuf8c4i_KEudezlfqcFGV5OlBHe_I-yDlM_ygK85LdnvbWcI3YYSV1Onfyph4V4&amp;ccb=10-5&amp;oh=00_AfzLLQuDoxhRIJwNUmJqWyw-kEGtSh94oE_hJ9WRIbOFrA&amp;oe=69D9381E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#4</div>
+                    <div><code>1451021275237120</code></div>
+                    <div>score=0.21479998600373268 | d=9.940185939048495m | span=50.15352906108069° | align=90.82059445646996</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/454168602  1024 Church Street'><div class='title'>Building way/454168602</div><div class='meta'>1024 Church Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8-_kQ3JcJlHy2Q3CGP8KMGDlVnKTeYq8kS7-CVv9CvPNPxGYUn5wIfunkYtH8_cIWwMZpyfic2XfJlfgqbqFX6ZwZlJfHSDzOOX478NrzEo-pl45vsqlQJ7YKUCtvnYN8-cJPkWQHdJ1qJEzJlew?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmlgDN9LzCrf6htALfqLzWT65dmdWc2CQcAkQ6AiNRdNFTWI4MgHs6m-Pr_-l-yyzk&amp;ccb=10-5&amp;oh=00_AfxwqwyfoYr54Kn3kZlEIQ5em6LC1tftYc7_mv_nguDzOA&amp;oe=69D95478&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8-_kQ3JcJlHy2Q3CGP8KMGDlVnKTeYq8kS7-CVv9CvPNPxGYUn5wIfunkYtH8_cIWwMZpyfic2XfJlfgqbqFX6ZwZlJfHSDzOOX478NrzEo-pl45vsqlQJ7YKUCtvnYN8-cJPkWQHdJ1qJEzJlew?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmlgDN9LzCrf6htALfqLzWT65dmdWc2CQcAkQ6AiNRdNFTWI4MgHs6m-Pr_-l-yyzk&amp;ccb=10-5&amp;oh=00_AfxwqwyfoYr54Kn3kZlEIQ5em6LC1tftYc7_mv_nguDzOA&amp;oe=69D95478&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>152147050251451</code></div>
+                    <div>score=0.3819009005896481 | d=14.108134224524465m | span=24.836781461780447° | align=36.92236494684852</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/454168603  1027 East University Avenue'><div class='title'>Building way/454168603</div><div class='meta'>1027 East University Avenue • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8uKYHflgfBqkmvB-3Z7S9BaSluaymC-9W0Ke_0aJxirfpG-TywAMmKgc2DvFqoHGVV0Je5iWsr1gB4siENc0iX7SZDQFEPbRqZ9UTSJqXE5TOm-i_B2mt4AexOJNigMpnt9FCIpF2nrBy3Y6zT1g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnHW2NIdlUI9qZ6l9r3iHOPZfKvkDUpv0oU8WguG2NYhhO4lXAiVmrJLKcoq035hvI&amp;ccb=10-6&amp;oh=00_AfwOvMCmmSq72XnXKT8rVxIM3d_wU4pZYQBLvt6R5UaOCg&amp;oe=69D96997&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8uKYHflgfBqkmvB-3Z7S9BaSluaymC-9W0Ke_0aJxirfpG-TywAMmKgc2DvFqoHGVV0Je5iWsr1gB4siENc0iX7SZDQFEPbRqZ9UTSJqXE5TOm-i_B2mt4AexOJNigMpnt9FCIpF2nrBy3Y6zT1g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnHW2NIdlUI9qZ6l9r3iHOPZfKvkDUpv0oU8WguG2NYhhO4lXAiVmrJLKcoq035hvI&amp;ccb=10-6&amp;oh=00_AfwOvMCmmSq72XnXKT8rVxIM3d_wU4pZYQBLvt6R5UaOCg&amp;oe=69D96997&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>953451982078838</code></div>
+                    <div>score=0.26041262927755904 | d=29.763244583641683m | span=6.063986101794626° | align=17.17837195305316</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/454168622  1020 East University Avenue'><div class='title'>Building way/454168622</div><div class='meta'>1020 East University Avenue • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An81JL3c5KDyatk9zFDHToOB7_N4gh0KKitnb-FSmD3Cp_c9JohUhYPDF2Em67lGiSyFKjXkzo9q9bDStGioABUYlpGhYFtb0Tq_KROi2WTSlWF57tNT5jLFecGzDdf00oN2dJTZ2i5Edpd21sYdbA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnQSYErpATAj2jWImQHACym0vXuAFkUzAFuanUtXY8FDS8y3rfdxtLbChjbJNJKuuw&amp;ccb=10-6&amp;oh=00_AfwYO0JdRdi66kec4IYO9biftauyZ5k8W4xsvPT6TS5jeQ&amp;oe=69D9343C&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An81JL3c5KDyatk9zFDHToOB7_N4gh0KKitnb-FSmD3Cp_c9JohUhYPDF2Em67lGiSyFKjXkzo9q9bDStGioABUYlpGhYFtb0Tq_KROi2WTSlWF57tNT5jLFecGzDdf00oN2dJTZ2i5Edpd21sYdbA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnQSYErpATAj2jWImQHACym0vXuAFkUzAFuanUtXY8FDS8y3rfdxtLbChjbJNJKuuw&amp;ccb=10-6&amp;oh=00_AfwYO0JdRdi66kec4IYO9biftauyZ5k8W4xsvPT6TS5jeQ&amp;oe=69D9343C&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>753849601991532</code></div>
+                    <div>score=0.23514391407563667 | d=22.315919797256907m | span=32.505979347883226° | align=49.01260458238511</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8jVqVMA4Rqv1zfXNPfc2xyPQ7HFRafh2u8mKzDYrgatLh2Lf15VEzQTc9QlkMhjhNJwyfAjFZxZLlyuW9TULdt9-Dr0a5gvuileJupn66zTl51SSU9TYnVkFCcu7YKigl7XHRZZA4XJef_USlZ9g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkvSXCgpVYJ8ac_Vl5HrP0RBzSwniZMoY28Ap5Gi3mQNsQSABGLTmKBJwGH9GX_Xwo&amp;ccb=10-5&amp;oh=00_AfyiI3ioBFs_-zasE3vDPRoLfa0uHvqqrKsK7-We-MtdeA&amp;oe=69D95C75&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8jVqVMA4Rqv1zfXNPfc2xyPQ7HFRafh2u8mKzDYrgatLh2Lf15VEzQTc9QlkMhjhNJwyfAjFZxZLlyuW9TULdt9-Dr0a5gvuileJupn66zTl51SSU9TYnVkFCcu7YKigl7XHRZZA4XJef_USlZ9g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkvSXCgpVYJ8ac_Vl5HrP0RBzSwniZMoY28Ap5Gi3mQNsQSABGLTmKBJwGH9GX_Xwo&amp;ccb=10-5&amp;oh=00_AfyiI3ioBFs_-zasE3vDPRoLfa0uHvqqrKsK7-We-MtdeA&amp;oe=69D95C75&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>176197261053139</code></div>
+                    <div>score=0.23290188560565744 | d=28.29504851808732m | span=24.116191441225965° | align=35.3209773700471</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9xQPysfHUEHPFJJB7Pbu4dpyI0Mgd3UrAuFbRbV0c52vNzRykHoItWDT4P2TnQQTTN2PH0pROvXhdWDiYFapxl73kW0NKCY8f5TXUucTwBNFV4x8vQ3CnNXQnlnQ8gIp_OKytZRN4swtYfZ-V06g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdneFfhTWGEHtZR7HeHQK2UWlglChmiX3lZOqZlrUJqbbLnDQAD_VHzLWGE4NhY91_Q&amp;ccb=10-5&amp;oh=00_AfyPG4_ry6yEmT2a0lul-nxkPeYjSqFSgz4fKQeSmTZDMw&amp;oe=69D96817&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9xQPysfHUEHPFJJB7Pbu4dpyI0Mgd3UrAuFbRbV0c52vNzRykHoItWDT4P2TnQQTTN2PH0pROvXhdWDiYFapxl73kW0NKCY8f5TXUucTwBNFV4x8vQ3CnNXQnlnQ8gIp_OKytZRN4swtYfZ-V06g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdneFfhTWGEHtZR7HeHQK2UWlglChmiX3lZOqZlrUJqbbLnDQAD_VHzLWGE4NhY91_Q&amp;ccb=10-5&amp;oh=00_AfyPG4_ry6yEmT2a0lul-nxkPeYjSqFSgz4fKQeSmTZDMw&amp;oe=69D96817&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>848969132644416</code></div>
+                    <div>score=0.22059701247284222 | d=28.28957278404638m | span=26.2836432421455° | align=37.42746053671743</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/454168623'><div class='title'>Building way/454168623</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An82AYc5orKtzt0vY9CRiPgU8LIe7JsGE-0zV6bAOAW-vM9AkIAmZL7ZtSlquXiz_q8A-_YB8To_dl59DL-hEaBKURpwdZr1mFYGdU9na21fWHhxkxVpk2AqArz1ARcuninag4Gp0_9ozpo2WThGcg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk2iohynq3nwZmMBpv-T5KNZxd7qvJKWLLF2Oy2TQeH7IbSGM8837E4JGuKlJQFjwo&amp;ccb=10-6&amp;oh=00_Afxs2qpNXt1iUbzBQbkI3Jak_mSfAhQfx3SDkajpdm2NGA&amp;oe=69D94602&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An82AYc5orKtzt0vY9CRiPgU8LIe7JsGE-0zV6bAOAW-vM9AkIAmZL7ZtSlquXiz_q8A-_YB8To_dl59DL-hEaBKURpwdZr1mFYGdU9na21fWHhxkxVpk2AqArz1ARcuninag4Gp0_9ozpo2WThGcg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk2iohynq3nwZmMBpv-T5KNZxd7qvJKWLLF2Oy2TQeH7IbSGM8837E4JGuKlJQFjwo&amp;ccb=10-6&amp;oh=00_Afxs2qpNXt1iUbzBQbkI3Jak_mSfAhQfx3SDkajpdm2NGA&amp;oe=69D94602&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>816594095900265</code></div>
+                    <div>score=0.19978331478394049 | d=27.245357422950615m | span=28.05006870648245° | align=42.28845838995076</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/454168627  1030 Church Street'><div class='title'>Building way/454168627</div><div class='meta'>1030 Church Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-qh1MS9jrrYe-JHoo3thlh5dtwUJr_Lmcdj8yAGj5gaNEVBpISmvlyXrZy3oX2vYh5Mu61VfPvNJIZzqqjtqmC-dU8Ary6sR3OhrW9Q9kGcZo6WfIMCrc3smvcdnSRXvhSaMqAivUfkVDXLxm3Ng?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmwDuwpLoIeIGl4RBCnJGTq6tHtFt3envq_e1LJloAq54mcr15K0Fg7JvRcusi6kdY&amp;ccb=10-5&amp;oh=00_Afx3BgEhPl_IG9GcK-zNdf5TYG0XRUcUdahM2BnQFVKIxg&amp;oe=69D948BE&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-qh1MS9jrrYe-JHoo3thlh5dtwUJr_Lmcdj8yAGj5gaNEVBpISmvlyXrZy3oX2vYh5Mu61VfPvNJIZzqqjtqmC-dU8Ary6sR3OhrW9Q9kGcZo6WfIMCrc3smvcdnSRXvhSaMqAivUfkVDXLxm3Ng?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmwDuwpLoIeIGl4RBCnJGTq6tHtFt3envq_e1LJloAq54mcr15K0Fg7JvRcusi6kdY&amp;ccb=10-5&amp;oh=00_Afx3BgEhPl_IG9GcK-zNdf5TYG0XRUcUdahM2BnQFVKIxg&amp;oe=69D948BE&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>2880268678893408</code></div>
+                    <div>score=0.3615084695784378 | d=21.149211908933854m | span=16.19083888145292° | align=24.14489470884405</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/459920968'><div class='title'>Building way/459920968</div><div class='meta'>2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_ici7K1O3_uzsGGhhm_Xkzlpy5XCjjucu7bPJX5nKAVc1oTW-kRGr4l1Ya2RdDH1RIyFAy6Iw7tRC1AjgOTPAN_GxyHBm_sTHRX7zqIvYCKggjS2jknxERE3sNa_3UrB17Ohm5X2bvIzcqjIPatg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkKO3w0maeNPqNq3zgU4gEOBJRHwnMalrp5Ihr4mocTfhOnfQAG3nqkKPxVDEMTYAk&amp;ccb=10-6&amp;oh=00_AfzREdgIQw7UtJyVsF8oUPFIeHGCUVvNF3sGdmCVNRrbkA&amp;oe=69D95F46&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_ici7K1O3_uzsGGhhm_Xkzlpy5XCjjucu7bPJX5nKAVc1oTW-kRGr4l1Ya2RdDH1RIyFAy6Iw7tRC1AjgOTPAN_GxyHBm_sTHRX7zqIvYCKggjS2jknxERE3sNa_3UrB17Ohm5X2bvIzcqjIPatg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkKO3w0maeNPqNq3zgU4gEOBJRHwnMalrp5Ihr4mocTfhOnfQAG3nqkKPxVDEMTYAk&amp;ccb=10-6&amp;oh=00_AfzREdgIQw7UtJyVsF8oUPFIeHGCUVvNF3sGdmCVNRrbkA&amp;oe=69D95F46&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1195489107564012</code></div>
+                    <div>score=0.35523081785278304 | d=20.698003417277125m | span=14.372703986190004° | align=32.734191450477624</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8RvN5LJaxeO5_ibrZ4Eh_XXPN0pzUZYv_mQj1VDSu1SHPNbVrynlj8bEkqZOyujR2C_zL7XI2igt-CCsvX5ewpMyjaX0mP0J1ftZJzEPSSb38oJ24qA9zehh9k9A4C6ryllxZSicRfTqOVnQ8kFQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adlq5DVFs-5dZH0YtvHQmgIEdw6HsisUi4hGkEezU9Pm5_LSGuqmBYPlistxlxoIE60&amp;ccb=10-5&amp;oh=00_Afzw3e4htXyR5oy0AMgbDeuvl1gmPy0wE5ZPp6zZVxgmag&amp;oe=69D9581E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8RvN5LJaxeO5_ibrZ4Eh_XXPN0pzUZYv_mQj1VDSu1SHPNbVrynlj8bEkqZOyujR2C_zL7XI2igt-CCsvX5ewpMyjaX0mP0J1ftZJzEPSSb38oJ24qA9zehh9k9A4C6ryllxZSicRfTqOVnQ8kFQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adlq5DVFs-5dZH0YtvHQmgIEdw6HsisUi4hGkEezU9Pm5_LSGuqmBYPlistxlxoIE60&amp;ccb=10-5&amp;oh=00_Afzw3e4htXyR5oy0AMgbDeuvl1gmPy0wE5ZPp6zZVxgmag&amp;oe=69D9581E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>296243608628084</code></div>
+                    <div>score=0.3170175683378853 | d=17.101926063468234m | span=27.090365029857367° | align=51.22389695230737</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/459948095'><div class='title'>Building way/459948095</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_po5hhNF4kAsmMIIqC843yEFSDOWz5s2xSK8E3-R_jyuZ4hqiLEBSRG2EW16RspVOyrlIHWWkrTHh4T6FTgDChDgG6tT6lP9KnrokyTF-zeLcQLjP5l1UqSYdlhkxhve28tjt41NwdzaxDNZyMDHM?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn79MUyoV9aha1rsBMV74kDzE5X8PR5lWx_qd9kkgbLWX_DobQ8ziN5nL7YQenM-Kw&amp;ccb=10-5&amp;oh=00_Afxsd3xLHmjgRR4Rw2hpLc6EGj1I6TLmd5fVUZt0VJQZqA&amp;oe=69D937CD&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_po5hhNF4kAsmMIIqC843yEFSDOWz5s2xSK8E3-R_jyuZ4hqiLEBSRG2EW16RspVOyrlIHWWkrTHh4T6FTgDChDgG6tT6lP9KnrokyTF-zeLcQLjP5l1UqSYdlhkxhve28tjt41NwdzaxDNZyMDHM?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn79MUyoV9aha1rsBMV74kDzE5X8PR5lWx_qd9kkgbLWX_DobQ8ziN5nL7YQenM-Kw&amp;ccb=10-5&amp;oh=00_Afxsd3xLHmjgRR4Rw2hpLc6EGj1I6TLmd5fVUZt0VJQZqA&amp;oe=69D937CD&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>233038044843162</code></div>
+                    <div>score=0.19067888219933304 | d=23.762816946112086m | span=36.46266839731851° | align=49.08551073078638</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/468829385 Debs Cooperative House 909 East University Avenue'><div class='title'>Debs Cooperative House</div><div class='meta'>909 East University Avenue • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9u6FW18uBK1oV62H_f_fjrmuUxd37rmv4YwJ8J5voLDX9g8E_Nr-zT6ZDYep0eErd-xZwr0K0RrUhEDxD8CrKsO294_kbPqMvL6NVB-HDItZZeUNZlgrbJcr3B098yiwJSuwJxalL8fSxhQBrpJf4?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmXrKrTME1N-3gOto0f4Sy5y0KtVpettsaHP51-e84lDRPiWJAaVY2T9trpXU-N9pM&amp;ccb=10-5&amp;oh=00_AfwC7A_TXGRNYb8IXi7G4Z1YOSMek9FlH6h8AOOd2fohig&amp;oe=69D953D5&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9u6FW18uBK1oV62H_f_fjrmuUxd37rmv4YwJ8J5voLDX9g8E_Nr-zT6ZDYep0eErd-xZwr0K0RrUhEDxD8CrKsO294_kbPqMvL6NVB-HDItZZeUNZlgrbJcr3B098yiwJSuwJxalL8fSxhQBrpJf4?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmXrKrTME1N-3gOto0f4Sy5y0KtVpettsaHP51-e84lDRPiWJAaVY2T9trpXU-N9pM&amp;ccb=10-5&amp;oh=00_AfwC7A_TXGRNYb8IXi7G4Z1YOSMek9FlH6h8AOOd2fohig&amp;oe=69D953D5&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>316826623203629</code></div>
+                    <div>score=0.21658060801497214 | d=28.05480134170641m | span=26.107243939550187° | align=34.4756321385467</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_5BkhSEfne_UHU76W98m5EAWdrNApTtyShLDSxELGsZXG7Q6gzmBASubc7vWZP6pfBWgnS79sJjPE-YkC5WF0zMQLlhuDbNJo9cyViGSV2HQQBQm3iMrfBBhCboh0lJxKX4hXblmuRJWNaHyHTtWw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkRCmp7C3h2SpCcNLOzlNajKBDBVhumARWzn1N0XPJlGfcPuOWVHygLtFNJIjYzdCk&amp;ccb=10-6&amp;oh=00_AfzYKJWHUlkYVykrIAZctLux_7orQnCloCNZF1JRSdBAkA&amp;oe=69D9397B&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_5BkhSEfne_UHU76W98m5EAWdrNApTtyShLDSxELGsZXG7Q6gzmBASubc7vWZP6pfBWgnS79sJjPE-YkC5WF0zMQLlhuDbNJo9cyViGSV2HQQBQm3iMrfBBhCboh0lJxKX4hXblmuRJWNaHyHTtWw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkRCmp7C3h2SpCcNLOzlNajKBDBVhumARWzn1N0XPJlGfcPuOWVHygLtFNJIjYzdCk&amp;ccb=10-6&amp;oh=00_AfzYKJWHUlkYVykrIAZctLux_7orQnCloCNZF1JRSdBAkA&amp;oe=69D9397B&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>394119941578445</code></div>
+                    <div>score=0.19904341638409057 | d=21.172403410826067m | span=38.24327758614049° | align=52.957702548539146</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/468829387  1001 East University Avenue'><div class='title'>Building way/468829387</div><div class='meta'>1001 East University Avenue • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-N-7P2NA4Z3RRTeVdbR41Ttm-UeRsGipK9hbpbuot9tuoHihEaD_0mMSrYQunDqxrQArQxJbfFOrvRInCqxstAGW-pE-SqX5D4gfkuAjojn3mKNeh1wTHQgFKvtCoWllPtfbJHB1wPX2bcjypO_g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlkxTrHTON4VV1qn558UnuZWPzvRAh2dlwb-BiOPbsrDZEoNHcnAkVu1318C1uTChI&amp;ccb=10-5&amp;oh=00_AfwwUZpiOMOCgUXcMr0AFkJ57yif9AN7ddva6W_bErQSRw&amp;oe=69D95F3B&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-N-7P2NA4Z3RRTeVdbR41Ttm-UeRsGipK9hbpbuot9tuoHihEaD_0mMSrYQunDqxrQArQxJbfFOrvRInCqxstAGW-pE-SqX5D4gfkuAjojn3mKNeh1wTHQgFKvtCoWllPtfbJHB1wPX2bcjypO_g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlkxTrHTON4VV1qn558UnuZWPzvRAh2dlwb-BiOPbsrDZEoNHcnAkVu1318C1uTChI&amp;ccb=10-5&amp;oh=00_AfwwUZpiOMOCgUXcMr0AFkJ57yif9AN7ddva6W_bErQSRw&amp;oe=69D95F3B&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1095196950978856</code></div>
+                    <div>score=0.23889332306394964 | d=19.365959055713063m | span=32.33009607129327° | align=53.6689211917211</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-a9kYQAqQOFmUhBUDSImSawQVMdmAM9EPY7UFIMS2UYZI_ni36sAOmEoRHghTrfwYdmpSBY7T5UKpYj9HJ9rKdIB_w8ifdYkFa4y7yyosJXswztQ5cEXcHRAwVgIfB01_iqvDVu1bxSIj-69UpTQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnUSOnnEGmZO9ix0KTRsTFv3guY408RmgDxWWNHJfzW0l8ct_eCCXWxIADscyepSvk&amp;ccb=10-5&amp;oh=00_AfwC5oBi2pUjNQm_bO7SUiAp8XX-KcqAmSNQYpCAcQxqRg&amp;oe=69D945FE&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-a9kYQAqQOFmUhBUDSImSawQVMdmAM9EPY7UFIMS2UYZI_ni36sAOmEoRHghTrfwYdmpSBY7T5UKpYj9HJ9rKdIB_w8ifdYkFa4y7yyosJXswztQ5cEXcHRAwVgIfB01_iqvDVu1bxSIj-69UpTQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnUSOnnEGmZO9ix0KTRsTFv3guY408RmgDxWWNHJfzW0l8ct_eCCXWxIADscyepSvk&amp;ccb=10-5&amp;oh=00_AfwC5oBi2pUjNQm_bO7SUiAp8XX-KcqAmSNQYpCAcQxqRg&amp;oe=69D945FE&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>1227339231056688</code></div>
+                    <div>score=0.19243084735176305 | d=29.228101931534592m | span=23.46500140561875° | align=64.85959219868784</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An98Bl8c-WhbswBImjBBrLCquiLA8gC6UGE3r1QX7HmfbCT1AAVZoi3z4mF6bM3gAgJ61rVQEI9fuB0Y6CjczVsY25Miv8VDHQbR-oUwgHQ-nFoT-Xe6uua8BRvuqWcnw-o9p24CQ7cwcFMGLc9wnQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk8yvX5TpI2CG7r_XVV1BbUAIBDSsddq4-FTd2qnbulVVe3lGSnlekSRxCvmOzCAlI&amp;ccb=10-5&amp;oh=00_Afxr1R_clcZOY6aaCaLru_hd_waVDKk2QW7Ebvr0b6vmmw&amp;oe=69D95226&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An98Bl8c-WhbswBImjBBrLCquiLA8gC6UGE3r1QX7HmfbCT1AAVZoi3z4mF6bM3gAgJ61rVQEI9fuB0Y6CjczVsY25Miv8VDHQbR-oUwgHQ-nFoT-Xe6uua8BRvuqWcnw-o9p24CQ7cwcFMGLc9wnQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk8yvX5TpI2CG7r_XVV1BbUAIBDSsddq4-FTd2qnbulVVe3lGSnlekSRxCvmOzCAlI&amp;ccb=10-5&amp;oh=00_Afxr1R_clcZOY6aaCaLru_hd_waVDKk2QW7Ebvr0b6vmmw&amp;oe=69D95226&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>311984023669503</code></div>
+                    <div>score=0.18406626263260709 | d=30.567413073404786m | span=21.72081068090779° | align=59.58038696028535</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/468829391  1015 East University Avenue'><div class='title'>Building way/468829391</div><div class='meta'>1015 East University Avenue • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9BQ6tS8LjmRIFsdk9dpidhroB8wUaqrTvUCqkVjnUyPIO0ILrSQ-hCGAtue-Ql2bmvUuefQ3TRW0hPsDyJjTlVBISj0kFlMzwrIhXZZofHfpf4B9YG1eVXst_deZh6T0mhZjCuraKjbU56T3x4qg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmHw5-wrnB0SQ4gRhDteVQEmMcw82WBJXGADHEkEpqLO2-R-TPtEWRbkHa62hrQ1Ac&amp;ccb=10-6&amp;oh=00_AfxcCLBNphPADySVQ54kBv2AApnfViOAgUHzSw2RirM9aA&amp;oe=69D95DE8&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9BQ6tS8LjmRIFsdk9dpidhroB8wUaqrTvUCqkVjnUyPIO0ILrSQ-hCGAtue-Ql2bmvUuefQ3TRW0hPsDyJjTlVBISj0kFlMzwrIhXZZofHfpf4B9YG1eVXst_deZh6T0mhZjCuraKjbU56T3x4qg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmHw5-wrnB0SQ4gRhDteVQEmMcw82WBJXGADHEkEpqLO2-R-TPtEWRbkHa62hrQ1Ac&amp;ccb=10-6&amp;oh=00_AfxcCLBNphPADySVQ54kBv2AApnfViOAgUHzSw2RirM9aA&amp;oe=69D95DE8&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>307136220858164</code></div>
+                    <div>score=0.2036927297850759 | d=30.269883457856775m | span=27.939694431975454° | align=34.05416998182642</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/468944456 Fritz Lofts 1014 Church Street'><div class='title'>Fritz Lofts</div><div class='meta'>1014 Church Street • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9GiJtx71z6n9uIJD0FDjUszTY8mcBym4csoTAzhPvqqQvp4dalmwvBzTDlLMhEGuS1B42r5A5wGl1H5AGAcw4yViMwGbxVNGbx0qNSyS3dzzE_AB2QUh3xg7RQ1hali_zLmCCnRiG4Lp9LhWcgVA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmxvGF31n4jTJLrFJNme58pyF6uYkdhBJA2h5G2VleT5uPS9rq_wnalWD6NxExlMYI&amp;ccb=10-5&amp;oh=00_AfwWhW1Xd6rtM2kqsfxvrZgB_tueqxzhW6cyh4bE9UfXRQ&amp;oe=69D95B5E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9GiJtx71z6n9uIJD0FDjUszTY8mcBym4csoTAzhPvqqQvp4dalmwvBzTDlLMhEGuS1B42r5A5wGl1H5AGAcw4yViMwGbxVNGbx0qNSyS3dzzE_AB2QUh3xg7RQ1hali_zLmCCnRiG4Lp9LhWcgVA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmxvGF31n4jTJLrFJNme58pyF6uYkdhBJA2h5G2VleT5uPS9rq_wnalWD6NxExlMYI&amp;ccb=10-5&amp;oh=00_AfwWhW1Xd6rtM2kqsfxvrZgB_tueqxzhW6cyh4bE9UfXRQ&amp;oe=69D95B5E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>212692050667919</code></div>
+                    <div>score=0.4219483327924871 | d=8.377599525129451m | span=27.193405823425337° | align=106.95351197528481</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8lr4p4WiMrY2NZPVx905IbPqqwWqZPWbAS9pneCPvC8tJAI94zsv6NXoWVwvegmC0Vpa1b6NLoTk8B5-4S3D5U9-erzTQGvp6sVnf4DINkB9wjd9wQ2spnlleFpkJ576f9diMJEgA1v3VeRBI4Iw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkcsnzT7D7mZWB3aYvTo93fwmjceT2rAtnx3OE_hmghKMgf34pZWYKoj2QBWFML3wk&amp;ccb=10-5&amp;oh=00_AfznEzCsxmeU4ujJ-siuhm--_AHhcqOaYmDUkHFOpFJhfA&amp;oe=69D9395E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8lr4p4WiMrY2NZPVx905IbPqqwWqZPWbAS9pneCPvC8tJAI94zsv6NXoWVwvegmC0Vpa1b6NLoTk8B5-4S3D5U9-erzTQGvp6sVnf4DINkB9wjd9wQ2spnlleFpkJ576f9diMJEgA1v3VeRBI4Iw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkcsnzT7D7mZWB3aYvTo93fwmjceT2rAtnx3OE_hmghKMgf34pZWYKoj2QBWFML3wk&amp;ccb=10-5&amp;oh=00_AfznEzCsxmeU4ujJ-siuhm--_AHhcqOaYmDUkHFOpFJhfA&amp;oe=69D9395E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>2988931194766617</code></div>
+                    <div>score=0.27879004459170836 | d=19.20751440085177m | span=12.324485205934195° | align=55.2768489538131</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/468944460  1127 Prospect Street'><div class='title'>Building way/468944460</div><div class='meta'>1127 Prospect Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_EXzel12k63SUZtPUydlJLP-LMMZUmMCvyeH792XVtxVBGjqGqf8RcrFzHZEmovHX7_Q-hFFaVWlbkVefaEMYaW4Zr9Os0aXgRMq_vguFNqudraWnoMjRHBVzYc9pTTpKolch70N0QglnjXMa7-A?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlLPlcIi98IfSKQ5xRzqX0Y3TwwdpejK6E4suNB8avtNawpFUJguQswGSv3fjjEy1w&amp;ccb=10-5&amp;oh=00_Afzt9SEZOXkfac0VaYlaBuAsrQ9pNL0VuBhIeFEuvv7Q9A&amp;oe=69D95CC8&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_EXzel12k63SUZtPUydlJLP-LMMZUmMCvyeH792XVtxVBGjqGqf8RcrFzHZEmovHX7_Q-hFFaVWlbkVefaEMYaW4Zr9Os0aXgRMq_vguFNqudraWnoMjRHBVzYc9pTTpKolch70N0QglnjXMa7-A?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlLPlcIi98IfSKQ5xRzqX0Y3TwwdpejK6E4suNB8avtNawpFUJguQswGSv3fjjEy1w&amp;ccb=10-5&amp;oh=00_Afzt9SEZOXkfac0VaYlaBuAsrQ9pNL0VuBhIeFEuvv7Q9A&amp;oe=69D95CC8&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>477986413410603</code></div>
+                    <div>score=0.570065940894091 | d=6.734710091290268m | span=19.543268076956792° | align=71.5093333325097</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/471191893  1020 Church Street'><div class='title'>Building way/471191893</div><div class='meta'>1020 Church Street • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9CpJG8tOjDqkoTQKv3CX8IH7bLCg4PLVybGsdL4EUJRc_NNecGR_ViSAjMBOV8rMGmbLSWAZNvvGiaLvu0NruOB_h2al-tAcdIQGtWLkTHFOUfRd2pVTslRi46Kv83m-8dodobcfmwt95xhKurHQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adkl4U9nS8k_b4hjJxSd52_QOA9-eagx0J9iw-1jYq2Jtw_DQl7tvJs2wQGRIYgj0WQ&amp;ccb=10-5&amp;oh=00_AfyzGqKIFjI0Ns3BLcsXyZkjin-lmfF45Iri1JvUr7MBGw&amp;oe=69D93901&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9CpJG8tOjDqkoTQKv3CX8IH7bLCg4PLVybGsdL4EUJRc_NNecGR_ViSAjMBOV8rMGmbLSWAZNvvGiaLvu0NruOB_h2al-tAcdIQGtWLkTHFOUfRd2pVTslRi46Kv83m-8dodobcfmwt95xhKurHQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adkl4U9nS8k_b4hjJxSd52_QOA9-eagx0J9iw-1jYq2Jtw_DQl7tvJs2wQGRIYgj0WQ&amp;ccb=10-5&amp;oh=00_AfyzGqKIFjI0Ns3BLcsXyZkjin-lmfF45Iri1JvUr7MBGw&amp;oe=69D93901&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>211751390515212</code></div>
+                    <div>score=0.43254858883013275 | d=9.24276558073613m | span=24.63112781427327° | align=53.89006168057301</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_CuRHHB0pOodRuSeukjIG5BAvMj87BNk13rbLelQDhT3KNQ03yf4q8rPFqkqU3G4EBDMqw_ZDgroJ_f330YT-zjlPpGuYVkSTUH9aDGZmgE_NR6WGqr8PORQhtIg5ocTUpRFGxGQYTWxHeyT7ILw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdljldI_oQXomH2QkMPoiURbsQrQWur5UNzoxvBkDteklrLWB-8LJIHFIwaXx_0kj3g&amp;ccb=10-5&amp;oh=00_Afx4ijp_Lvs4GcZwpXGRvDXcFM5OO4LqT_5vceXULca2Lg&amp;oe=69D96126&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_CuRHHB0pOodRuSeukjIG5BAvMj87BNk13rbLelQDhT3KNQ03yf4q8rPFqkqU3G4EBDMqw_ZDgroJ_f330YT-zjlPpGuYVkSTUH9aDGZmgE_NR6WGqr8PORQhtIg5ocTUpRFGxGQYTWxHeyT7ILw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdljldI_oQXomH2QkMPoiURbsQrQWur5UNzoxvBkDteklrLWB-8LJIHFIwaXx_0kj3g&amp;ccb=10-5&amp;oh=00_Afx4ijp_Lvs4GcZwpXGRvDXcFM5OO4LqT_5vceXULca2Lg&amp;oe=69D96126&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>282151476967035</code></div>
+                    <div>score=0.39641794441350414 | d=11.618602695646436m | span=24.68820145607924° | align=48.426037251142645</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/471191900  1012 East University Avenue'><div class='title'>Building way/471191900</div><div class='meta'>1012 East University Avenue • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-1z7FRpPZ0sijQ5VkgRkKVMj9L84JBuPbQ6kEfBisceUAItS3NK3gLIvoYyDeO9f658cpg5ACoJOKSsVFEGNz5DvMPTnT7d1G-mVrqXpSt-EmNnTlZ8P7oq3WmMRaCIKbO2mzwdWLpkz8eny8Gew?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk7F_gZ6IWBDqAXIc1Z-wC2O6VXLJzMZR68oJ_EgyvehvFECp9mUzTSz-xA2pS5-Hg&amp;ccb=10-5&amp;oh=00_AfxcoxNuL4I3oavTMF5dFSXzHs-CFy6qLJjSLQkA9nrspw&amp;oe=69D94D24&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-1z7FRpPZ0sijQ5VkgRkKVMj9L84JBuPbQ6kEfBisceUAItS3NK3gLIvoYyDeO9f658cpg5ACoJOKSsVFEGNz5DvMPTnT7d1G-mVrqXpSt-EmNnTlZ8P7oq3WmMRaCIKbO2mzwdWLpkz8eny8Gew?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk7F_gZ6IWBDqAXIc1Z-wC2O6VXLJzMZR68oJ_EgyvehvFECp9mUzTSz-xA2pS5-Hg&amp;ccb=10-5&amp;oh=00_AfxcoxNuL4I3oavTMF5dFSXzHs-CFy6qLJjSLQkA9nrspw&amp;oe=69D94D24&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1039665406575561</code></div>
+                    <div>score=0.2294113325676564 | d=19.565732001019924m | span=34.580009799769414° | align=54.71085846106212</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_lWGF5raN8MnoJXS6ZHVIMttEahDuxi81bUJ_qSd6vjNEzd_swKX_KiOP3mciIN2ayCFTjyv5EKU1iceXPVTeg_EXzs_wcu3OxmpFGmDprBxAfn2DOBiDwQsqMYYTHzdSjj3JvyQ_ZxGj7d_asIA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnJb-PywGvM46rBQFcZFuUP13X5_SyfaLQ57q49c3RauKmXCmj0gHCuXrTNzBuBrjI&amp;ccb=10-5&amp;oh=00_AfwEeNJ10MFmIxorS94rXwTzyJscVvLN7zLQO-x1fOgC2w&amp;oe=69D93CB9&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_lWGF5raN8MnoJXS6ZHVIMttEahDuxi81bUJ_qSd6vjNEzd_swKX_KiOP3mciIN2ayCFTjyv5EKU1iceXPVTeg_EXzs_wcu3OxmpFGmDprBxAfn2DOBiDwQsqMYYTHzdSjj3JvyQ_ZxGj7d_asIA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnJb-PywGvM46rBQFcZFuUP13X5_SyfaLQ57q49c3RauKmXCmj0gHCuXrTNzBuBrjI&amp;ccb=10-5&amp;oh=00_AfwEeNJ10MFmIxorS94rXwTzyJscVvLN7zLQO-x1fOgC2w&amp;oe=69D93CB9&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>192657519357444</code></div>
+                    <div>score=0.21953582512812425 | d=19.545055418271275m | span=36.00008402934128° | align=55.99640343061543</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/471191901  1016 East University Avenue'><div class='title'>Building way/471191901</div><div class='meta'>1016 East University Avenue • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_Jfj2efCps-bwk7lAmha_a70qsdqvd4GqTPbXckA--7vRIWFlye5T0EmEA0TjQpB1IKcifZH7LUkUF6Z5DnhJfX-h2YUfVTlvbQMRZLsfgfxDO7J78euOpa_nP5U-DYMq-moUlDRRY4MSiwD4YIA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlGssrK24yXVboKpNYDDohkbXj8c0tkVuJOdyX3wsH-LFADMNfD8nyBR3O6-5cgh6A&amp;ccb=10-5&amp;oh=00_AfyxZT0HZmwB0ErM5AKQ5_1_Fbd72ZuAYzZERi6TVUlHag&amp;oe=69D93F25&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_Jfj2efCps-bwk7lAmha_a70qsdqvd4GqTPbXckA--7vRIWFlye5T0EmEA0TjQpB1IKcifZH7LUkUF6Z5DnhJfX-h2YUfVTlvbQMRZLsfgfxDO7J78euOpa_nP5U-DYMq-moUlDRRY4MSiwD4YIA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlGssrK24yXVboKpNYDDohkbXj8c0tkVuJOdyX3wsH-LFADMNfD8nyBR3O6-5cgh6A&amp;ccb=10-5&amp;oh=00_AfyxZT0HZmwB0ErM5AKQ5_1_Fbd72ZuAYzZERi6TVUlHag&amp;oe=69D93F25&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>865091254197927</code></div>
+                    <div>score=0.21227626883542783 | d=30.46715322041633m | span=24.760464198870068° | align=31.005668122199552</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/474868754  1136 Prospect Street'><div class='title'>Building way/474868754</div><div class='meta'>1136 Prospect Street • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An97RSVt1CUmdcZXQA2waHTdKgby1Fg6hhZX0Vsh-cyelpRsQ9ZWXUH837xuMy-ROl9jro7nirWAcizIUQp2CBmOSlKBIK6V_JLJD_WK7Hjz6Y9sZRM8VfU__YwmL4qEtUU58AxpR_UbhLWz7KZDtQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkqN8_FuYgBWQtV7u-Z659E8tU9AtiNHdqolYbbsbcahdiPwLD3HYWiq8MMx2FoR7U&amp;ccb=10-6&amp;oh=00_AfxZirVLgAN9B4voqJg1YYxSDaDMRrGxJw-NFeSn9Ug8Zw&amp;oe=69D93F88&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An97RSVt1CUmdcZXQA2waHTdKgby1Fg6hhZX0Vsh-cyelpRsQ9ZWXUH837xuMy-ROl9jro7nirWAcizIUQp2CBmOSlKBIK6V_JLJD_WK7Hjz6Y9sZRM8VfU__YwmL4qEtUU58AxpR_UbhLWz7KZDtQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkqN8_FuYgBWQtV7u-Z659E8tU9AtiNHdqolYbbsbcahdiPwLD3HYWiq8MMx2FoR7U&amp;ccb=10-6&amp;oh=00_AfxZirVLgAN9B4voqJg1YYxSDaDMRrGxJw-NFeSn9Ug8Zw&amp;oe=69D93F88&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>307344600764156</code></div>
+                    <div>score=0.3484544096304272 | d=19.065581874868165m | span=24.722502401606903° | align=46.778290986483</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9ItBz9rB_u7Px5h0_FExjEpWH1EhYFAolkGkgpBPqrbyV2OKBIuXmbGen7kUZX_mjc8CyzJqdXL_mF_DHgtndgZ2DZvG280xFv_El3b6cYAe3GyZqv-1FY-kGx3rF-bYC2WaJHQrlqBoGca_0I2w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlR-ReRr17QZfQc7uwr5H0u75ci_cgjlTGwmnaLZc79ZhvzFvRHQRctqUJ_NuyA8l8&amp;ccb=10-6&amp;oh=00_Afw8Y-a9XEAUJHGWbD7kjfTKBBNj8BIixLrWzNqMUynqOw&amp;oe=69D95F58&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9ItBz9rB_u7Px5h0_FExjEpWH1EhYFAolkGkgpBPqrbyV2OKBIuXmbGen7kUZX_mjc8CyzJqdXL_mF_DHgtndgZ2DZvG280xFv_El3b6cYAe3GyZqv-1FY-kGx3rF-bYC2WaJHQrlqBoGca_0I2w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlR-ReRr17QZfQc7uwr5H0u75ci_cgjlTGwmnaLZc79ZhvzFvRHQRctqUJ_NuyA8l8&amp;ccb=10-6&amp;oh=00_Afw8Y-a9XEAUJHGWbD7kjfTKBBNj8BIixLrWzNqMUynqOw&amp;oe=69D95F58&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>218420329729328</code></div>
+                    <div>score=0.2831695110582589 | d=31.437757859850237m | span=10.046535745516394° | align=22.053746166774545</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_DRK2WhcQH8T7OgLxMf1Zvz6HD-QDw1vslaCIL1v9HCLgSneauRkVku9UFoDBpbM0tD7V8ln8VYdFCGKWo6dq4EN3SrpqP7EjaBtt93s36fnNyVSXq_tvKSOhwabR3BmcmQWCa1yvs62hsG7mjqQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmjmfxRwHYHKDaXiXpFjx8p_bJ-Bty0vML5qRtHlbCilvzBWnGA5bsbhZrjrONlUj4&amp;ccb=10-5&amp;oh=00_AfyZxoEXHwHmgvcMBBreZntzRvzvUykAvlV_KjUYPHLhlw&amp;oe=69D956FC&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_DRK2WhcQH8T7OgLxMf1Zvz6HD-QDw1vslaCIL1v9HCLgSneauRkVku9UFoDBpbM0tD7V8ln8VYdFCGKWo6dq4EN3SrpqP7EjaBtt93s36fnNyVSXq_tvKSOhwabR3BmcmQWCa1yvs62hsG7mjqQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmjmfxRwHYHKDaXiXpFjx8p_bJ-Bty0vML5qRtHlbCilvzBWnGA5bsbhZrjrONlUj4&amp;ccb=10-5&amp;oh=00_AfyZxoEXHwHmgvcMBBreZntzRvzvUykAvlV_KjUYPHLhlw&amp;oe=69D956FC&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>311965337225756</code></div>
+                    <div>score=0.23522279498400145 | d=28.451231299968356m | span=21.061420929864653° | align=34.534784223727</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/480677929  1023 Church Street'><div class='title'>Building way/480677929</div><div class='meta'>1023 Church Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An90KmFpiNmhGywXt5Vq63Ed5YHsgoUUrJHIGmyWpDFNrUp1_8BLRhIr5MWg8SZ3EULMouqUPEW65-uVitU3zxMxuK-IskUXahvaXHDvh870WG6Nim8Wd5reyGT8G31xo7df_q0khvutamY4dzrNZg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmeNEVo7p0ugUzpqR5txIqBxPCvmH0sir7GiT6jzM99nfHL7N-a_5YA6arPajQysKU&amp;ccb=10-5&amp;oh=00_Afz7AJpuBwP6hJocvDyPS0bHJaWrp7zXdNCxapgxIWxBuQ&amp;oe=69D9679A&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An90KmFpiNmhGywXt5Vq63Ed5YHsgoUUrJHIGmyWpDFNrUp1_8BLRhIr5MWg8SZ3EULMouqUPEW65-uVitU3zxMxuK-IskUXahvaXHDvh870WG6Nim8Wd5reyGT8G31xo7df_q0khvutamY4dzrNZg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmeNEVo7p0ugUzpqR5txIqBxPCvmH0sir7GiT6jzM99nfHL7N-a_5YA6arPajQysKU&amp;ccb=10-5&amp;oh=00_Afz7AJpuBwP6hJocvDyPS0bHJaWrp7zXdNCxapgxIWxBuQ&amp;oe=69D9679A&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>297539891988173</code></div>
+                    <div>score=0.41614845729208694 | d=11.3359802676491m | span=22.556744430429987° | align=44.74592570375874</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502195837  1121 Packard Street'><div class='title'>Building way/502195837</div><div class='meta'>1121 Packard Street • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_p2AO6Pbj-lo9UI0NLISw5zmtksZMVOJGc6H8lHZQbcp4CTCnLr09NvNnWRrgXHxfnFL2TaMX8O8EXdI8X-7OB8v1IlOoaTG5EA8x3qEhRI0i29GP3qNfHbSoAsLf2SlTgNSGzTERtB2INrT0N_uc?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkEl_bLmdzwDSFVmzwA0VZUIuK5FvADjBBq8rGil4FGC5PEsKYe4LSFV7osDWgG-HI&amp;ccb=10-5&amp;oh=00_AfxSb8HavpiKYHZiOlPqrL-80odVU3cvfH9UuyRMecjJcA&amp;oe=69D9352B&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_p2AO6Pbj-lo9UI0NLISw5zmtksZMVOJGc6H8lHZQbcp4CTCnLr09NvNnWRrgXHxfnFL2TaMX8O8EXdI8X-7OB8v1IlOoaTG5EA8x3qEhRI0i29GP3qNfHbSoAsLf2SlTgNSGzTERtB2INrT0N_uc?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkEl_bLmdzwDSFVmzwA0VZUIuK5FvADjBBq8rGil4FGC5PEsKYe4LSFV7osDWgG-HI&amp;ccb=10-5&amp;oh=00_AfxSb8HavpiKYHZiOlPqrL-80odVU3cvfH9UuyRMecjJcA&amp;oe=69D9352B&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1705661546301757</code></div>
+                    <div>score=0.5829180548000915 | d=5.535483568253281m | span=0.20617707507278737° | align=21.196772195980884</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9kA3qSlTJr8W08LHPvAnIERLa9_GuBbUDo4hpQLceAtieEeVv3Z_AD0heYOKd-AHZYCL4TQKSJ-c-_KSz0JQ4MIdojzHnhpbh3WIedu5pOV5i7nQGjFw93EAkvlXkgiel8xSCup8DTAnXQjktZPw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adkpp9etIyJzX1gqZg73KJR66Jn_nmn2w2MFhYEC8tBvdwPgswMmyFJgP6o9J43vZwQ&amp;ccb=10-5&amp;oh=00_Afwe-IWs1VFKnCV2YeJo1uSIwD1Gu2IgydURmuXt6qpYaQ&amp;oe=69D934CA&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9kA3qSlTJr8W08LHPvAnIERLa9_GuBbUDo4hpQLceAtieEeVv3Z_AD0heYOKd-AHZYCL4TQKSJ-c-_KSz0JQ4MIdojzHnhpbh3WIedu5pOV5i7nQGjFw93EAkvlXkgiel8xSCup8DTAnXQjktZPw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adkpp9etIyJzX1gqZg73KJR66Jn_nmn2w2MFhYEC8tBvdwPgswMmyFJgP6o9J43vZwQ&amp;ccb=10-5&amp;oh=00_Afwe-IWs1VFKnCV2YeJo1uSIwD1Gu2IgydURmuXt6qpYaQ&amp;oe=69D934CA&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>320284126181832</code></div>
+                    <div>score=0.5634305805825846 | d=6.524889634884567m | span=2.1521839229858415° | align=22.709985327266963</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502195841  1116 Wells Street'><div class='title'>Building way/502195841</div><div class='meta'>1116 Wells Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_AO6YFqx2yWl4zOE2njm0LrNfYbyTneEwhCJxAEE-pzmpzbtznarNrmD_hoLVDfFVacGWPC5b1bw-c2_uUTwRtqeviMeT_ue5NZGtlG_BibJWfkl6EJbEG9QmNiYdxvPQQ1hJIOJmhbeVT1z529w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm6EC7J3wTrTN-TH9O2xgpOCNZkmB5MbtqnHTrDRZVsyC4baPkuo8yA7mtq7nUOtfw&amp;ccb=10-5&amp;oh=00_AfzZjsc5REsZt69rHMe8iM6KZ-SLQKGFbzSl6iW5zAaVig&amp;oe=69D93EC1&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_AO6YFqx2yWl4zOE2njm0LrNfYbyTneEwhCJxAEE-pzmpzbtznarNrmD_hoLVDfFVacGWPC5b1bw-c2_uUTwRtqeviMeT_ue5NZGtlG_BibJWfkl6EJbEG9QmNiYdxvPQQ1hJIOJmhbeVT1z529w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm6EC7J3wTrTN-TH9O2xgpOCNZkmB5MbtqnHTrDRZVsyC4baPkuo8yA7mtq7nUOtfw&amp;ccb=10-5&amp;oh=00_AfzZjsc5REsZt69rHMe8iM6KZ-SLQKGFbzSl6iW5zAaVig&amp;oe=69D93EC1&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>149851670442133</code></div>
+                    <div>score=0.37596210421157206 | d=11.073247065088214m | span=29.572728326673257° | align=55.59216271357053</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502195846  1200 Wells Street'><div class='title'>Building way/502195846</div><div class='meta'>1200 Wells Street • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Ow-fomxXIP9vK-t65ozvIplvzzbZ1NRNewuxkRKdSda1RXTR4eBx67PLIyQLz-jhAeQXYckwld6ZDoAH70o5OmCq9dMonWbTn8ziV-6H4_ocg9x3bTT3cS14LJfBwMxc9KozMnV3MnhRK1mNQqYQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlVJEuzlkMTPpl9N4fz6XFUppQWBpD0TFdMSIqJCeAQ-3QSwJGtYgG3jnEupZJFypE&amp;ccb=10-5&amp;oh=00_AfxPsK1CJPBcn9h9MsA8RvygKwHF3fkQe_tkuZvFyaZS6g&amp;oe=69D96835&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Ow-fomxXIP9vK-t65ozvIplvzzbZ1NRNewuxkRKdSda1RXTR4eBx67PLIyQLz-jhAeQXYckwld6ZDoAH70o5OmCq9dMonWbTn8ziV-6H4_ocg9x3bTT3cS14LJfBwMxc9KozMnV3MnhRK1mNQqYQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlVJEuzlkMTPpl9N4fz6XFUppQWBpD0TFdMSIqJCeAQ-3QSwJGtYgG3jnEupZJFypE&amp;ccb=10-5&amp;oh=00_AfxPsK1CJPBcn9h9MsA8RvygKwHF3fkQe_tkuZvFyaZS6g&amp;oe=69D96835&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>123341596443522</code></div>
+                    <div>score=0.34548217715664076 | d=16.843890802520356m | span=18.40283732536392° | align=35.789549662188165</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9yM_JhdULNUFidMhg7nQGpdP9yy6X3r73VMYSjs8FEg2TBQbCr0Z2BbWi80ViIX3aMUu8TOLLPyhgWuYAznka7-a-_PMkaAx3oSatF20VasBLp518XnSTDaGlPEFFBkBytdlsIPoBfrft7Q5DULac?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmKIcgQOmNFbp2nSyasj2EBOpztPFUUxJ3H92jet599XgUM3gUr8Cb9UA3YBxWnC0w&amp;ccb=10-6&amp;oh=00_AfwQo0hUPIbasszlYNiCY69d7NNyAG4VE6Rsc2hsLUwBOQ&amp;oe=69D95BEA&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9yM_JhdULNUFidMhg7nQGpdP9yy6X3r73VMYSjs8FEg2TBQbCr0Z2BbWi80ViIX3aMUu8TOLLPyhgWuYAznka7-a-_PMkaAx3oSatF20VasBLp518XnSTDaGlPEFFBkBytdlsIPoBfrft7Q5DULac?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmKIcgQOmNFbp2nSyasj2EBOpztPFUUxJ3H92jet599XgUM3gUr8Cb9UA3YBxWnC0w&amp;ccb=10-6&amp;oh=00_AfwQo0hUPIbasszlYNiCY69d7NNyAG4VE6Rsc2hsLUwBOQ&amp;oe=69D95BEA&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>563383254647493</code></div>
+                    <div>score=0.30058565636399226 | d=22.200346738636576m | span=14.355643540354265° | align=25.19875775358082</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502195851  1208 Wells Street'><div class='title'>Building way/502195851</div><div class='meta'>1208 Wells Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_vAvym0dIpSFLNIvQvlYhDPdAyNkuCzP7SIChW1hOYLazx09p2NtOxACMuaO5SQ6aFMnwUyhhdySZzFpbqivB8pMXA8gIxUBa-yAhyfClCIWQwFzlIvU4pvzhFYkm7Kx5JAZSyXD-wf0Zev05vew?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdksRvcn08GT1ZayZc4JzPnCHsXfHeUSNibxs3xT5NT_6qBuOpcZSWyTIh8JXkMYQtQ&amp;ccb=10-5&amp;oh=00_AfwfHCJtnMh70_sSK5-tcrSg5DkDdsDOA6CG6YPSs3EQfA&amp;oe=69D93DA3&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_vAvym0dIpSFLNIvQvlYhDPdAyNkuCzP7SIChW1hOYLazx09p2NtOxACMuaO5SQ6aFMnwUyhhdySZzFpbqivB8pMXA8gIxUBa-yAhyfClCIWQwFzlIvU4pvzhFYkm7Kx5JAZSyXD-wf0Zev05vew?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdksRvcn08GT1ZayZc4JzPnCHsXfHeUSNibxs3xT5NT_6qBuOpcZSWyTIh8JXkMYQtQ&amp;ccb=10-5&amp;oh=00_AfwfHCJtnMh70_sSK5-tcrSg5DkDdsDOA6CG6YPSs3EQfA&amp;oe=69D93DA3&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>503259327706810</code></div>
+                    <div>score=0.26839215154592205 | d=17.463879963903256m | span=32.978003021294654° | align=56.94504813368047</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502195853  1109 Wells Street'><div class='title'>Building way/502195853</div><div class='meta'>1109 Wells Street • 4 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_5bMELIqIClHuK0TJA-SvgVW08f6xq_pA2iFoZOZRbDV3WWMOvzVClF00t33foinYt1uK1bvX9LNA_1HZbsnlovtWnWS-i7Z3rDGL5wZLLsBikygOQczptn5B2vHSifRcEXA8LeyCC6uAYzEsmkuk?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkrGzH3nzJWjDAFAXSsgp3XBdyX1XKKo9dxez-5NybrlDa_VsUGhEljP8N5nEdxTs4&amp;ccb=10-5&amp;oh=00_AfxMxWpqGCqUswDSLlwmQE_TCY5E7qFH1pSurpoWkXawcQ&amp;oe=69D94941&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_5bMELIqIClHuK0TJA-SvgVW08f6xq_pA2iFoZOZRbDV3WWMOvzVClF00t33foinYt1uK1bvX9LNA_1HZbsnlovtWnWS-i7Z3rDGL5wZLLsBikygOQczptn5B2vHSifRcEXA8LeyCC6uAYzEsmkuk?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkrGzH3nzJWjDAFAXSsgp3XBdyX1XKKo9dxez-5NybrlDa_VsUGhEljP8N5nEdxTs4&amp;ccb=10-5&amp;oh=00_AfxMxWpqGCqUswDSLlwmQE_TCY5E7qFH1pSurpoWkXawcQ&amp;oe=69D94941&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>214537297102177</code></div>
+                    <div>score=0.6676620232312007 | d=2.6626464852071656m | span=13.05288983328444° | align=88.80310884713151</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An93kkocvOyzJvusiXQEiiE-TFf2H_9dCE0-xIhX-NdFt_ECc_EpDQIEt69F0f2XoYr8Cj_1nusLiIFEouQkPtHkQkySI-EI4jkAjAWsPt65LrM_C0116_zCRCP5HiI_0aI3IPaNQwGgzWXGcN23rA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnhsDPaAsQ4cC5PFgWRSolMgUIupZK_L0GNw8HsVtvE-IQVvB-2mrlbq1BWMCLGy04&amp;ccb=10-5&amp;oh=00_Afz3SSoi2j9xaQH5RcchiwLecZ0yvKWLqLKZ4iO0dZhyOQ&amp;oe=69D94388&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An93kkocvOyzJvusiXQEiiE-TFf2H_9dCE0-xIhX-NdFt_ECc_EpDQIEt69F0f2XoYr8Cj_1nusLiIFEouQkPtHkQkySI-EI4jkAjAWsPt65LrM_C0116_zCRCP5HiI_0aI3IPaNQwGgzWXGcN23rA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnhsDPaAsQ4cC5PFgWRSolMgUIupZK_L0GNw8HsVtvE-IQVvB-2mrlbq1BWMCLGy04&amp;ccb=10-5&amp;oh=00_Afz3SSoi2j9xaQH5RcchiwLecZ0yvKWLqLKZ4iO0dZhyOQ&amp;oe=69D94388&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>258219582674674</code></div>
+                    <div>score=0.5951780203534728 | d=1.927609645472702m | span=27.840053693008713° | align=90.0135199141672</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_0n1xRKMRVJvx-DQdFhqahYgbwjXVaefzAHp0DbYEoi0y9edcK2rs8hrqgn8jw7JwB0nVpq5NSlkjxOu1LS1ygMfuMAd6_PhexMBVHmA46IyHiLdS7jAj5Q2om9Vmy0NwryWjKvg0ndp2IztiIXA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn9yQfHhT84Jc3AMJ_iJ_3pCXkjTS5qEPNjD-wV2bbHCuWDMrAzimlD7Pu-Q0U5T_A&amp;ccb=10-5&amp;oh=00_AfzX5inVioCOLIGcW-93cvRUckOrPUkuXvLj1jmW004q_g&amp;oe=69D93940&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_0n1xRKMRVJvx-DQdFhqahYgbwjXVaefzAHp0DbYEoi0y9edcK2rs8hrqgn8jw7JwB0nVpq5NSlkjxOu1LS1ygMfuMAd6_PhexMBVHmA46IyHiLdS7jAj5Q2om9Vmy0NwryWjKvg0ndp2IztiIXA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn9yQfHhT84Jc3AMJ_iJ_3pCXkjTS5qEPNjD-wV2bbHCuWDMrAzimlD7Pu-Q0U5T_A&amp;ccb=10-5&amp;oh=00_AfzX5inVioCOLIGcW-93cvRUckOrPUkuXvLj1jmW004q_g&amp;oe=69D93940&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>575085453463442</code></div>
+                    <div>score=0.5258942734697584 | d=8.24978631017625m | span=7.477355700262251° | align=36.498536849288655</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-cCd3v5gIgCUGN_wfWN-a77GOXKby0DO-gsTiP5UsIfaECrGo5rvNJSeryjN7g64ziNzlRJpC6HzTvXZfrlNUUp15DULjeICN9-5fP12rW4UYS6zcAylbl2gkv3lFDL86soXtliCoSV-0xJtzaUA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk0CodmB269IjzGx1W-PNZRTjAUmz937z_g_lDt7X-fMQxGyvMt1-IOknCjTgIeRrE&amp;ccb=10-5&amp;oh=00_AfySAyy9FK0PHJput6a3ahIuTk-yewhLnQ_9rMTUEU5RAQ&amp;oe=69D94340&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-cCd3v5gIgCUGN_wfWN-a77GOXKby0DO-gsTiP5UsIfaECrGo5rvNJSeryjN7g64ziNzlRJpC6HzTvXZfrlNUUp15DULjeICN9-5fP12rW4UYS6zcAylbl2gkv3lFDL86soXtliCoSV-0xJtzaUA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk0CodmB269IjzGx1W-PNZRTjAUmz937z_g_lDt7X-fMQxGyvMt1-IOknCjTgIeRrE&amp;ccb=10-5&amp;oh=00_AfySAyy9FK0PHJput6a3ahIuTk-yewhLnQ_9rMTUEU5RAQ&amp;oe=69D94340&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#4</div>
+                    <div><code>296559742025886</code></div>
+                    <div>score=0.5241593908206679 | d=8.055241242620246m | span=8.20297479582132° | align=36.12380367072194</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502195856  1140 Michigan Avenue'><div class='title'>Building way/502195856</div><div class='meta'>1140 Michigan Avenue • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_Bc7xS7niLSh1wfRbO44u82c-Jh3iq4X8xoH6HT3P95Awce-VJPFKimrMyfmbHSubCG8QoQx9uxTfaSyEmRD_y38sxbmioS9GV33-eBYUmAbs-2TtA0Ytkz823NNcHszMaAXeyiuACg1KcpdihLw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkoT0sg4Mn8TzufwvCGXrD2NaGFZx6-5tl76IA8w_NcvDaUvS4K22brfB8Lcg3mVSg&amp;ccb=10-5&amp;oh=00_AfxViI8zL7s1x94gOvzndedM3VLaQWzlTDzWOYVL1tqnZA&amp;oe=69D93B39&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_Bc7xS7niLSh1wfRbO44u82c-Jh3iq4X8xoH6HT3P95Awce-VJPFKimrMyfmbHSubCG8QoQx9uxTfaSyEmRD_y38sxbmioS9GV33-eBYUmAbs-2TtA0Ytkz823NNcHszMaAXeyiuACg1KcpdihLw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkoT0sg4Mn8TzufwvCGXrD2NaGFZx6-5tl76IA8w_NcvDaUvS4K22brfB8Lcg3mVSg&amp;ccb=10-5&amp;oh=00_AfxViI8zL7s1x94gOvzndedM3VLaQWzlTDzWOYVL1tqnZA&amp;oe=69D93B39&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>852028278744246</code></div>
+                    <div>score=0.4631441144631309 | d=6.97441863542963m | span=26.044780331457673° | align=85.99887712805969</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_wC2k5xg1oFe7SxC-9BfSxA1Z542JbQ4h8dJOf8GcIhpP9VD6eo6dFL_WTOKaWErCVzfJQsrsYnccnpMFM5ea1Q674GsN9RsATtvuOvb5Pk3_6NjUyGr2gLdd6LwdYI7NaFWK-MJ9D2E-H-AxbTEI?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnnwmcWt68f6P7hQQ8MIcbwQXh0nkn1O5qT5pPZ6fSR2TFrQszZyDoFTe8_Ye700Dg&amp;ccb=10-5&amp;oh=00_AfzFO4oNpvncd4YRp3q7K2bWFD8IOWQsUW560h6ORRJJIQ&amp;oe=69D9599D&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_wC2k5xg1oFe7SxC-9BfSxA1Z542JbQ4h8dJOf8GcIhpP9VD6eo6dFL_WTOKaWErCVzfJQsrsYnccnpMFM5ea1Q674GsN9RsATtvuOvb5Pk3_6NjUyGr2gLdd6LwdYI7NaFWK-MJ9D2E-H-AxbTEI?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnnwmcWt68f6P7hQQ8MIcbwQXh0nkn1O5qT5pPZ6fSR2TFrQszZyDoFTe8_Ye700Dg&amp;ccb=10-5&amp;oh=00_AfzFO4oNpvncd4YRp3q7K2bWFD8IOWQsUW560h6ORRJJIQ&amp;oe=69D9599D&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>799083961037949</code></div>
+                    <div>score=0.46208473740714184 | d=8.390793196276002m | span=18.835192109911986° | align=59.87278111217813</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8Bj4exr91dsqs5NQGUOsTFdXQah23vblqB4Fgr36WVm6SRbsQdv4EH3yCgLNImgZxl293YeYvCTeKqKuxCu8yiTueLqmSreptCDFk2JvMgRlCPYActRz5C_qizd8B61NwDaE90iYl_qgmu9eZuHg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnECThc1h4L7NWV1hQE1Ktm6JujlZa0lRBULcmnvB8ZHV6a8a8bmjQqtAk6xw7QErI&amp;ccb=10-6&amp;oh=00_Afyyt9mbOaXeMica8lz-iTlmeXSZlYdoBszH-8_3XUevhQ&amp;oe=69D9605D&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8Bj4exr91dsqs5NQGUOsTFdXQah23vblqB4Fgr36WVm6SRbsQdv4EH3yCgLNImgZxl293YeYvCTeKqKuxCu8yiTueLqmSreptCDFk2JvMgRlCPYActRz5C_qizd8B61NwDaE90iYl_qgmu9eZuHg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnECThc1h4L7NWV1hQE1Ktm6JujlZa0lRBULcmnvB8ZHV6a8a8bmjQqtAk6xw7QErI&amp;ccb=10-6&amp;oh=00_Afyyt9mbOaXeMica8lz-iTlmeXSZlYdoBszH-8_3XUevhQ&amp;oe=69D9605D&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>388709025533201</code></div>
+                    <div>score=0.19435759270919364 | d=31.801577911218384m | span=18.046483379172855° | align=24.512376888532458</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502788283  1139 Michigan Avenue'><div class='title'>Building way/502788283</div><div class='meta'>1139 Michigan Avenue • 6 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9CrYMF-6B6fZkSdgdXlQ7pzrG6UI4wasfnieuH0lF0p17iyjedHu2cEPRckb_-vAbu8YdRmFy-xt4fIGiZnWAkL3dqPuZyIrW0kCZvVlcPtV-3AbX_8yN6Yq6107FWgsTrry1rNlWyqWilUz7dvQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkZi70wgwu0skvkHsiI363DlaR68pC3fHqHJwBpwtL9sexJxyFkIeEDxZ-JBm927hY&amp;ccb=10-5&amp;oh=00_AfwYtbLKqReRHAL3vEGFPE6fOXZzJ1dCXEWwVS8TNf_24w&amp;oe=69D968AB&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9CrYMF-6B6fZkSdgdXlQ7pzrG6UI4wasfnieuH0lF0p17iyjedHu2cEPRckb_-vAbu8YdRmFy-xt4fIGiZnWAkL3dqPuZyIrW0kCZvVlcPtV-3AbX_8yN6Yq6107FWgsTrry1rNlWyqWilUz7dvQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkZi70wgwu0skvkHsiI363DlaR68pC3fHqHJwBpwtL9sexJxyFkIeEDxZ-JBm927hY&amp;ccb=10-5&amp;oh=00_AfwYtbLKqReRHAL3vEGFPE6fOXZzJ1dCXEWwVS8TNf_24w&amp;oe=69D968AB&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>157287969677588</code></div>
+                    <div>score=0.4639048114850097 | d=7.9431061443598185m | span=20.64061769648606° | align=49.62432094933774</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-D2dVGNquDJAW0sV93Y4B1dYU8LEy_-21T05aQiCX2bOi7hAWv4-Fz4rtYtb2F-lkOO1b6amiFF22PRAeic8QlrmmlPV7VnU85cqs4W6Vdb7JIowy2wjI33kR_NDcZzrHUzWDoMG5NNxDH9oICmA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn8BtQ1a13thKsnQsz6g4C5dcguTJ9zVYGgIF52BdXKjJaH9a2N-9aUYBKdOX2FN2Q&amp;ccb=10-5&amp;oh=00_AfyhStQlJzCwj8pTuhjBnbjRgSp1ZcoVvQktKIlYDlg_dg&amp;oe=69D9339E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-D2dVGNquDJAW0sV93Y4B1dYU8LEy_-21T05aQiCX2bOi7hAWv4-Fz4rtYtb2F-lkOO1b6amiFF22PRAeic8QlrmmlPV7VnU85cqs4W6Vdb7JIowy2wjI33kR_NDcZzrHUzWDoMG5NNxDH9oICmA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn8BtQ1a13thKsnQsz6g4C5dcguTJ9zVYGgIF52BdXKjJaH9a2N-9aUYBKdOX2FN2Q&amp;ccb=10-5&amp;oh=00_AfyhStQlJzCwj8pTuhjBnbjRgSp1ZcoVvQktKIlYDlg_dg&amp;oe=69D9339E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>922596845225454</code></div>
+                    <div>score=0.4292670393043556 | d=8.795701914948836m | span=24.30902775717493° | align=60.154983629447884</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8R2767BIhifrvOkh7IFmnQsJiSUI9Y0r1HlTYG5tEhMTKzqFcUDNeCER1n1YMxcXQtWq5McPjkjwXDW1sKlm6nid7xb88hzB2LWjKYi6yQPwDc5QB5SU6EqOkecWc_bdx1Z9rvqAiamSRM47_nMw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk22d33V_gzMJaWDFbU0aHw1heSJsXAwE5R2y20p5oLqwKFECOolKjMVdfDCyVT_wo&amp;ccb=10-5&amp;oh=00_AfzaOCnrJIj5qsFsYe8ZlvfWLFxEblwnfmi2M1HxZXl6Ng&amp;oe=69D95870&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8R2767BIhifrvOkh7IFmnQsJiSUI9Y0r1HlTYG5tEhMTKzqFcUDNeCER1n1YMxcXQtWq5McPjkjwXDW1sKlm6nid7xb88hzB2LWjKYi6yQPwDc5QB5SU6EqOkecWc_bdx1Z9rvqAiamSRM47_nMw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk22d33V_gzMJaWDFbU0aHw1heSJsXAwE5R2y20p5oLqwKFECOolKjMVdfDCyVT_wo&amp;ccb=10-5&amp;oh=00_AfzaOCnrJIj5qsFsYe8ZlvfWLFxEblwnfmi2M1HxZXl6Ng&amp;oe=69D95870&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>1183177148777712</code></div>
+                    <div>score=0.39451559523591284 | d=18.933161041491285m | span=14.651071996567282° | align=25.895259278581932</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8aFkeijhrDZSFhmy-ZhUm5L7SLBd_33vXpXtgxzgXewagtKTZf2YBUABSozRnecW1s79c8ufhqddmtvMfowW7cp3f00uhheMYpEwg2HyqjlTJwDD8kBDXZE6sjnPz8kgEmbCCDmbP-cxe-HoSFMg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnQfIC_AXkVlS164FeafYH_Gp0vyTbp48KXh7eZqOxnxy0GzGTILq6yKQEhGLL7IIg&amp;ccb=10-5&amp;oh=00_AfzejT7IKZ6WFV7gLBECMhghOdAnadtUeovcgDcHiP1YQA&amp;oe=69D9656C&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8aFkeijhrDZSFhmy-ZhUm5L7SLBd_33vXpXtgxzgXewagtKTZf2YBUABSozRnecW1s79c8ufhqddmtvMfowW7cp3f00uhheMYpEwg2HyqjlTJwDD8kBDXZE6sjnPz8kgEmbCCDmbP-cxe-HoSFMg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnQfIC_AXkVlS164FeafYH_Gp0vyTbp48KXh7eZqOxnxy0GzGTILq6yKQEhGLL7IIg&amp;ccb=10-5&amp;oh=00_AfzejT7IKZ6WFV7gLBECMhghOdAnadtUeovcgDcHiP1YQA&amp;oe=69D9656C&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#4</div>
+                    <div><code>2046379952169500</code></div>
+                    <div>score=0.3112911006775724 | d=22.560103379096937m | span=11.741642754832696° | align=18.10469798156896</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9F4j-E9hsuAy4PIy34jhOACdOjEZrufcXeYVKzlmqD83yD_Wd7gGDO3eg41DB1xklYphlt1FKDKGMDtSDJkUo8VDooXux-h6ryJr1n_DdSgZFbvx9T5wtHBtc8cECItOsi8gOlDXRRbAwnniEYTw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkjOo8k1Hw6DudNl1RzFRWjkvcHMBoGPk19FCFADa4Ap-xXB5AR93JyxKzgw3mdZwM&amp;ccb=10-5&amp;oh=00_AfzL-XQZbmraisP_Rbud9y__GCuA7PCrSWHkIOKF2pOuVw&amp;oe=69D94C01&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9F4j-E9hsuAy4PIy34jhOACdOjEZrufcXeYVKzlmqD83yD_Wd7gGDO3eg41DB1xklYphlt1FKDKGMDtSDJkUo8VDooXux-h6ryJr1n_DdSgZFbvx9T5wtHBtc8cECItOsi8gOlDXRRbAwnniEYTw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkjOo8k1Hw6DudNl1RzFRWjkvcHMBoGPk19FCFADa4Ap-xXB5AR93JyxKzgw3mdZwM&amp;ccb=10-5&amp;oh=00_AfzL-XQZbmraisP_Rbud9y__GCuA7PCrSWHkIOKF2pOuVw&amp;oe=69D94C01&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#5</div>
+                    <div><code>940681560104528</code></div>
+                    <div>score=0.23735277467075633 | d=13.625195846059405m | span=41.3615889198349° | align=77.24621387124404</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An82yV3ePKSZ0t_5tcug0A1DGo0Yui3zssI7kDZUtdyyN5XX6ojWjD1QgzrTtCkccKLPC0IMSohIrc1_rofWBTUE7zW4oFhf1ney1JiXHDEy2V6osJ7Fx0pLd_kUUoKNIFycg3nsA_oFtZZgiVaywg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmqYtbxNFGzRhTjH9STOD0kcbBD2oyd6DsRX49T2I9DeavgQxhT6jUoNXJa6WHKTRo&amp;ccb=10-5&amp;oh=00_Afz2sNKbmYPfeJZLUnjvwNhduYwZv4pyGQzXb3zjCRGpPg&amp;oe=69D94003&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An82yV3ePKSZ0t_5tcug0A1DGo0Yui3zssI7kDZUtdyyN5XX6ojWjD1QgzrTtCkccKLPC0IMSohIrc1_rofWBTUE7zW4oFhf1ney1JiXHDEy2V6osJ7Fx0pLd_kUUoKNIFycg3nsA_oFtZZgiVaywg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmqYtbxNFGzRhTjH9STOD0kcbBD2oyd6DsRX49T2I9DeavgQxhT6jUoNXJa6WHKTRo&amp;ccb=10-5&amp;oh=00_Afz2sNKbmYPfeJZLUnjvwNhduYwZv4pyGQzXb3zjCRGpPg&amp;oe=69D94003&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#6</div>
+                    <div><code>1955233727950168</code></div>
+                    <div>score=0.22544126877097206 | d=31.107013579144343m | span=13.65878688192879° | align=17.98829012474016</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502788285  1137 Michigan Avenue'><div class='title'>Building way/502788285</div><div class='meta'>1137 Michigan Avenue • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An83iHZaMt-XvM6AirLGuW0USWVw5aqsotE-m7tBOM7eKOXXqg2j6NoakBqY0OAXsLxiPPWm1luT4JS8Orj8asqOObUXLEn2s45ZkxTPaCuMMUzs5h3ySA9PaXWE9LIFEsZGLHq9vKCaYUmlc7Qu1A?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnjfPjL2An1ucZiZzG-ifVmgsbd072i9b2fNN8sMKiUgZ5Ro759ffarKbLeaYT8ZnU&amp;ccb=10-5&amp;oh=00_AfykZ6exi-rH0k9A_lT9htbsvcd9vnhqLhZXAxaAZkVRdg&amp;oe=69D95BBC&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An83iHZaMt-XvM6AirLGuW0USWVw5aqsotE-m7tBOM7eKOXXqg2j6NoakBqY0OAXsLxiPPWm1luT4JS8Orj8asqOObUXLEn2s45ZkxTPaCuMMUzs5h3ySA9PaXWE9LIFEsZGLHq9vKCaYUmlc7Qu1A?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnjfPjL2An1ucZiZzG-ifVmgsbd072i9b2fNN8sMKiUgZ5Ro759ffarKbLeaYT8ZnU&amp;ccb=10-5&amp;oh=00_AfykZ6exi-rH0k9A_lT9htbsvcd9vnhqLhZXAxaAZkVRdg&amp;oe=69D95BBC&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>585717029075520</code></div>
+                    <div>score=0.2733665323817946 | d=19.527596392704627m | span=27.642290875599883° | align=44.43654551647222</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502788289  1133 Michigan Avenue'><div class='title'>Building way/502788289</div><div class='meta'>1133 Michigan Avenue • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_M5gcSgHFSlbmA0rKQ9GFw6W634kWcAf-jilVDS1-NVnV4XRoxRkjgwmgn78PdTXAdg4WOpyodFHEYOKGKln-84LR6H0I1jpWYQeqrS9RKLgPBljHuLaLph8F6XbP75hTL-ex-Ue4IXfafRU0oYA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn-Ue_e8CGWyXT59VHerWfJxVtZU5NNZPsbwt1BkTN4spHvmkUWYXUpGno9tqMFY2o&amp;ccb=10-5&amp;oh=00_AfxpG5Jo7SpgkW8ALRyWTErpbJwWVxwLbPXHU55xNrfeNg&amp;oe=69D96A07&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_M5gcSgHFSlbmA0rKQ9GFw6W634kWcAf-jilVDS1-NVnV4XRoxRkjgwmgn78PdTXAdg4WOpyodFHEYOKGKln-84LR6H0I1jpWYQeqrS9RKLgPBljHuLaLph8F6XbP75hTL-ex-Ue4IXfafRU0oYA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn-Ue_e8CGWyXT59VHerWfJxVtZU5NNZPsbwt1BkTN4spHvmkUWYXUpGno9tqMFY2o&amp;ccb=10-5&amp;oh=00_AfxpG5Jo7SpgkW8ALRyWTErpbJwWVxwLbPXHU55xNrfeNg&amp;oe=69D96A07&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>218563279722282</code></div>
+                    <div>score=0.290967088008096 | d=15.573958487800892m | span=31.663156242944922° | align=53.84049277134682</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502788301'><div class='title'>Building way/502788301</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-V3HpxDim1PHHUt2zsmJztasVIWQ7U1XjcxCOjcbvCvfJ1UgZ9utHBzE5aOyNj0yPtrhDkO-YkxbYF193u53Uunsm2Bviaybv-uHlzg-Q3-gb1GjybyOfvhc53mg2wPvXbt28vs3LzwQIygf9Rlw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmTB9QQ2VxVcnEkxqQaAJ6EMRQZeozq1KCb76jYW3rsbO753P6wKA09ANepKhcWU4I&amp;ccb=10-5&amp;oh=00_AfzZTJrHqyY6PJ9PdW-Z8QEGPOITzlM2NPRlL5pNk5ZoKA&amp;oe=69D95AAA&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-V3HpxDim1PHHUt2zsmJztasVIWQ7U1XjcxCOjcbvCvfJ1UgZ9utHBzE5aOyNj0yPtrhDkO-YkxbYF193u53Uunsm2Bviaybv-uHlzg-Q3-gb1GjybyOfvhc53mg2wPvXbt28vs3LzwQIygf9Rlw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmTB9QQ2VxVcnEkxqQaAJ6EMRQZeozq1KCb76jYW3rsbO753P6wKA09ANepKhcWU4I&amp;ccb=10-5&amp;oh=00_AfzZTJrHqyY6PJ9PdW-Z8QEGPOITzlM2NPRlL5pNk5ZoKA&amp;oe=69D95AAA&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1461768257488975</code></div>
+                    <div>score=0.19594468208676022 | d=25.67866104737787m | span=27.687069761069836° | align=43.16101043911692</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/502788302  1111 Michigan Avenue'><div class='title'>Building way/502788302</div><div class='meta'>1111 Michigan Avenue • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-VdKs_Q8EFScxIwQpEAlUJ7oVkWzTONWNlsHnzWQ3qcX3NT5xICIfX_O3k7T8HoI_3WYhIsIa7IxHB3vQLzXHA7-D8UC7dW1mQz1-_Vqaucif7EQJlVrnLpvXuj2kBDK5oLTCGRJt7Jx4xeibQgKM?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adlo_nMSw9Z9HCBiaeT_jBRJAT0cVAVnFs0Y7PHjdzH4TrjioPkfUCy2_C53DuEHbN4&amp;ccb=10-5&amp;oh=00_AfwV7PYTTTPyBLIQdoCtp68_pFivQsogd6PMBNnu3aKMdA&amp;oe=69D94EA0&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-VdKs_Q8EFScxIwQpEAlUJ7oVkWzTONWNlsHnzWQ3qcX3NT5xICIfX_O3k7T8HoI_3WYhIsIa7IxHB3vQLzXHA7-D8UC7dW1mQz1-_Vqaucif7EQJlVrnLpvXuj2kBDK5oLTCGRJt7Jx4xeibQgKM?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adlo_nMSw9Z9HCBiaeT_jBRJAT0cVAVnFs0Y7PHjdzH4TrjioPkfUCy2_C53DuEHbN4&amp;ccb=10-5&amp;oh=00_AfwV7PYTTTPyBLIQdoCtp68_pFivQsogd6PMBNnu3aKMdA&amp;oe=69D94EA0&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>254394896466972</code></div>
+                    <div>score=0.24162030650787494 | d=22.719427596567797m | span=28.19067976656828° | align=40.002016107314034</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8Q_WD4PGDBXqwtyKvvdRUCB_Nm-YCpVx1im6KfwED53zuzMrzQn77jdLcusR6Pbiq_tQXR3Q_blGFh7WnZDf-C9mj7OFt8TT_EWnrLeNJTWb-SwrYtj3Yz4mX-xWcM_93rZD6LXIjksBj7xzZx4w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnfV22Z3k9Cp0FgnuUqbJIUyesriO9Pxpx21NAnncB8tcuShJ_hhc9T90i5mAM5P28&amp;ccb=10-5&amp;oh=00_AfxoYFYvTVvyAI3Y8rtx0qUSYGCTFnQeXhnKIDO9ZMrp5A&amp;oe=69D94AB1&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8Q_WD4PGDBXqwtyKvvdRUCB_Nm-YCpVx1im6KfwED53zuzMrzQn77jdLcusR6Pbiq_tQXR3Q_blGFh7WnZDf-C9mj7OFt8TT_EWnrLeNJTWb-SwrYtj3Yz4mX-xWcM_93rZD6LXIjksBj7xzZx4w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnfV22Z3k9Cp0FgnuUqbJIUyesriO9Pxpx21NAnncB8tcuShJ_hhc9T90i5mAM5P28&amp;ccb=10-5&amp;oh=00_AfxoYFYvTVvyAI3Y8rtx0qUSYGCTFnQeXhnKIDO9ZMrp5A&amp;oe=69D94AB1&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>464093771516816</code></div>
+                    <div>score=0.23174605402042184 | d=18.543878066716182m | span=35.68131417821985° | align=53.9087332689827</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/503372026  1230 Woodlawn Avenue'><div class='title'>Building way/503372026</div><div class='meta'>1230 Woodlawn Avenue • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-GFo4vuRZlofPnZxT1WA4jPd790B44hQRuI0jnCkm9LK0SAFn_jJPuLfadr6JRL78qSUOfKHmvkEGD3NvjG6RWLgtaHm9i9zGmAAdfwGOLiS6i-t_nqydRZ43XajjefWMiT7do9uT3r6NwqyI108U?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnoVuzM496JxrClFe19eqoopxMHkUIlkrs4DSter0meRvE6e2t5Pi-yUYuXKGdFPW4&amp;ccb=10-5&amp;oh=00_AfwPJiR7PI--DGWbf36RJlgvW2W7EZDRBls72f7sQ7dRvw&amp;oe=69D940CB&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-GFo4vuRZlofPnZxT1WA4jPd790B44hQRuI0jnCkm9LK0SAFn_jJPuLfadr6JRL78qSUOfKHmvkEGD3NvjG6RWLgtaHm9i9zGmAAdfwGOLiS6i-t_nqydRZ43XajjefWMiT7do9uT3r6NwqyI108U?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnoVuzM496JxrClFe19eqoopxMHkUIlkrs4DSter0meRvE6e2t5Pi-yUYuXKGdFPW4&amp;ccb=10-5&amp;oh=00_AfwPJiR7PI--DGWbf36RJlgvW2W7EZDRBls72f7sQ7dRvw&amp;oe=69D940CB&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>487144109239576</code></div>
+                    <div>score=0.2938818085060212 | d=19.3224103679739m | span=27.04439615159953° | align=39.45172112916572</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Ce5UnP3gOyM7_zdDJNR_AQNPAwCcdhS-1MZhem0kHCMWAdWj3wORoOv45GwOUvMZJ3AqnkWmq9HZG_CxeaHwn_PA35_8t-5pVeA-ukglxDWLYxYPA7cfUI5emQ530b4jjqSiba_mi8rSu2OLdkw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkPfgILReJKH9fee0Njzk7LFPGwTaRVIk2KDdV-JJQjKuTPrH6Hs0_z2I2M6bkEROg&amp;ccb=10-5&amp;oh=00_Afzr55doF58MaJGh9M0-CgjBE0sZ7GjXzYZSOqc9XHgckQ&amp;oe=69D9373E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Ce5UnP3gOyM7_zdDJNR_AQNPAwCcdhS-1MZhem0kHCMWAdWj3wORoOv45GwOUvMZJ3AqnkWmq9HZG_CxeaHwn_PA35_8t-5pVeA-ukglxDWLYxYPA7cfUI5emQ530b4jjqSiba_mi8rSu2OLdkw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkPfgILReJKH9fee0Njzk7LFPGwTaRVIk2KDdV-JJQjKuTPrH6Hs0_z2I2M6bkEROg&amp;ccb=10-5&amp;oh=00_Afzr55doF58MaJGh9M0-CgjBE0sZ7GjXzYZSOqc9XHgckQ&amp;oe=69D9373E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>795708878025735</code></div>
+                    <div>score=0.27654385637067874 | d=14.558418227041596m | span=36.01565780956247° | align=57.09290384661131</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-5NPS6qgfhUtCozBM56YeCF0JK5K2Q18f-BsYt2YHj_Rms1ZQncZ82Xpc76H89sQY8pAXQ9rZwZPU2L-Vw2l4xlJwkxse5dOVXrmxYG232vRWmajKaj_E-JOPm6O8hGHO6YabkRqrv6R9O70PceA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlxuWJtNmOZCsitEOb1aMv2B-kF5SbvuGNEi-WEHuVpv5x3yzex-q7-xgBePS8q2C0&amp;ccb=10-5&amp;oh=00_Afwm-Idq-n58Nc7RR6HLGOzm0u6niz_3xnPgy9GuzOto4g&amp;oe=69D94917&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-5NPS6qgfhUtCozBM56YeCF0JK5K2Q18f-BsYt2YHj_Rms1ZQncZ82Xpc76H89sQY8pAXQ9rZwZPU2L-Vw2l4xlJwkxse5dOVXrmxYG232vRWmajKaj_E-JOPm6O8hGHO6YabkRqrv6R9O70PceA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlxuWJtNmOZCsitEOb1aMv2B-kF5SbvuGNEi-WEHuVpv5x3yzex-q7-xgBePS8q2C0&amp;ccb=10-5&amp;oh=00_Afwm-Idq-n58Nc7RR6HLGOzm0u6niz_3xnPgy9GuzOto4g&amp;oe=69D94917&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>966090990810898</code></div>
+                    <div>score=0.19158910726247483 | d=12.102095520960544m | span=51.367760345177544° | align=85.58891893762973</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/503372031  1222 Woodlawn Avenue'><div class='title'>Building way/503372031</div><div class='meta'>1222 Woodlawn Avenue • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An96NFZfLmvdw-pUlwDTgOPx17YaFffyqtz8ZKFFUIoNMix9m4jfsjkyGkoXc03etmbyN5o3QRoxiSh6m5kp0tXZ9lRbjub8rM_CiB7baYdZ6ytgvIuZwvrtCFi9hGs5Shh_QM6NOk1aIAbpEe8a_Q?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmBcRLDojYlDjIE0HOZVpJQp3_Xybp_3iVgY-0hgjCbDuPNDthqUuCdUNC1TESd4UY&amp;ccb=10-5&amp;oh=00_AfzaR8iavaLrEDBGpTGSJwOxYU9fZq9fuZpuEHMh65DJCQ&amp;oe=69D95074&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An96NFZfLmvdw-pUlwDTgOPx17YaFffyqtz8ZKFFUIoNMix9m4jfsjkyGkoXc03etmbyN5o3QRoxiSh6m5kp0tXZ9lRbjub8rM_CiB7baYdZ6ytgvIuZwvrtCFi9hGs5Shh_QM6NOk1aIAbpEe8a_Q?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmBcRLDojYlDjIE0HOZVpJQp3_Xybp_3iVgY-0hgjCbDuPNDthqUuCdUNC1TESd4UY&amp;ccb=10-5&amp;oh=00_AfzaR8iavaLrEDBGpTGSJwOxYU9fZq9fuZpuEHMh65DJCQ&amp;oe=69D95074&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>896521934525064</code></div>
+                    <div>score=0.29982165346188655 | d=14.011986709080455m | span=32.677370806833096° | align=57.392763294215285</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8seGSc75u1vP4ETCvMnY8PKZOrT5AL3ZABAFJAy5vNaZqVNRTes53bD8mNSMlW2Y9dOqv1BUOe1xsM3uqIxBpQZeFO4wxB_Cd6Oe9O_ApOQeKVWYFGaUFH6rh-YxL8QPHvKOcDdD8aUXcZ0ynexw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnhYasSYfAeHQmgmVT8acxUt2z75ObIRyTDNElYDt9S_0GpNDdEE4XoUwjBJYTLtPc&amp;ccb=10-5&amp;oh=00_AfyOAc1hSleZ0jBroYZTXPIacd6iN21rJmK5KXdgPtPPQA&amp;oe=69D950AD&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8seGSc75u1vP4ETCvMnY8PKZOrT5AL3ZABAFJAy5vNaZqVNRTes53bD8mNSMlW2Y9dOqv1BUOe1xsM3uqIxBpQZeFO4wxB_Cd6Oe9O_ApOQeKVWYFGaUFH6rh-YxL8QPHvKOcDdD8aUXcZ0ynexw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnhYasSYfAeHQmgmVT8acxUt2z75ObIRyTDNElYDt9S_0GpNDdEE4XoUwjBJYTLtPc&amp;ccb=10-5&amp;oh=00_AfyOAc1hSleZ0jBroYZTXPIacd6iN21rJmK5KXdgPtPPQA&amp;oe=69D950AD&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>607438690216618</code></div>
+                    <div>score=0.28259314164021654 | d=19.956463036477068m | span=25.796758845099475° | align=39.14627896370746</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_pOjmAWRJZ7T_1deGyFvMhIJQP2gDm8Ihiei2BshLGTw1ZRH7KDvH5Ej5p7iPsFaTCYtiukJQcy51ytjz6vSaoVih2X7Rfsi30L4TYDjqjKz4wSR3fqyK74v9QLvgtF4_Np2aNc2vVZMSoXMffFQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn3XMWpMckaXc4NW--TYIxXlTaD6tICLfIq9pyB7-gmojly5ywLPAKS1v_UcOyPIBs&amp;ccb=10-5&amp;oh=00_Afwjb7mb_YnKgxo5JH31lDskZccmcmIoDjnsaVAQi9I97Q&amp;oe=69D95DAE&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_pOjmAWRJZ7T_1deGyFvMhIJQP2gDm8Ihiei2BshLGTw1ZRH7KDvH5Ej5p7iPsFaTCYtiukJQcy51ytjz6vSaoVih2X7Rfsi30L4TYDjqjKz4wSR3fqyK74v9QLvgtF4_Np2aNc2vVZMSoXMffFQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adn3XMWpMckaXc4NW--TYIxXlTaD6tICLfIq9pyB7-gmojly5ywLPAKS1v_UcOyPIBs&amp;ccb=10-5&amp;oh=00_Afwjb7mb_YnKgxo5JH31lDskZccmcmIoDjnsaVAQi9I97Q&amp;oe=69D95DAE&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>195073869110840</code></div>
+                    <div>score=0.2651467345508491 | d=22.747301737287447m | span=23.97795386358399° | align=34.44358607869407</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/503372032'><div class='title'>Building way/503372032</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8ugFeMqLmtnCgwLg68EBeB5-KNmzPrOBT5WWezx7rB3X5lfVPqH2NN6uLu7wkInlMXKRFi8XsT-nOij7otJ6P_2MZjmo0FmObIN61JmQtWhNX19LVYoNwpwnwNQQCv1zbrnfzL-0TlJGvOaOp61w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adka1BiF8z46vgxdQIV5d0GPVVtXAsilBsBpWkQaBc6guh_IEFttOOXUSoBrChSsLNM&amp;ccb=10-5&amp;oh=00_AfwrwwG8VJQswP65Laxj76tfRxdS2IVXXe0wVPk_IWOA2A&amp;oe=69D932EB&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8ugFeMqLmtnCgwLg68EBeB5-KNmzPrOBT5WWezx7rB3X5lfVPqH2NN6uLu7wkInlMXKRFi8XsT-nOij7otJ6P_2MZjmo0FmObIN61JmQtWhNX19LVYoNwpwnwNQQCv1zbrnfzL-0TlJGvOaOp61w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adka1BiF8z46vgxdQIV5d0GPVVtXAsilBsBpWkQaBc6guh_IEFttOOXUSoBrChSsLNM&amp;ccb=10-5&amp;oh=00_AfwrwwG8VJQswP65Laxj76tfRxdS2IVXXe0wVPk_IWOA2A&amp;oe=69D932EB&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>4121254087939883</code></div>
+                    <div>score=0.2264099505543572 | d=22.082654403198436m | span=35.45715774032669° | align=42.14107443377077</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/503372034  1115 Woodlawn Avenue'><div class='title'>Building way/503372034</div><div class='meta'>1115 Woodlawn Avenue • 3 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-b_G8fVQ_G1OuzbZJH1oFLdcAYve9h0XGFrJmopudhU6uMvvhoDbHZAaxwBd4qDLcICAGQNP9aN3Tf1y30P6o0mfgHqsu8CY6qnrifhkpGnGVWk46_3uqucJuS-auZjgsp079G8UbqLY4xGVX6aw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adkza7t8nVzqNnLc_l5gou93436w2A6mMBGy224cYP4StUoMbGJKUNwBMotZO1tFqtg&amp;ccb=10-5&amp;oh=00_AfyhIf04Jd4M-VKFzsBy--Pq4c0vVChiPppAp_5XhMO6bg&amp;oe=69D9542D&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-b_G8fVQ_G1OuzbZJH1oFLdcAYve9h0XGFrJmopudhU6uMvvhoDbHZAaxwBd4qDLcICAGQNP9aN3Tf1y30P6o0mfgHqsu8CY6qnrifhkpGnGVWk46_3uqucJuS-auZjgsp079G8UbqLY4xGVX6aw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adkza7t8nVzqNnLc_l5gou93436w2A6mMBGy224cYP4StUoMbGJKUNwBMotZO1tFqtg&amp;ccb=10-5&amp;oh=00_AfyhIf04Jd4M-VKFzsBy--Pq4c0vVChiPppAp_5XhMO6bg&amp;oe=69D9542D&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>756719358204426</code></div>
+                    <div>score=0.17310125454229022 | d=18.330094886152274m | span=41.24830698824378° | align=90.75189207655251</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9THIM3WyN8YGnQKC_3w-s9zYrtqwEoc4uOcAogKBlZD-wxn8nHRsFxzE62LVC3fa0UbRri4d2vlQQXpnf1tIjhAa1VgCyWTSDv3lsiOX7-AnYELmfKBWYerEum4HUx__W-kz36AeKYkvLv0jUx3w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk60dJ3tmM-mL_n-zsphzT9SOn4yZZb1m5gCvLzfeFALmnRsZTyJakPBeiKiwas-uc&amp;ccb=10-5&amp;oh=00_AfxJUIoYM_xOkRtdvpVs9wCROck97_FHItgIAr3Ygyns9w&amp;oe=69D9443C&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9THIM3WyN8YGnQKC_3w-s9zYrtqwEoc4uOcAogKBlZD-wxn8nHRsFxzE62LVC3fa0UbRri4d2vlQQXpnf1tIjhAa1VgCyWTSDv3lsiOX7-AnYELmfKBWYerEum4HUx__W-kz36AeKYkvLv0jUx3w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adk60dJ3tmM-mL_n-zsphzT9SOn4yZZb1m5gCvLzfeFALmnRsZTyJakPBeiKiwas-uc&amp;ccb=10-5&amp;oh=00_AfxJUIoYM_xOkRtdvpVs9wCROck97_FHItgIAr3Ygyns9w&amp;oe=69D9443C&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>323883179098773</code></div>
+                    <div>score=0.1416545806881592 | d=18.886175543413678m | span=49.889524758590525° | align=104.62389133098304</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9AvC9Dvyv7mhY0ZpepKdW8HkHemxaRH12hsba90MLZkJVItR2MW2rGVAcILHy5EHFL20-w_ybyaBAiZY_Z2S4zZzZaiwiiDV4LVVEuZ6dqhsFE54F01fvJUtPrbCklU8X2W15vqKSk9UTu8mP1gg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adklk08IS1EjQnh1tBx9RExqkNU0tG7hd9jg_YP1p8XL3GGucFDPP7AFiLv9WybBHmk&amp;ccb=10-5&amp;oh=00_Afxfq3FfXWw6pTSPTmxD29tw0zT7YqwCgLFvV1xCloYEXg&amp;oe=69D9598E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9AvC9Dvyv7mhY0ZpepKdW8HkHemxaRH12hsba90MLZkJVItR2MW2rGVAcILHy5EHFL20-w_ybyaBAiZY_Z2S4zZzZaiwiiDV4LVVEuZ6dqhsFE54F01fvJUtPrbCklU8X2W15vqKSk9UTu8mP1gg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adklk08IS1EjQnh1tBx9RExqkNU0tG7hd9jg_YP1p8XL3GGucFDPP7AFiLv9WybBHmk&amp;ccb=10-5&amp;oh=00_Afxfq3FfXWw6pTSPTmxD29tw0zT7YqwCgLFvV1xCloYEXg&amp;oe=69D9598E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>124608649641050</code></div>
+                    <div>score=0.0999306374833103 | d=20.82583090565838m | span=61.847645991191314° | align=85.77244483427211</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/507109462  1102 Prospect Street'><div class='title'>Building way/507109462</div><div class='meta'>1102 Prospect Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-helGGifsveymJcWsMJ3pblOFJjLsCWV70pjR_tSfao1lElvVIoDHcADVL1bN-mn5y2CSpxvunUFSwGw5bDwZi25XzPt8UpL2uJLUpzgHOhUh1rZL5aMu0kF4KNVupqMp2hJ_c_X5DGh9JnjWRcU0?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmOvpTjwBMflJjY20ovR_001TlwV8SqFKZXU2cb2MvEVvi2Gnlz6TsI47Eo-5Oehf4&amp;ccb=10-5&amp;oh=00_AfwFDCpl55-xLVmP1wtQT3NiN6tiXC0FZ1R9AEtYQXoWcg&amp;oe=69D9623A&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-helGGifsveymJcWsMJ3pblOFJjLsCWV70pjR_tSfao1lElvVIoDHcADVL1bN-mn5y2CSpxvunUFSwGw5bDwZi25XzPt8UpL2uJLUpzgHOhUh1rZL5aMu0kF4KNVupqMp2hJ_c_X5DGh9JnjWRcU0?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmOvpTjwBMflJjY20ovR_001TlwV8SqFKZXU2cb2MvEVvi2Gnlz6TsI47Eo-5Oehf4&amp;ccb=10-5&amp;oh=00_AfwFDCpl55-xLVmP1wtQT3NiN6tiXC0FZ1R9AEtYQXoWcg&amp;oe=69D9623A&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>125253219609419</code></div>
+                    <div>score=0.4561179807660415 | d=13.032463240470975m | span=25.19928688264895° | align=36.39665470409574</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/507109463  1104 Prospect Street'><div class='title'>Building way/507109463</div><div class='meta'>1104 Prospect Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-Uw76iwO5SjyLXpmRYFU0XjyAZGeTUyG3bnGI0vgZtkTu3DHxfzL3E_eQfjfBOWgjmSCPRZ3QA96ig58ZmIC_M0vr4Lr2_331ktcqfUzfylYlaKZwEfXq3J0Izv_5qI6Fds8s3h-0ijzsPwL7tIA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkZbozgqaGzAV0WoV6TfPm81ryewl5t0b-qt7IBSKlOTh91NSGWbXsvHutCBeBRRSo&amp;ccb=10-5&amp;oh=00_Afxeeu3jctCpkUzaIt1dgKdN0-poeIAhNHiVB49kpfeCxQ&amp;oe=69D9375A&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-Uw76iwO5SjyLXpmRYFU0XjyAZGeTUyG3bnGI0vgZtkTu3DHxfzL3E_eQfjfBOWgjmSCPRZ3QA96ig58ZmIC_M0vr4Lr2_331ktcqfUzfylYlaKZwEfXq3J0Izv_5qI6Fds8s3h-0ijzsPwL7tIA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkZbozgqaGzAV0WoV6TfPm81ryewl5t0b-qt7IBSKlOTh91NSGWbXsvHutCBeBRRSo&amp;ccb=10-5&amp;oh=00_Afxeeu3jctCpkUzaIt1dgKdN0-poeIAhNHiVB49kpfeCxQ&amp;oe=69D9375A&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>3743294119114017</code></div>
+                    <div>score=0.2763472485580911 | d=15.23247946006611m | span=38.75866602169157° | align=56.93980172959141</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/507109466  1114 Prospect Street'><div class='title'>Building way/507109466</div><div class='meta'>1114 Prospect Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8GmCBei27dt3g6wOPstF0ynWkNcwEwQbbaBEK2En4RTC3Mhd_RzxxCcZywkr9gmhV1ez-eXOXOOrdRKwoXefKcdwLOY4T-JGCsFVvhSrKLI9qorU0elkQIhJCIpDJ1mT8mVij9KMagvRK0NbwhVIc?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm8d-px4kID_n-EQxW9uzGoANS6gfS-teEoQifO4-oGp62HGt-YTWS-_ugemxQALUM&amp;ccb=10-5&amp;oh=00_Afy0umosRCm9wYbTjOiXh8HqU359vPWmoQFLto6tVY0kPw&amp;oe=69D958AF&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8GmCBei27dt3g6wOPstF0ynWkNcwEwQbbaBEK2En4RTC3Mhd_RzxxCcZywkr9gmhV1ez-eXOXOOrdRKwoXefKcdwLOY4T-JGCsFVvhSrKLI9qorU0elkQIhJCIpDJ1mT8mVij9KMagvRK0NbwhVIc?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm8d-px4kID_n-EQxW9uzGoANS6gfS-teEoQifO4-oGp62HGt-YTWS-_ugemxQALUM&amp;ccb=10-5&amp;oh=00_Afy0umosRCm9wYbTjOiXh8HqU359vPWmoQFLto6tVY0kPw&amp;oe=69D958AF&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>795227841104435</code></div>
+                    <div>score=0.341393723822596 | d=16.363498858712525m | span=21.91149070710418° | align=35.71492548094801</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/507109467  1131 Church Street'><div class='title'>Building way/507109467</div><div class='meta'>1131 Church Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-kzHninHAfLqJl90yINRlMWa9OaFcrx1_K7i7zVxvYjfIZiqXj379L7dHehw4dLG0lb3g6dgv0IQ72ZIKlzoa5V4CAjEwP0wsLC6tIViAdrSJnocQbZOwNv4erd8EUJTcex8L_UIVGmP9KjiSubgU?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdliPt8z1W8KXQM5eU701vJd83sAzND1UE6ac74MzjQPVB8lAJ6SlWN_cJqzvCTwomo&amp;ccb=10-5&amp;oh=00_Afxkrl497530CbE_Rmi9onHsFVg7vOKf4CC4NE-WbBbARA&amp;oe=69D939E5&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-kzHninHAfLqJl90yINRlMWa9OaFcrx1_K7i7zVxvYjfIZiqXj379L7dHehw4dLG0lb3g6dgv0IQ72ZIKlzoa5V4CAjEwP0wsLC6tIViAdrSJnocQbZOwNv4erd8EUJTcex8L_UIVGmP9KjiSubgU?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdliPt8z1W8KXQM5eU701vJd83sAzND1UE6ac74MzjQPVB8lAJ6SlWN_cJqzvCTwomo&amp;ccb=10-5&amp;oh=00_Afxkrl497530CbE_Rmi9onHsFVg7vOKf4CC4NE-WbBbARA&amp;oe=69D939E5&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>2245509235579487</code></div>
+                    <div>score=0.3610702780801139 | d=23.50495821436003m | span=5.111952406698208° | align=32.49636172721432</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/560433245'><div class='title'>Building way/560433245</div><div class='meta'>2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9rsNq4wMbC14PjUvzSYh7AEE2sLTurOlp-NEd2Z8v3NwEFG3OGbOsNnG1y3BCL0AvXSp2xPxcvoBUfK28hFZD7OkcK0uYiKkmPo0HZWNTWzxQNiY-bGXSV0ExpAO8mqsr78FbGLqd9S7qd_Nz83Q?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnPmBK0BxsDjx7vGFD3joVGIb180EQjnqGRCBWh2UZ3V8SPPJoEqLm_GlPNVwOFWtE&amp;ccb=10-5&amp;oh=00_AfzmQtq-oE0Z4Oncw2VRlCaHr624WjIHKRVGOrWzWsY0gg&amp;oe=69D935BD&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9rsNq4wMbC14PjUvzSYh7AEE2sLTurOlp-NEd2Z8v3NwEFG3OGbOsNnG1y3BCL0AvXSp2xPxcvoBUfK28hFZD7OkcK0uYiKkmPo0HZWNTWzxQNiY-bGXSV0ExpAO8mqsr78FbGLqd9S7qd_Nz83Q?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnPmBK0BxsDjx7vGFD3joVGIb180EQjnqGRCBWh2UZ3V8SPPJoEqLm_GlPNVwOFWtE&amp;ccb=10-5&amp;oh=00_AfzmQtq-oE0Z4Oncw2VRlCaHr624WjIHKRVGOrWzWsY0gg&amp;oe=69D935BD&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>373974807303937</code></div>
+                    <div>score=0.31700565803029446 | d=15.505384110103533m | span=12.425047041960056° | align=92.17375824664373</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8U3sjIpcdsQOlwQIne3Spwk9jej0Ph2M6JjEX89Xx-VqJ4YZWbFVLToSy4VwLkW0hD44K3-wLgdQo8s1T6Gk0FFjQllplYx5WuhD-b591O3KoGCWjqYoJZotHnUx6ciO6YD_5xUP8otymGOqfw1lU?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnxhURxRKO1epGRxWPv_6Wc7bgzeuoL1rfz0PosItJVJ5vqt70aMYmRfGLGRdbMsGs&amp;ccb=10-5&amp;oh=00_AfyXbHwQLc2MSjch6ssTQGqosV4yEmDAHvNKtOL7FxA6tQ&amp;oe=69D93D0C&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8U3sjIpcdsQOlwQIne3Spwk9jej0Ph2M6JjEX89Xx-VqJ4YZWbFVLToSy4VwLkW0hD44K3-wLgdQo8s1T6Gk0FFjQllplYx5WuhD-b591O3KoGCWjqYoJZotHnUx6ciO6YD_5xUP8otymGOqfw1lU?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnxhURxRKO1epGRxWPv_6Wc7bgzeuoL1rfz0PosItJVJ5vqt70aMYmRfGLGRdbMsGs&amp;ccb=10-5&amp;oh=00_AfyXbHwQLc2MSjch6ssTQGqosV4yEmDAHvNKtOL7FxA6tQ&amp;oe=69D93D0C&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>886344371921047</code></div>
+                    <div>score=0.2962012335930865 | d=18.540721679389854m | span=8.537369539529834° | align=89.19675333958963</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/562091705'><div class='title'>Building way/562091705</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8eE3FrEtg4N_WkZQcDjtp8SZKz3DfaPuA5csrYMkr8xWY5SHx262_ja72pJoAIhi4M3l31-WttlXzpxK7rjedinEmfpVg-4e4qEATn8SLOs7u_Vmm_8iQ6qL_FuJwllAz92aZ_vSK8n2gSkKWxfeA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkAS6F5_tC86f1SMXeWxSX9XeUhXMi82kTx2JuAKf19zVwcKZud59qjIcfngcXRRCw&amp;ccb=10-5&amp;oh=00_Afyhc80Gtj02P9D_jrAGZkZXZmCqYf4R9G4T5wZW3zd8lA&amp;oe=69D95216&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8eE3FrEtg4N_WkZQcDjtp8SZKz3DfaPuA5csrYMkr8xWY5SHx262_ja72pJoAIhi4M3l31-WttlXzpxK7rjedinEmfpVg-4e4qEATn8SLOs7u_Vmm_8iQ6qL_FuJwllAz92aZ_vSK8n2gSkKWxfeA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkAS6F5_tC86f1SMXeWxSX9XeUhXMi82kTx2JuAKf19zVwcKZud59qjIcfngcXRRCw&amp;ccb=10-5&amp;oh=00_Afyhc80Gtj02P9D_jrAGZkZXZmCqYf4R9G4T5wZW3zd8lA&amp;oe=69D95216&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>598341888224636</code></div>
+                    <div>score=0.22129236365205684 | d=33.60402047339922m | span=13.177425191403131° | align=18.722860699674698</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/562091717'><div class='title'>Building way/562091717</div><div class='meta'>2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-lLMDWEhw2rjekXn9jX4J_A2BnbL_pLkh3LIZ5LBpzRHyguk73-Dszh4u4MT4RlTJEkC-8je9DdQU62NIQlHh-FcsjDloRdNjTs_n8CTE_8cez5oBC4SOqA0_FrIUoB7QKkVMQY-IDwcA9egGWcw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkM6m-ss5IMdfjwHmMDF2b2lK-DI8AWWsRbIK4mUcOVl5zPU7vzhjqAw1Vah_xFMBw&amp;ccb=10-5&amp;oh=00_Afz1kkXw1oOKuzJa9ypAG_ZKJABMv-ZiqhxJcwJE2Oe-cQ&amp;oe=69D946B7&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-lLMDWEhw2rjekXn9jX4J_A2BnbL_pLkh3LIZ5LBpzRHyguk73-Dszh4u4MT4RlTJEkC-8je9DdQU62NIQlHh-FcsjDloRdNjTs_n8CTE_8cez5oBC4SOqA0_FrIUoB7QKkVMQY-IDwcA9egGWcw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkM6m-ss5IMdfjwHmMDF2b2lK-DI8AWWsRbIK4mUcOVl5zPU7vzhjqAw1Vah_xFMBw&amp;ccb=10-5&amp;oh=00_Afz1kkXw1oOKuzJa9ypAG_ZKJABMv-ZiqhxJcwJE2Oe-cQ&amp;oe=69D946B7&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>2582606335382227</code></div>
+                    <div>score=0.2557314022975896 | d=17.794655707056474m | span=35.68885849322356° | align=46.9766013909952</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-jMzZD5SjIfMdf2FmN2QASqSlwv_0KwdfWL2AyJ7K1npxxbgOJh1AL6HlncELGmI7vAIlXijS5_n3v_wD4xuQOoTb3apWPHo0NH3DTcv8mLX02M3vgk0WzQiy5betSAdkqbhATVpPFx6ylFZ7hado?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkfTkraZxXpTtlXpaXVzKCfoqZnXBVKAoP7nW87qVo51Vv6RoVmvSStC8rp2wkUwuo&amp;ccb=10-5&amp;oh=00_AfykijCkEg6369AALmgvEIWnBEySN6GQonnmTmjAyVhwZw&amp;oe=69D9589D&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-jMzZD5SjIfMdf2FmN2QASqSlwv_0KwdfWL2AyJ7K1npxxbgOJh1AL6HlncELGmI7vAIlXijS5_n3v_wD4xuQOoTb3apWPHo0NH3DTcv8mLX02M3vgk0WzQiy5betSAdkqbhATVpPFx6ylFZ7hado?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkfTkraZxXpTtlXpaXVzKCfoqZnXBVKAoP7nW87qVo51Vv6RoVmvSStC8rp2wkUwuo&amp;ccb=10-5&amp;oh=00_AfykijCkEg6369AALmgvEIWnBEySN6GQonnmTmjAyVhwZw&amp;oe=69D9589D&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>251304173421422</code></div>
+                    <div>score=0.2168280023533564 | d=29.066307700732423m | span=27.226477653819586° | align=32.219706084436154</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/571778339'><div class='title'>Building way/571778339</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Sw5tzOZX2etRbd3Tmi71Aeg3kdAo5CZhOdUn1YyR19zYmGcZkZjJUmrwRX282r8R3jZbJvPhNd-fMML1BPGuOoPqmHa-o2jXdWPcIuWv1_Mc7yW7c8osPc6QQzfRG8IEObpX-69DsnmQSDaLxXw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlrEvlHt1rpKZQp7UCcXOIDN6Vd077EGF-AbNOVMFfzjABQjCHFDbOeOS_WgOqqtis&amp;ccb=10-5&amp;oh=00_AfxAo41RkQ4g-YFU2dp79Xrr3TQkVS3l10bRAWu9DawIdQ&amp;oe=69D969C3&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Sw5tzOZX2etRbd3Tmi71Aeg3kdAo5CZhOdUn1YyR19zYmGcZkZjJUmrwRX282r8R3jZbJvPhNd-fMML1BPGuOoPqmHa-o2jXdWPcIuWv1_Mc7yW7c8osPc6QQzfRG8IEObpX-69DsnmQSDaLxXw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdlrEvlHt1rpKZQp7UCcXOIDN6Vd077EGF-AbNOVMFfzjABQjCHFDbOeOS_WgOqqtis&amp;ccb=10-5&amp;oh=00_AfxAo41RkQ4g-YFU2dp79Xrr3TQkVS3l10bRAWu9DawIdQ&amp;oe=69D969C3&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>980736606015452</code></div>
+                    <div>score=0.21891878275075832 | d=21.101997991089377m | span=36.29367665943823° | align=47.326688518163735</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/571778340'><div class='title'>Building way/571778340</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9KGqSnSQljt2_rml5jHmNWe9RBM0bgTNodQ1k26SeDNYkvLU1Rm7Lxxjz4jJZnDtD6nVP3hu60oinJmEtbDos4U-PmaApUAzqXdpVrSggBa5LSmM5QJusemF1INkeaE-Uqk5PhCZnGJqeaDxIVVQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkPVmzT8hp7uUHDQOOxeG1Yg-NrK7hpe3UXLN__0Cmxk8nezwGA9e1oi-fx9cAqVRU&amp;ccb=10-6&amp;oh=00_Afwb1e_hmCnm-jbGz_GUudNP0ptuL_JfT-z9G6-oV2xtDw&amp;oe=69D94B64&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9KGqSnSQljt2_rml5jHmNWe9RBM0bgTNodQ1k26SeDNYkvLU1Rm7Lxxjz4jJZnDtD6nVP3hu60oinJmEtbDos4U-PmaApUAzqXdpVrSggBa5LSmM5QJusemF1INkeaE-Uqk5PhCZnGJqeaDxIVVQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkPVmzT8hp7uUHDQOOxeG1Yg-NrK7hpe3UXLN__0Cmxk8nezwGA9e1oi-fx9cAqVRU&amp;ccb=10-6&amp;oh=00_Afwb1e_hmCnm-jbGz_GUudNP0ptuL_JfT-z9G6-oV2xtDw&amp;oe=69D94B64&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1695581750643315</code></div>
+                    <div>score=0.31707761898901554 | d=20.200347015991998m | span=24.748933175615207° | align=45.25721612251516</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/571778341'><div class='title'>Building way/571778341</div><div class='meta'>13 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-CRlPtrrcbnz4TrWf_JT267QU_0bqBSq4Or4uNWPo2MSs7JjeGfVOeobr5OzK9UrmkwTDjb3X9Ft7sr9Grl9tAUpU9EHV8lQ1OVVSmNC4MGanRMxmdVmpmoyzYXnxu5IDnfDdDpRi-LLaE5gESHg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmqTErkXZtflgRxd9JfLFRPhFkzLEGlw5mNXFMzaZ3nCGH0YHUw0J6G5Qd8Q-6LH8c&amp;ccb=10-5&amp;oh=00_Afzr1KolVp1TmAcgY-9-SW3NigeizNIx0Ugwe3jugHoT-g&amp;oe=69D936B5&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-CRlPtrrcbnz4TrWf_JT267QU_0bqBSq4Or4uNWPo2MSs7JjeGfVOeobr5OzK9UrmkwTDjb3X9Ft7sr9Grl9tAUpU9EHV8lQ1OVVSmNC4MGanRMxmdVmpmoyzYXnxu5IDnfDdDpRi-LLaE5gESHg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmqTErkXZtflgRxd9JfLFRPhFkzLEGlw5mNXFMzaZ3nCGH0YHUw0J6G5Qd8Q-6LH8c&amp;ccb=10-5&amp;oh=00_Afzr1KolVp1TmAcgY-9-SW3NigeizNIx0Ugwe3jugHoT-g&amp;oe=69D936B5&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>2543326035970329</code></div>
+                    <div>score=0.4547032322410302 | d=10.395188437561293m | span=21.33366484083581° | align=32.780408023685936</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9YkRus_DzAMExMPSwq0XcIFZFH-XPghV9UyYIqKc98zWc0U17VbRqBEatN6hCZ_T2eJGw0u73gFfesRedKFjFWsnNUFexbRD2lsBOzWFmaGoDAiJk06G_4B4VDAL5UQZcJ1MaKq7B6TsGi5xSvsg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnT26w4WF8qg8r_np3g_P-WKwzQoRtMsGO4tgDsWSmcT8JpXLl51-4kDwchq4C6zGI&amp;ccb=10-5&amp;oh=00_Afzta304UP9jn5OUzVvD8ulZlhW5mkd3LbujLT1A43sRRg&amp;oe=69D934F6&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9YkRus_DzAMExMPSwq0XcIFZFH-XPghV9UyYIqKc98zWc0U17VbRqBEatN6hCZ_T2eJGw0u73gFfesRedKFjFWsnNUFexbRD2lsBOzWFmaGoDAiJk06G_4B4VDAL5UQZcJ1MaKq7B6TsGi5xSvsg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnT26w4WF8qg8r_np3g_P-WKwzQoRtMsGO4tgDsWSmcT8JpXLl51-4kDwchq4C6zGI&amp;ccb=10-5&amp;oh=00_Afzta304UP9jn5OUzVvD8ulZlhW5mkd3LbujLT1A43sRRg&amp;oe=69D934F6&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>113979897414207</code></div>
+                    <div>score=0.32091094339863496 | d=16.318034957622935m | span=25.984947822746506° | align=41.881446291332566</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_AT-jUtIQIGfUjgp-BFoxMU_pgfTdDSX9uSwCV5itBiTb4nLTcGobZEU8Qup3lc9XuiwsiARDuiIJOC8Q3xA4-ggn6jIqmGsB4povl29dMDrJ9_JBOFs-EhWdfgy51t9aTcSZUAIBKqlHEuW0Y-A?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adl6Ua-Fx6GvXCnuydxh8NBozyqkUL1tqAgO3GsVH_3cTDx35Lc5g3eE8EoNzb3H68s&amp;ccb=10-5&amp;oh=00_AfybDwB9DicuStTHye8hMRfqSl793SiJa4PFNzAxXy9DVA&amp;oe=69D932C2&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_AT-jUtIQIGfUjgp-BFoxMU_pgfTdDSX9uSwCV5itBiTb4nLTcGobZEU8Qup3lc9XuiwsiARDuiIJOC8Q3xA4-ggn6jIqmGsB4povl29dMDrJ9_JBOFs-EhWdfgy51t9aTcSZUAIBKqlHEuW0Y-A?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adl6Ua-Fx6GvXCnuydxh8NBozyqkUL1tqAgO3GsVH_3cTDx35Lc5g3eE8EoNzb3H68s&amp;ccb=10-5&amp;oh=00_AfybDwB9DicuStTHye8hMRfqSl793SiJa4PFNzAxXy9DVA&amp;oe=69D932C2&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#3</div>
+                    <div><code>459648681794075</code></div>
+                    <div>score=0.30973358166002307 | d=15.1299415578606m | span=29.405510140291995° | align=48.490134368358326</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_rR3VWeehMtmEpV9XTP3jNuML2WLi2DM3hOCPxbQofsRwjTfXfZdSghBhfZWTCJf0F6eDUeRhB38dvvz_9XkFGJ-YxpzBAg0grEUVzno_yv0CADMB09yhhoPSxa5uwrBzlkhk0z-o5fuF-NylwJi0?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm4cuw5FDeCHkmCn9bH9cT8Bb7AKrqF2qs-7xsdwxpTTOfN87x8LxF9HZSZC6m9CJ8&amp;ccb=10-5&amp;oh=00_AfzWzVFKv8kiDbDxjUp4C2Kp67AeRntBKE9BKiOTgOuhIw&amp;oe=69D95789&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_rR3VWeehMtmEpV9XTP3jNuML2WLi2DM3hOCPxbQofsRwjTfXfZdSghBhfZWTCJf0F6eDUeRhB38dvvz_9XkFGJ-YxpzBAg0grEUVzno_yv0CADMB09yhhoPSxa5uwrBzlkhk0z-o5fuF-NylwJi0?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adm4cuw5FDeCHkmCn9bH9cT8Bb7AKrqF2qs-7xsdwxpTTOfN87x8LxF9HZSZC6m9CJ8&amp;ccb=10-5&amp;oh=00_AfzWzVFKv8kiDbDxjUp4C2Kp67AeRntBKE9BKiOTgOuhIw&amp;oe=69D95789&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#4</div>
+                    <div><code>176143511084664</code></div>
+                    <div>score=0.2635262803536533 | d=15.699377285503527m | span=34.294088189768274° | align=52.41248293835747</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_641xWBQwKsX-LY_8zKppDOOslf_sedmcyH_wIBwWCstoqHonXK8PH7bFh5CuVTrJ4X3RbAClVG-gffSyk-i4JI0VuaJZ9BfO6Sz1ajyKHVG76Y9AvUiqLV68VU3wf3ep4enNWTA1GG7_CjPo1-w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnseyLySzcPK-5clHrru1nNKK4Wigmq0WhM52UScZt-jrVzmQjTBMLEDVI9l6gbjjY&amp;ccb=10-5&amp;oh=00_AfyLsiwxCHUGtUGxOA_shMqqQNlR4lMOQ9CUSEp9vGrLnw&amp;oe=69D9549A&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_641xWBQwKsX-LY_8zKppDOOslf_sedmcyH_wIBwWCstoqHonXK8PH7bFh5CuVTrJ4X3RbAClVG-gffSyk-i4JI0VuaJZ9BfO6Sz1ajyKHVG76Y9AvUiqLV68VU3wf3ep4enNWTA1GG7_CjPo1-w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnseyLySzcPK-5clHrru1nNKK4Wigmq0WhM52UScZt-jrVzmQjTBMLEDVI9l6gbjjY&amp;ccb=10-5&amp;oh=00_AfyLsiwxCHUGtUGxOA_shMqqQNlR4lMOQ9CUSEp9vGrLnw&amp;oe=69D9549A&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#5</div>
+                    <div><code>470789374159572</code></div>
+                    <div>score=0.2282011272382269 | d=22.737257899548016m | span=30.26921436871305° | align=41.14907897762998</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Fz7EuVd8lrNXK4vRiaTzNhhH4m_T41kVdyQvvpGTAl2C36j2f4GfQLMxfYRXqXwPOZWh1wE0boYPZ3uHbOKG8FjNdypawsxroCal97XpWhpbYsApM9sEoaYu1lF4yOl-pEHsOLFrWwmqnr6IbDGo?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmXNf0SFU7rBJv0EE0Brb6Uc7Lpw7SdjNue8s1AQYBkng_P0bl1NsfmqFMU_mlTT2A&amp;ccb=10-5&amp;oh=00_Afxqkc105N_mofmhQiycu1S2Rm8hrBxCT6j08SeEor7kjQ&amp;oe=69D95D06&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9Fz7EuVd8lrNXK4vRiaTzNhhH4m_T41kVdyQvvpGTAl2C36j2f4GfQLMxfYRXqXwPOZWh1wE0boYPZ3uHbOKG8FjNdypawsxroCal97XpWhpbYsApM9sEoaYu1lF4yOl-pEHsOLFrWwmqnr6IbDGo?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmXNf0SFU7rBJv0EE0Brb6Uc7Lpw7SdjNue8s1AQYBkng_P0bl1NsfmqFMU_mlTT2A&amp;ccb=10-5&amp;oh=00_Afxqkc105N_mofmhQiycu1S2Rm8hrBxCT6j08SeEor7kjQ&amp;oe=69D95D06&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#6</div>
+                    <div><code>136732885133938</code></div>
+                    <div>score=0.2232590014207438 | d=7.118109310516263m | span=46.48472222511322° | align=95.32135875986313</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_1GPkOdFa-p9a_Ya3fC3uDgCRUqaBAEnQ4AhPGinYEgEFODkyk6lKFS2REEIxfGLwTuIOEacvXE-T7_epX40m6EjAVQEG3zo7k7zHLaoNA2hqssXZ1pdQIxZ0CytH9SsjajdRC7bnl0oheDCfVSA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmnhxvSgBx08ULu8Kxv1b_gGesYBEVW5WLsSZQYjnqNgfskuXTjtGPlSREMUSNDs98&amp;ccb=10-6&amp;oh=00_AfyDCF68eZTMY3c_JJ2y7P34NmauO4WTkAE-qKcnJPzdCA&amp;oe=69D939DB&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_1GPkOdFa-p9a_Ya3fC3uDgCRUqaBAEnQ4AhPGinYEgEFODkyk6lKFS2REEIxfGLwTuIOEacvXE-T7_epX40m6EjAVQEG3zo7k7zHLaoNA2hqssXZ1pdQIxZ0CytH9SsjajdRC7bnl0oheDCfVSA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmnhxvSgBx08ULu8Kxv1b_gGesYBEVW5WLsSZQYjnqNgfskuXTjtGPlSREMUSNDs98&amp;ccb=10-6&amp;oh=00_AfyDCF68eZTMY3c_JJ2y7P34NmauO4WTkAE-qKcnJPzdCA&amp;oe=69D939DB&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#7</div>
+                    <div><code>1135371960259375</code></div>
+                    <div>score=0.17212610716497578 | d=15.24916011824136m | span=47.68344616700176° | align=75.95573551126483</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-qj0dezTOTBzbtGXeOfNjepQXohzQeEjk-AqvCgfXYnWU-TlW7X8UE1Qqr-J9Zh-sXPaMurLpGQim0Kpslsv1ri-iJiaX4gDKmnEnSTP7yCxpu0X8n9zCN7zO1UUH5APuwhssGPrD52RfA2KIjuQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnUGZCiHDNQw4DVHwTqi-q3SPgxfEvGDWLZVOqYlkMDlu_SIfpNOaTCtTIdIOxm718&amp;ccb=10-5&amp;oh=00_AfxjSfgysd2K1zYiLux1DhWepJQFb2HXhzBjTND25ObWmg&amp;oe=69D93869&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-qj0dezTOTBzbtGXeOfNjepQXohzQeEjk-AqvCgfXYnWU-TlW7X8UE1Qqr-J9Zh-sXPaMurLpGQim0Kpslsv1ri-iJiaX4gDKmnEnSTP7yCxpu0X8n9zCN7zO1UUH5APuwhssGPrD52RfA2KIjuQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnUGZCiHDNQw4DVHwTqi-q3SPgxfEvGDWLZVOqYlkMDlu_SIfpNOaTCtTIdIOxm718&amp;ccb=10-5&amp;oh=00_AfxjSfgysd2K1zYiLux1DhWepJQFb2HXhzBjTND25ObWmg&amp;oe=69D93869&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#8</div>
+                    <div><code>480230209718883</code></div>
+                    <div>score=0.1535886008898557 | d=13.267310281474261m | span=54.00712089140973° | align=70.45101798681992</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_dYEro7O_EUy3wClf806i7iZDQX6sHBOoK1VcjdN_z7k3h5BHjvpc7mRtkFXyJ6wCFS_F1bCBaGpbuThSTPMFvwDfWBBvM34JVT9wJnc3egjp3e47GxnToJ61_9kn2iybBa4Yus7vIw7ndPzpEww?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnTcNxQjyQ-WX8uTXdJCCPodmWAgmqStousnar0yqdEuXCa-qy1fRiSe48PXmlKNuc&amp;ccb=10-5&amp;oh=00_AfwsaEasSOVkyIyw_d5tK3UEdipuiUETEVx66uqhyHX8rA&amp;oe=69D953A1&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An_dYEro7O_EUy3wClf806i7iZDQX6sHBOoK1VcjdN_z7k3h5BHjvpc7mRtkFXyJ6wCFS_F1bCBaGpbuThSTPMFvwDfWBBvM34JVT9wJnc3egjp3e47GxnToJ61_9kn2iybBa4Yus7vIw7ndPzpEww?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnTcNxQjyQ-WX8uTXdJCCPodmWAgmqStousnar0yqdEuXCa-qy1fRiSe48PXmlKNuc&amp;ccb=10-5&amp;oh=00_AfwsaEasSOVkyIyw_d5tK3UEdipuiUETEVx66uqhyHX8rA&amp;oe=69D953A1&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#9</div>
+                    <div><code>918549635576313</code></div>
+                    <div>score=0.13410788842428284 | d=24.859771637308732m | span=44.2424501609222° | align=61.53852957013635</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-6dSB_qbWJlvrTW4t9ABZMyBwHhE-fpDFVcMjhxAFKmOLTaendZcESH0tw_j0ySOL17Is91EbKaObPFdKyGRqg_oxRCH84R9mgaADxvIAKWDh4UgWnw7lyqi6cF-3-3gStwjuexoQiOGqLB-bX9w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnkHVdW4Sle5OWZ3zvxj0n4TbBkW225Pqk7PDRaDT5i3jebKWM_GQyj5ZWqY-W1Dn4&amp;ccb=10-5&amp;oh=00_AfzRjZB15JY19rHSjDjCOmfKzb9A3SeDYiYGEczVwbjqJQ&amp;oe=69D946F9&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-6dSB_qbWJlvrTW4t9ABZMyBwHhE-fpDFVcMjhxAFKmOLTaendZcESH0tw_j0ySOL17Is91EbKaObPFdKyGRqg_oxRCH84R9mgaADxvIAKWDh4UgWnw7lyqi6cF-3-3gStwjuexoQiOGqLB-bX9w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnkHVdW4Sle5OWZ3zvxj0n4TbBkW225Pqk7PDRaDT5i3jebKWM_GQyj5ZWqY-W1Dn4&amp;ccb=10-5&amp;oh=00_AfzRjZB15JY19rHSjDjCOmfKzb9A3SeDYiYGEczVwbjqJQ&amp;oe=69D946F9&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#10</div>
+                    <div><code>192668509363389</code></div>
+                    <div>score=0.12966202996168583 | d=13.488948753946692m | span=59.90312958952427° | align=74.04790544163149</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9mD-P5lJAvx75xmLnMZwQ92d4RP9x-AZtL2HOhJ84ZCbgJMVEoCEdly4w9NNrr-28ojHQM8Rzig5CyQszpZNmxix5k5ch1omSeAIDNZQ30kFwVvVk4khyita8_j6DSw4o7vgSY9vPZZL143XL45g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Admg3207OA8KH8-BL1qNCoaqeafOVzR960LBNvfUDVzE3WE_k7SqmOGDwnvE1XnEv1o&amp;ccb=10-5&amp;oh=00_Afw9Swnc54-Vacp_qHOPZezTF0NpkKgYLO5mCO1GTbORzg&amp;oe=69D95AAE&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9mD-P5lJAvx75xmLnMZwQ92d4RP9x-AZtL2HOhJ84ZCbgJMVEoCEdly4w9NNrr-28ojHQM8Rzig5CyQszpZNmxix5k5ch1omSeAIDNZQ30kFwVvVk4khyita8_j6DSw4o7vgSY9vPZZL143XL45g?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Admg3207OA8KH8-BL1qNCoaqeafOVzR960LBNvfUDVzE3WE_k7SqmOGDwnvE1XnEv1o&amp;ccb=10-5&amp;oh=00_Afw9Swnc54-Vacp_qHOPZezTF0NpkKgYLO5mCO1GTbORzg&amp;oe=69D95AAE&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#11</div>
+                    <div><code>828076644749088</code></div>
+                    <div>score=0.1283851394831231 | d=14.81670025720791m | span=59.759542914387794° | align=95.51546036983285</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8JLsAzFTkbqWxlog0PvfWdBp0jMCME3B8mUZCn3PxdykJc_TKGdAkcQEuPnsGZlmH8XCPZZW5Sblkfphc81JsIWJ7lwlcgOIqBed45_g8oP01QmUQTHvX5BvJFkLwOm48yg7oEYPM6daB98p6BTg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmGz_A4ypTCJ215ipSDJQuI5ZVdinIP-NwvOzW2J9RHiFTObc-KIoVYZLoumCI4NQo&amp;ccb=10-5&amp;oh=00_Afwt1nn9QEPB8E-8-DBIyQmk_ZjjH6SyVmjFEOVSdNJZ4g&amp;oe=69D9343B&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8JLsAzFTkbqWxlog0PvfWdBp0jMCME3B8mUZCn3PxdykJc_TKGdAkcQEuPnsGZlmH8XCPZZW5Sblkfphc81JsIWJ7lwlcgOIqBed45_g8oP01QmUQTHvX5BvJFkLwOm48yg7oEYPM6daB98p6BTg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdmGz_A4ypTCJ215ipSDJQuI5ZVdinIP-NwvOzW2J9RHiFTObc-KIoVYZLoumCI4NQo&amp;ccb=10-5&amp;oh=00_Afwt1nn9QEPB8E-8-DBIyQmk_ZjjH6SyVmjFEOVSdNJZ4g&amp;oe=69D9343B&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#12</div>
+                    <div><code>133806002070903</code></div>
+                    <div>score=0.10203540759912125 | d=21.110662757931323m | span=61.32631930974503° | align=69.31151133089497</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An81SuFglM5b45ANL-CrtMeMtVRgYUYuTZwR2dcU9vPkpxr4B5KmyBkcF0mH2_laf2fSRFfdGoKXWnocCAOSNg_r7uLi5IN29S4xSisbOjbciBOAEjpXccDBx-O5zWP-iSfVM83vxQU_jqSNbpoZbg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkUAaXWwC1n5YhgMRol3l_ba4sgXK9bu1bHue1p2PuM-FWO2MZgOg0gSSKzvGgK6PU&amp;ccb=10-5&amp;oh=00_Afyal8-14bLAz19yMKN2yp78q3k09veAKBJglw6882r7yw&amp;oe=69D93D47&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An81SuFglM5b45ANL-CrtMeMtVRgYUYuTZwR2dcU9vPkpxr4B5KmyBkcF0mH2_laf2fSRFfdGoKXWnocCAOSNg_r7uLi5IN29S4xSisbOjbciBOAEjpXccDBx-O5zWP-iSfVM83vxQU_jqSNbpoZbg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdkUAaXWwC1n5YhgMRol3l_ba4sgXK9bu1bHue1p2PuM-FWO2MZgOg0gSSKzvGgK6PU&amp;ccb=10-5&amp;oh=00_Afyal8-14bLAz19yMKN2yp78q3k09veAKBJglw6882r7yw&amp;oe=69D93D47&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#13</div>
+                    <div><code>512268559946600</code></div>
+                    <div>score=0.10115560914591032 | d=22.74490528185357m | span=57.2359005890558° | align=82.26881824404808</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/573359230  1208 Wells Street'><div class='title'>Building way/573359230</div><div class='meta'>1208 Wells Street • 2 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9ESBWMH7O40p4MuONQyBWvOZt0lIUivWfPaWz8yDzhBUSRvu8ewJ71MGmSoHK-zre7C078YkRVJVdrsvzJCQRi1_0V5ay1uYeO-2B-789e_m7Wekz7HkJd1f3uWqx9lY1NFq1LifxKkILVtEig1w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnSAcnDXkOGLkKS_wzrsm6uW6sNOxyuklCJwjhcW37v3Z6TZ761l-Jx9GAZ7V3QWHc&amp;ccb=10-5&amp;oh=00_AfxLIflrCHvu_iA8bEbiWobCu3ujDLBYcO6cGRE0eeLWMA&amp;oe=69D9571B&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9ESBWMH7O40p4MuONQyBWvOZt0lIUivWfPaWz8yDzhBUSRvu8ewJ71MGmSoHK-zre7C078YkRVJVdrsvzJCQRi1_0V5ay1uYeO-2B-789e_m7Wekz7HkJd1f3uWqx9lY1NFq1LifxKkILVtEig1w?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnSAcnDXkOGLkKS_wzrsm6uW6sNOxyuklCJwjhcW37v3Z6TZ761l-Jx9GAZ7V3QWHc&amp;ccb=10-5&amp;oh=00_AfxLIflrCHvu_iA8bEbiWobCu3ujDLBYcO6cGRE0eeLWMA&amp;oe=69D9571B&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>300201221615147</code></div>
+                    <div>score=0.4157443543105918 | d=23.129448127450722m | span=0.5918970754306372° | align=9.985323291097359</div>
+                  </div>
+                </div>
+                
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8D6rXBe5C4z1GwsblYDfvnLBtN55Cekxvyr1xVZ0TSA39yF3d_NSzD9GNyOND7rrtEmyfn56uvLfwWlkCPu0ifll1OU8bu5f715jRaAY4ArD7vtv2HZllO_R087Z0jCiwREqzozAsYwPU0fqNSTw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adl0pyJXcuulsnhTFmpE3JJUofbotyC7-1X-BEAUkCzWw6b_DL55Xg6Flj20VnuxIKE&amp;ccb=10-5&amp;oh=00_AfzQP8lZf4bNk3R4zNCAoBaGtVOHVW9YBPkMOnY8B4GgVg&amp;oe=69D94D3A&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An8D6rXBe5C4z1GwsblYDfvnLBtN55Cekxvyr1xVZ0TSA39yF3d_NSzD9GNyOND7rrtEmyfn56uvLfwWlkCPu0ifll1OU8bu5f715jRaAY4ArD7vtv2HZllO_R087Z0jCiwREqzozAsYwPU0fqNSTw?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=Adl0pyJXcuulsnhTFmpE3JJUofbotyC7-1X-BEAUkCzWw6b_DL55Xg6Flj20VnuxIKE&amp;ccb=10-5&amp;oh=00_AfzQP8lZf4bNk3R4zNCAoBaGtVOHVW9YBPkMOnY8B4GgVg&amp;oe=69D94D3A&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#2</div>
+                    <div><code>1135286616948704</code></div>
+                    <div>score=0.21827895384368312 | d=24.593389150595726m | span=31.524371264787703° | align=42.370134573110704</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/573359231  1212 Wells Street'><div class='title'>Building way/573359231</div><div class='meta'>1212 Wells Street • 1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9E_OJ2avDvAw8nuWhD5lngWsgOp51-XYku6YLsL1qTXQGRnA-CGAZWagIE6r1aGauk0dpKJf_ibtSs8mLNx7oUdnZQow8y4X0I1CHeqAlVwHK-nCM659Ftw1Q6gsdVyHC3_GxdIZDdhut6i1NMjQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnzRCV5wyrtgrwMahGow-NH3mwV1pMmJS_JBjQrTtypq79CbwsED8dV1zW0ToO73yw&amp;ccb=10-5&amp;oh=00_AfzxewJotiOOrgmdPQqIYEN_wn27YEFtxAPex9U_5A9QfA&amp;oe=69D93D0F&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An9E_OJ2avDvAw8nuWhD5lngWsgOp51-XYku6YLsL1qTXQGRnA-CGAZWagIE6r1aGauk0dpKJf_ibtSs8mLNx7oUdnZQow8y4X0I1CHeqAlVwHK-nCM659Ftw1Q6gsdVyHC3_GxdIZDdhut6i1NMjQ?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnzRCV5wyrtgrwMahGow-NH3mwV1pMmJS_JBjQrTtypq79CbwsED8dV1zW0ToO73yw&amp;ccb=10-5&amp;oh=00_AfzxewJotiOOrgmdPQqIYEN_wn27YEFtxAPex9U_5A9QfA&amp;oe=69D93D0F&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>301514638218049</code></div>
+                    <div>score=0.24557084644992383 | d=25.291184512227353m | span=27.19501503636252° | align=37.90567014398732</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/573359255'><div class='title'>Building way/573359255</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-pVEGs70nKmJ2aDSLacfaZmUTQJ5JUvEpiggjQB9pXA0HnFE3TtKIyEv0FdbcS5qa_5_pTDlfUDgX-MBjX560U8MrXiwcGJJ06KOCaGm44hNfPv8HZsoo2tsdesTAuAdkngFYkW3ysbpdcFAz8Lg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnpEWzgaPr5rE3W3xE_9R0rUKLmzQbZNLAE1cFkbKvubcRukb8ufWeOdB3iMGJwk0s&amp;ccb=10-5&amp;oh=00_Afx3UQDbTZ9UyDkPjcf5dlhGPw2jESlOEBYH1rfcvCfPUA&amp;oe=69D95D65&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-pVEGs70nKmJ2aDSLacfaZmUTQJ5JUvEpiggjQB9pXA0HnFE3TtKIyEv0FdbcS5qa_5_pTDlfUDgX-MBjX560U8MrXiwcGJJ06KOCaGm44hNfPv8HZsoo2tsdesTAuAdkngFYkW3ysbpdcFAz8Lg?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnpEWzgaPr5rE3W3xE_9R0rUKLmzQbZNLAE1cFkbKvubcRukb8ufWeOdB3iMGJwk0s&amp;ccb=10-5&amp;oh=00_Afx3UQDbTZ9UyDkPjcf5dlhGPw2jESlOEBYH1rfcvCfPUA&amp;oe=69D95D65&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>277167504128019</code></div>
+                    <div>score=0.24493237435959156 | d=25.763184400318067m | span=26.054458296744826° | align=34.403670630009856</div>
+                  </div>
+                </div>
+                </div></section>
+<section class='building' data-key='way/611714113'><div class='title'>Building way/611714113</div><div class='meta'>1 ranked images</div><div class='grid'>
+                <div class="card">
+                  <a href="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-j2tWRETbgX3KjpVzeelR_O3omDrToz1wULzBXWIwJQM3TUs40UKdiBggUjLiNhhdFWHpTnixEcI41g5gamJWjAooIFrfktlLQZdrPo346iiZMOPcsKoyCFZvIuzZYOHFd00w2ljOXjUkBz0GUVA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnppfDse-vGwiR78x3ggX_w5SI4AxK18bZ-SEHZYXe8GnQjsXy1kuo-JeknR5sn0rY&amp;ccb=10-5&amp;oh=00_AfwqGgC_bnCFEu3GHmbCC1x8Whf9-GJ9Ec3uAXqJ_J83Vw&amp;oe=69D9670E&amp;_nc_sid=201bca" target="_blank" rel="noreferrer">
+                    <img src="https://scontent-det1-1.xx.fbcdn.net/m1/v/t6/An-j2tWRETbgX3KjpVzeelR_O3omDrToz1wULzBXWIwJQM3TUs40UKdiBggUjLiNhhdFWHpTnixEcI41g5gamJWjAooIFrfktlLQZdrPo346iiZMOPcsKoyCFZvIuzZYOHFd00w2ljOXjUkBz0GUVA?edm=AOnQwmMEAAAA&amp;_nc_gid=ifZ8OCqNdNXQNK6Bw4V62g&amp;_nc_oc=AdnppfDse-vGwiR78x3ggX_w5SI4AxK18bZ-SEHZYXe8GnQjsXy1kuo-JeknR5sn0rY&amp;ccb=10-5&amp;oh=00_AfwqGgC_bnCFEu3GHmbCC1x8Whf9-GJ9Ec3uAXqJ_J83Vw&amp;oe=69D9670E&amp;_nc_sid=201bca" loading="lazy">
+                  </a>
+                  <div class="cap">
+                    <div class="rank">#1</div>
+                    <div><code>1248444418905498</code></div>
+                    <div>score=0.2938965119449524 | d=19.01823004445405m | span=27.801809973026934° | align=42.6575819411359</div>
+                  </div>
+                </div>
+                </div></section>
+
+<script>
+function filterBuildings() {
+  const q = document.getElementById('q').value.toLowerCase();
+  for (const el of document.querySelectorAll('.building')) {
+    const key = (el.getAttribute('data-key') || '').toLowerCase();
+    el.style.display = key.includes(q) ? '' : 'none';
+  }
+}
+</script>
+</body>
+</html>

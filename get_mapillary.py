@@ -1,7 +1,15 @@
 # get buildings and nearby mapillary images
 import json
+import os
 import time
 import requests
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load .env from project root (same dir as this script) or current directory
+script_dir = Path(__file__).resolve().parent
+load_dotenv(script_dir / ".env")
+load_dotenv()  # fallback: load from current working directory
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 MAPILLARY_URL = "https://graph.mapillary.com/images"
@@ -18,7 +26,7 @@ BUFFER_DEG = 0.01  # ~1000m-ish
 
 OUT_FILE = "m_out.json"   # set to None to print instead of save
 
-MAPILLARY_ACCESS_TOKEN = None 
+MAPILLARY_ACCESS_TOKEN = os.environ.get("MAPILLARY_ACCESS_TOKEN") or None
 
 # ============================================================
 
@@ -59,7 +67,7 @@ def fetch_mapillary(bbox, token, limit=200):
 
     params = {
         "bbox": bbox_str,
-        "fields": "id,thumb_original_url,computed_geometry,computed_compass_angle,captured_at",
+        "fields": "id,thumb_original_url,computed_geometry,computed_compass_angle,captured_at,sequence",
         "access_token": token,
         "limit": limit,
     }
@@ -70,8 +78,11 @@ def fetch_mapillary(bbox, token, limit=200):
 
 
 def main():
-    results = []
+    if not MAPILLARY_ACCESS_TOKEN:
+        print("Error: MAPILLARY_ACCESS_TOKEN is required. Set it in .env or export it.")
+        raise SystemExit(1)
 
+    results = []
     for (lat, lon) in COORDS:
         bbox = bbox_from_center(lat, lon, BUFFER_DEG)
 

@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+
+# Model weights (large)
+places365/*.pth.tar
+
+# Photos / thumbnails
+thumbnails/
+out_scene_scores/
+out_segmentation/
+out_processed/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/

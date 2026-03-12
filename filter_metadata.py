@@ -7,7 +7,7 @@ from pathlib import Path
 # ============================================================
 # CONFIG 
 # ============================================================
-IN_JSON = Path("out.json")
+IN_JSON = Path("m_out.json")
 OUT_ACCEPTED = Path("accepted.json")
 OUT_REJECTED = Path("rejected.json")
 
@@ -218,6 +218,7 @@ def main():
                 "computed_geometry": img.get("computed_geometry"),
                 "computed_compass_angle": img.get("computed_compass_angle"),
                 "captured_at": img.get("captured_at"),
+                "sequence_id": img.get("sequence"),
             }
 
             pose = get_pose(img)
