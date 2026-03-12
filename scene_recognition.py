@@ -20,7 +20,7 @@ from torchvision import transforms
 from torchvision.models import resnet18
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PLACES_DIR = SCRIPT_DIR / "places365"
+PLACES_DIR = SCRIPT_DIR / "models" / "places365"
 WEIGHTS_PATH = PLACES_DIR / "resnet18_places365.pth.tar"
 CATS_PATH = PLACES_DIR / "categories_places365.txt"
 
@@ -110,7 +110,7 @@ def run_scene_recognition(
     if not WEIGHTS_PATH.exists():
         raise FileNotFoundError(
             f"Missing ResNet weights: {WEIGHTS_PATH}\n"
-            "Place resnet18_places365.pth.tar in places365/ (no decompression needed)"
+            "Place resnet18_places365.pth.tar in models/places365/ (no decompression needed)"
         )
     if not CATS_PATH.exists():
         raise FileNotFoundError(f"Missing categories: {CATS_PATH}")
@@ -149,8 +149,8 @@ def run_scene_recognition(
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", default="thumbnails", help="Directory with images (e.g. from download_thumbnails)")
-    ap.add_argument("--output", default="out_scene_scores", help="Output directory for CSV")
+    ap.add_argument("--input", default="output/thumbnails", help="Directory with images (e.g. from download_thumbnails)")
+    ap.add_argument("--output", default="output/scene_scores", help="Output directory for CSV")
     ap.add_argument("--device", default="cpu", help="cpu, cuda, or mps")
     ap.add_argument("--topk", type=int, default=5)
     args = ap.parse_args()

@@ -101,11 +101,11 @@ def main():
     ap = argparse.ArgumentParser(
         description="Download thumbnails, run scene recognition and segmentation, merge into accepted"
     )
-    ap.add_argument("--accepted", default="accepted.json", help="Path to accepted.json")
-    ap.add_argument("--thumbnails", default="thumbnails", help="Directory for downloaded images")
-    ap.add_argument("--scene-out", default="out_scene_scores", help="Scene recognition output")
-    ap.add_argument("--seg-out", default="out_segmentation", help="Segmentation output")
-    ap.add_argument("--out", default="accepted_with_analysis.json", help="Merged output JSON")
+    ap.add_argument("--accepted", default="data/accepted.json", help="Path to accepted.json")
+    ap.add_argument("--thumbnails", default="output/thumbnails", help="Directory for downloaded images")
+    ap.add_argument("--scene-out", default="output/scene_scores", help="Scene recognition output")
+    ap.add_argument("--seg-out", default="output/segmentation", help="Segmentation output")
+    ap.add_argument("--out", default="data/accepted_with_analysis.json", help="Merged output JSON")
     ap.add_argument(
         "--out-filtered",
         default=None,

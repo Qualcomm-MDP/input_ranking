@@ -7,9 +7,9 @@ from pathlib import Path
 # ============================================================
 # CONFIG 
 # ============================================================
-IN_JSON = Path("m_out.json")
-OUT_ACCEPTED = Path("accepted.json")
-OUT_REJECTED = Path("rejected.json")
+IN_JSON = Path("data/m_out.json")
+OUT_ACCEPTED = Path("data/accepted.json")
+OUT_REJECTED = Path("data/rejected.json")
 
 # Candidate gate: only score buildings whose nearest boundary point is within this radius
 R_GATE_M = 120.0

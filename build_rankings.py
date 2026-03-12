@@ -171,37 +171,37 @@ def main():
     )
     ap.add_argument(
         "--accepted",
-        default="accepted.json",
+        default="data/accepted.json",
         help="Path to accepted.json",
     )
     ap.add_argument(
         "--rejected",
-        default="rejected.json",
+        default="data/rejected.json",
         help="Path to rejected.json",
     )
     ap.add_argument(
         "--osm",
-        default="m_out.json",
+        default="data/m_out.json",
         help="Path to m_out.json or out.json (for OSM building names/tags)",
     )
     ap.add_argument(
         "--out-ranked",
-        default="building_rankings.json",
+        default="data/building_rankings.json",
         help="Output building_rankings.json",
     )
     ap.add_argument(
         "--out-sequences",
-        default="sequence_rankings.json",
+        default="data/sequence_rankings.json",
         help="Output sequence_rankings.json (images grouped by Mapillary sequence_id)",
     )
     ap.add_argument(
         "--out-accepted-gallery",
-        default="accepted_gallery.html",
+        default="output/galleries/accepted_gallery.html",
         help="Output accepted image gallery HTML",
     )
     ap.add_argument(
         "--out-rejected-gallery",
-        default="rejected_gallery.html",
+        default="output/galleries/rejected_gallery.html",
         help="Output rejected image gallery HTML",
     )
     ap.add_argument(
@@ -211,7 +211,7 @@ def main():
     )
     ap.add_argument(
         "--out-sequence-gallery",
-        default="accepted_by_sequence.html",
+        default="output/galleries/accepted_by_sequence.html",
         help="Gallery with accepted images grouped by sequence (requires sequence_id in accepted.json)",
     )
     args = ap.parse_args()
@@ -301,7 +301,7 @@ a {{ color: inherit; text-decoration: none; }}
         else:
             print(f"Skipped {args.out_rejected_gallery} (rejected.json not found)")
 
-    print("\nNext: python visualize.py --ranked building_rankings.json --accepted accepted.json")
+    print("\nNext: python visualize.py --ranked data/building_rankings.json --accepted data/accepted.json")
 
 
 if __name__ == "__main__":

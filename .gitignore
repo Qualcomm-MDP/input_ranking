@@ -2,13 +2,13 @@
 .env
 
 # Model weights (large)
-places365/*.pth.tar
+models/places365/*.pth.tar
 
-# Photos / thumbnails
-thumbnails/
-out_scene_scores/
-out_segmentation/
-out_processed/
+# Output (photos, analysis results)
+output/thumbnails/
+output/scene_scores/
+output/segmentation/
+output/processed/
 
 # Python
 venv/

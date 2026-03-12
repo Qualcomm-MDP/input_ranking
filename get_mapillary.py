@@ -24,7 +24,7 @@ COORDS = [
 
 BUFFER_DEG = 0.01  # ~1000m-ish
 
-OUT_FILE = "m_out.json"   # set to None to print instead of save
+OUT_FILE = "data/m_out.json"   # set to None to print instead of save
 
 MAPILLARY_ACCESS_TOKEN = os.environ.get("MAPILLARY_ACCESS_TOKEN") or None
 

@@ -63,17 +63,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "--input",
-        default="accepted_with_analysis.json",
+        default="data/accepted_with_analysis.json",
         help="Path to accepted_with_analysis.json",
     )
     ap.add_argument(
         "--output",
-        default="accepted_analysis_gallery.html",
+        default="output/galleries/accepted_analysis_gallery.html",
         help="Output HTML path",
     )
     ap.add_argument(
         "--output-by-sequence",
-        default="accepted_analysis_gallery_by_sequence.html",
+        default="output/galleries/accepted_analysis_gallery_by_sequence.html",
         help="Additional gallery grouped by sequence_id (if present in data)",
     )
     args = ap.parse_args()

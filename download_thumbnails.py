@@ -52,8 +52,8 @@ def download(accepted_path: str | Path, out_dir: str | Path, delay: float = 0.1)
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--accepted", default="accepted.json", help="Path to accepted.json")
-    ap.add_argument("--out-dir", default="thumbnails", help="Output directory")
+    ap.add_argument("--accepted", default="data/accepted.json", help="Path to accepted.json")
+    ap.add_argument("--out-dir", default="output/thumbnails", help="Output directory")
     ap.add_argument("--delay", type=float, default=0.1, help="Delay between requests (seconds)")
     args = ap.parse_args()
     download(args.accepted, args.out_dir, args.delay)

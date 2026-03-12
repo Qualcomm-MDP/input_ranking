@@ -213,8 +213,8 @@ def run_segmentation(
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", default="thumbnails", help="Directory with images")
-    ap.add_argument("--output", default="out_segmentation", help="Output directory")
+    ap.add_argument("--input", default="output/thumbnails", help="Directory with images")
+    ap.add_argument("--output", default="output/segmentation", help="Output directory")
     ap.add_argument("--device", type=int, default=-1, help="-1 for CPU, 0 for GPU")
     args = ap.parse_args()
     run_segmentation(Path(args.input), Path(args.output), device=args.device)
